@@ -1,0 +1,3 @@
+b -Tn bdsmStruggleArmbinder zaz\bdsmStruggleArmbinder.hkx
+b -Tn bdsmStruggleGeneral zaz\bdsmStruggleGeneral.hkx
+b -Tn bdsmStruggleYoke zaz\bdsmStruggleYoke.hkx

@@ -1,0 +1,9 @@
+Credits:
+Koffii for the meshes
+Gameplayer for the original UUNP sliders
+
+Source:
+https://www.loverslab.com/files/file/269-devious-devices-assets/
+
+Original permissions:
+Licensed under Creative Commons Attribution 4.0 International Public License. (see license.txt)

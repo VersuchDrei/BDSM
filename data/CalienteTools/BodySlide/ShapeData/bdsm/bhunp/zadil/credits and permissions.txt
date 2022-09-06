@@ -1,0 +1,9 @@
+Credits:
+Zadil for the meshes
+Gameplayer for the original UUNP sliders
+
+Source:
+https://www.loverslab.com/files/file/269-devious-devices-assets/
+
+Original permissions:
+There should be a brief mention of the source somewhere in the description and/or readme. Something along the lines of “Featuring Zadil’s meshes and textures from the Skyrim mod ‘Devious Devices: Assets’” would perfectly suffice.
