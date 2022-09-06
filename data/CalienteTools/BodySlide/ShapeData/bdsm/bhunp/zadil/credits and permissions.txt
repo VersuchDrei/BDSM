@@ -1,6 +1,7 @@
 Credits:
 Zadil for the meshes
 Gameplayer for the original UUNP sliders
+VersuchDrei for the BHUNP sliders
 
 Source:
 https://www.loverslab.com/files/file/269-devious-devices-assets/
