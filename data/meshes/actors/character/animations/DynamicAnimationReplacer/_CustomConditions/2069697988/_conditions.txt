@@ -1,0 +1,2 @@
+IsWornHasKeyword("BDSM.esp"|0x002dd9) AND
+NOT IsWornHasKeyword("BDSM.exp"|0x003e1b)

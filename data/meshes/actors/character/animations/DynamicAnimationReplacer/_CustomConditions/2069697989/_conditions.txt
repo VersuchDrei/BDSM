@@ -1,0 +1,1 @@
+IsWornHasKeyword("BDSM.esp"|0x002dd9)

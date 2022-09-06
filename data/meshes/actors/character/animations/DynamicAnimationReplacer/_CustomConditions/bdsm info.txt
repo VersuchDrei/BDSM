@@ -1,0 +1,13 @@
+all folders have the structure 2069697XXY
+the numbers are this big so that it hopefully takes priority over all other custom conditions
+but not the max number possible to avoid potential conflict with other mods
+
+XX is the id of the arm restraint:
+99 none
+98 armbinder
+97 yoke
+
+Y is an extra condition
+9 any
+8 without legbinder
+7 with legbinder
