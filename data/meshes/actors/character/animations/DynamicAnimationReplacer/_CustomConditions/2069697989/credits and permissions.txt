@@ -1,7 +1,7 @@
 ---------- swim animations ----------
 Credits:
 Gunslicer for the original animations
-VersuchDrei for armbinder modification
+VersuchDrei for yoke modification
 
 Source:
 https://www.nexusmods.com/skyrimspecialedition/mods/61160

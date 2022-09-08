@@ -3,9 +3,9 @@ the numbers are this big so that it hopefully takes priority over all other cust
 but not the max number possible to avoid potential conflict with other mods
 
 XX is the id of the arm restraint:
-99 none
-98 armbinder
-97 yoke
+99 armbinder
+98 yoke
+00 none
 
 Y is an extra condition
 9 any

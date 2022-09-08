@@ -1,10 +1,10 @@
 ---------- sneak animations ----------
 Credits:
 Gunslicer for the original animations
-VersuchDrei for armbinder modification
+VersuchDrei for yoke modification
 
 Source:
-https://www.nexusmods.com/skyrimspecialedition/mods/61160
+https://www.nexusmods.com/skyrim/mods/110385
 
 Original permissions:
 All the assets in this file belong to the author, or are from free-to-use modder's resources.
