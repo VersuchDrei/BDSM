@@ -8,6 +8,9 @@ XX is the id of the arm restraint:
 00 none
 
 Y is an extra condition
-9 any
+9 female only without legbinder
 8 without legbinder
-7 with legbinder
+7 female only with legbinder
+6 with legbinder
+1 female only
+0 any
