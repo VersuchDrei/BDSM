@@ -2,15 +2,22 @@ all folders have the structure 2069697XXY
 the numbers are this big so that it hopefully takes priority over all other custom conditions
 but not the max number possible to avoid potential conflict with other mods
 
-XX is the id of the arm restraint:
+XX is for the arm restraint:
 99 armbinder
 98 yoke
 00 none
 
-Y is an extra condition
-9 female only without legbinder
-8 without legbinder
-7 female only with legbinder
-6 with legbinder
-1 female only
-0 any
+Y is for an extra condition
+9 without legbinder (female only)
+5 with legbinder (female only)
+4 without legbinder
+0 with legbinder
+
+Special cases:
+00Y doesn't actually check for no arm restraints, it assumes that all arm restraints are handled before and only actors without any get here
+XX5 and XX0 don't actually check for legbinders, they assume that animations without legbinders are handled in XX9 or XX4 and never get here
+some animations in XX5 and XX0 do not have counterparts in XX9 or XX4, in those cases the same animation will be used with or without legbinders (e.g. sitting or swimming)
+005 and 000 however do check for legbinders as otherwise they would overwrite animations for actors without any restraints
+
+Since there is no support for male actors yet the female only folders are at this point somewhat pointless.
+I still already designed this to also support male actors. This way adding it in eventually will not require redesigning this.
