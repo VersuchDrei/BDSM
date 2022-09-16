@@ -1,0 +1,1606 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<SliderSetInfo version="1">
+    <SliderSet name="bdsm - 3BA - RestrictiveCollar">
+        <DataFolder>bdsm\3ba\koffii\RestrictiveCollar</DataFolder>
+        <SourceFile>RestrictiveCollar.nif</SourceFile>
+        <OutputPath>meshes\bdsm\koffii</OutputPath>
+        <OutputFile GenWeights="true">restrictiveCollar</OutputFile>
+        <Shape target="collar">collar</Shape>
+        <Slider name="Breasts" invert="true" small="20" big="100">
+            <Data name="collarBreasts" target="collar" local="true">RestrictiveCollar.osd\collarBreasts</Data>
+        </Slider>
+        <Slider name="BreastsSmall" invert="true" small="100" big="100">
+            <Data name="collarBreastsSmall" target="collar" local="true">RestrictiveCollar.osd\collarBreastsSmall</Data>
+        </Slider>
+        <Slider name="BreastsSH" invert="false" small="0" big="0">
+            <Data name="collarBreastsSH" target="collar" local="true">RestrictiveCollar.osd\collarBreastsSH</Data>
+        </Slider>
+        <Slider name="BreastsSSH" invert="false" small="0" big="0">
+            <Data name="collarBreastsSSH" target="collar" local="true">RestrictiveCollar.osd\collarBreastsSSH</Data>
+        </Slider>
+        <Slider name="BreastsFantasy" invert="false" small="0" big="0">
+            <Data name="collarBreastsFantasy" target="collar" local="true">RestrictiveCollar.osd\collarBreastsFantasy</Data>
+        </Slider>
+        <Slider name="DoubleMelon" invert="false" small="0" big="0">
+            <Data name="collarDoubleMelon" target="collar" local="true">RestrictiveCollar.osd\collarDoubleMelon</Data>
+        </Slider>
+        <Slider name="BreastCleavage" invert="false" small="0" big="0">
+            <Data name="collarBreastCleavage" target="collar" local="true">RestrictiveCollar.osd\collarBreastCleavage</Data>
+        </Slider>
+        <Slider name="BreastFlatness" invert="false" small="0" big="0">
+            <Data name="collarBreastFlatness" target="collar" local="true">RestrictiveCollar.osd\collarBreastFlatness</Data>
+        </Slider>
+        <Slider name="BreastGravity" invert="false" small="0" big="0">
+            <Data name="collarBreastGravity" target="collar" local="true">RestrictiveCollar.osd\collarBreastGravity</Data>
+        </Slider>
+        <Slider name="PushUp" invert="false" small="0" big="0">
+            <Data name="collarPushUp" target="collar" local="true">RestrictiveCollar.osd\collarPushUp</Data>
+        </Slider>
+        <Slider name="BreastHeight" invert="false" small="0" big="0">
+            <Data name="collarBreastHeight" target="collar" local="true">RestrictiveCollar.osd\collarBreastHeight</Data>
+        </Slider>
+        <Slider name="BreastPerkiness" invert="false" small="0" big="0">
+            <Data name="collarBreastPerkiness" target="collar" local="true">RestrictiveCollar.osd\collarBreastPerkiness</Data>
+        </Slider>
+        <Slider name="BreastWidth" invert="false" small="0" big="0">
+            <Data name="collarBreastWidth" target="collar" local="true">RestrictiveCollar.osd\collarBreastWidth</Data>
+        </Slider>
+        <Slider name="NippleUp" invert="false" small="0" big="0">
+            <Data name="collarNippleUp" target="collar" local="true">RestrictiveCollar.osd\collarNippleUp</Data>
+        </Slider>
+        <Slider name="NippleDown" invert="false" small="0" big="0">
+            <Data name="collarNippleDown" target="collar" local="true">RestrictiveCollar.osd\collarNippleDown</Data>
+        </Slider>
+        <Slider name="Arms" invert="true" small="0" big="100">
+            <Data name="collarArms" target="collar" local="true">RestrictiveCollar.osd\collarArms</Data>
+        </Slider>
+        <Slider name="ChubbyArms" invert="false" small="0" big="0">
+            <Data name="collarChubbyArms" target="collar" local="true">RestrictiveCollar.osd\collarChubbyArms</Data>
+        </Slider>
+        <Slider name="ShoulderSmooth" invert="false" small="0" big="0">
+            <Data name="collarShoulderSmooth" target="collar" local="true">RestrictiveCollar.osd\collarShoulderSmooth</Data>
+        </Slider>
+        <Slider name="ShoulderWidth" invert="true" small="100" big="100">
+            <Data name="collarShoulderWidth" target="collar" local="true">RestrictiveCollar.osd\collarShoulderWidth</Data>
+        </Slider>
+        <Slider name="BigTorso" invert="false" small="0" big="0">
+            <Data name="collarBigTorso" target="collar" local="true">RestrictiveCollar.osd\collarBigTorso</Data>
+        </Slider>
+        <Slider name="PregnancyBelly" invert="false" small="0" big="0">
+            <Data name="collarPregnancyBelly" target="collar" local="true">RestrictiveCollar.osd\collarPregnancyBelly</Data>
+        </Slider>
+        <Slider name="Back" invert="false" small="0" big="0">
+            <Data name="collarBack" target="collar" local="true">RestrictiveCollar.osd\collarBack</Data>
+        </Slider>
+        <Slider name="ShoulderTweak" invert="false" small="100" big="100" hidden="true">
+            <Data name="collarShoulderTweak" target="collar" local="true">RestrictiveCollar.osd\collarShoulderTweak</Data>
+        </Slider>
+        <Slider name="ArmpitShape_v2" invert="false" small="0" big="0">
+            <Data name="collarArmpitShape_v2" target="collar" local="true">RestrictiveCollar.osd\collarArmpitShape_v2</Data>
+        </Slider>
+        <Slider name="AreolaPull_v2" invert="false" small="0" big="0">
+            <Data name="collarAreolaPull_v2" target="collar" local="true">RestrictiveCollar.osd\collarAreolaPull_v2</Data>
+        </Slider>
+        <Slider name="BackValley_v2" invert="false" small="0" big="0">
+            <Data name="collarBackValley_v2" target="collar" local="true">RestrictiveCollar.osd\collarBackValley_v2</Data>
+        </Slider>
+        <Slider name="BackWing_v2" invert="false" small="0" big="0">
+            <Data name="collarBackWing_v2" target="collar" local="true">RestrictiveCollar.osd\collarBackWing_v2</Data>
+        </Slider>
+        <Slider name="BreastCenter" invert="false" small="0" big="0">
+            <Data name="collarBreastCenter" target="collar" local="true">RestrictiveCollar.osd\collarBreastCenter</Data>
+        </Slider>
+        <Slider name="BreastCenterBig" invert="false" small="0" big="0">
+            <Data name="collarBreastCenterBig" target="collar" local="true">RestrictiveCollar.osd\collarBreastCenterBig</Data>
+        </Slider>
+        <Slider name="BreastsConverage_v2" invert="false" small="0" big="0">
+            <Data name="collarBreastsConverage_v2" target="collar" local="true">RestrictiveCollar.osd\collarBreastsConverage_v2</Data>
+        </Slider>
+        <Slider name="BreastFlatness2" invert="false" small="0" big="0">
+            <Data name="collarBreastFlatness2" target="collar" local="true">RestrictiveCollar.osd\collarBreastFlatness2</Data>
+        </Slider>
+        <Slider name="BreastGravity2" invert="false" small="0" big="0">
+            <Data name="collarBreastGravity2" target="collar" local="true">RestrictiveCollar.osd\collarBreastGravity2</Data>
+        </Slider>
+        <Slider name="BreastsGone" invert="false" small="0" big="0">
+            <Data name="collarBreastsGone" target="collar" local="true">RestrictiveCollar.osd\collarBreastsGone</Data>
+        </Slider>
+        <Slider name="BreastsNewSH" invert="false" small="0" big="0">
+            <Data name="collarBreastsNewSH" target="collar" local="true">RestrictiveCollar.osd\collarBreastsNewSH</Data>
+        </Slider>
+        <Slider name="BreastsNewSHSymmetry" invert="false" small="0" big="0">
+            <Data name="collarBreastsNewSHSymmetry" target="collar" local="true">RestrictiveCollar.osd\collarBreastsNewSHSymmetry</Data>
+        </Slider>
+        <Slider name="BreastsSmall2" invert="false" small="0" big="0">
+            <Data name="collarBreastsSmall2" target="collar" local="true">RestrictiveCollar.osd\collarBreastsSmall2</Data>
+        </Slider>
+        <Slider name="BreastsTogether" invert="false" small="0" big="0">
+            <Data name="collarBreastsTogether" target="collar" local="true">RestrictiveCollar.osd\collarBreastsTogether</Data>
+        </Slider>
+        <Slider name="BreastTopSlope" invert="false" small="0" big="0">
+            <Data name="collarBreastTopSlope" target="collar" local="true">RestrictiveCollar.osd\collarBreastTopSlope</Data>
+        </Slider>
+        <Slider name="BreastSideShape" invert="false" small="0" big="0">
+            <Data name="collarBreastSideShape" target="collar" local="true">RestrictiveCollar.osd\collarBreastSideShape</Data>
+        </Slider>
+        <Slider name="BreastsPressed_v2" invert="false" small="0" big="0">
+            <Data name="collarBreastsPressed_v2" target="collar" local="true">RestrictiveCollar.osd\collarBreastsPressed_v2</Data>
+        </Slider>
+        <Slider name="ChestDepth" invert="false" small="0" big="0">
+            <Data name="collarChestDepth" target="collar" local="true">RestrictiveCollar.osd\collarChestDepth</Data>
+        </Slider>
+        <Slider name="ChestWidth" invert="false" small="0" big="0">
+            <Data name="collarChestWidth" target="collar" local="true">RestrictiveCollar.osd\collarChestWidth</Data>
+        </Slider>
+        <Slider name="ChubbyWaist" invert="false" small="0" big="0">
+            <Data name="collarChubbyWaist" target="collar" local="true">RestrictiveCollar.osd\collarChubbyWaist</Data>
+        </Slider>
+        <Slider name="Clavicle_v2" invert="false" small="0" big="0">
+            <Data name="collarClavicle_v2" target="collar" local="true">RestrictiveCollar.osd\collarClavicle_v2</Data>
+        </Slider>
+        <Slider name="MuscleArms" invert="false" small="0" big="0">
+            <Data name="collarMuscleArms" target="collar" local="true">RestrictiveCollar.osd\collarMuscleArms</Data>
+        </Slider>
+        <Slider name="MusclePecs" invert="false" small="0" big="0">
+            <Data name="collarMusclePecs" target="collar" local="true">RestrictiveCollar.osd\collarMusclePecs</Data>
+        </Slider>
+        <Slider name="MuscleBack_v2" invert="false" small="0" big="0">
+            <Data name="collarMuscleBack_v2" target="collar" local="true">RestrictiveCollar.osd\collarMuscleBack_v2</Data>
+        </Slider>
+        <Slider name="MuscleMoreArms_v2" invert="false" small="0" big="0">
+            <Data name="collarMuscleMoreArms_v2" target="collar" local="true">RestrictiveCollar.osd\collarMuscleMoreArms_v2</Data>
+        </Slider>
+        <Slider name="NeckSeam" invert="false" small="100" big="0" hidden="true">
+            <Data name="collarNeckSeam" target="collar" local="true">RestrictiveCollar.osd\collarNeckSeam</Data>
+        </Slider>
+        <Slider name="NippleDistance" invert="false" small="0" big="0">
+            <Data name="collarNippleDistance" target="collar" local="true">RestrictiveCollar.osd\collarNippleDistance</Data>
+        </Slider>
+        <Slider name="NippleLength" invert="false" small="0" big="0">
+            <Data name="collarNippleLength" target="collar" local="true">RestrictiveCollar.osd\collarNippleLength</Data>
+        </Slider>
+        <Slider name="NippleInvert_v2" invert="false" small="0" big="0">
+            <Data name="collarNippleInvert_v2" target="collar" local="true">RestrictiveCollar.osd\collarNippleInvert_v2</Data>
+        </Slider>
+        <Slider name="SternumDepth" invert="false" small="0" big="0">
+            <Data name="collarSternumDepth" target="collar" local="true">RestrictiveCollar.osd\collarSternumDepth</Data>
+        </Slider>
+        <Slider name="SternumHeight" invert="false" small="0" big="0">
+            <Data name="collarSternumHeight" target="collar" local="true">RestrictiveCollar.osd\collarSternumHeight</Data>
+        </Slider>
+        <Slider name="LegSpread_v2" invert="false" small="0" big="0">
+            <Data name="collarLegSpread_v2" target="collar" local="true">RestrictiveCollar.osd\collarLegSpread_v2</Data>
+        </Slider>
+        <Slider name="WaistHeight" invert="false" small="0" big="0">
+            <Data name="collarWaistHeight" target="collar" local="true">RestrictiveCollar.osd\collarWaistHeight</Data>
+        </Slider>
+        <Slider name="7B Upper" invert="false" small="0" big="0">
+            <Data name="collar7B Upper" target="collar" local="true">RestrictiveCollar.osd\collar7B Upper</Data>
+        </Slider>
+        <Slider name="VanillaSSEHi" invert="false" small="0" big="0">
+            <Data name="collarVanillaSSEHi" target="collar" local="true">RestrictiveCollar.osd\collarVanillaSSEHi</Data>
+        </Slider>
+        <Slider name="VanillaSSELo" invert="false" small="0" big="0">
+            <Data name="collarVanillaSSELo" target="collar" local="true">RestrictiveCollar.osd\collarVanillaSSELo</Data>
+        </Slider>
+        <Slider name="OldBaseShape" invert="false" small="0" big="0">
+            <Data name="collarOldBaseShape" target="collar" local="true">RestrictiveCollar.osd\collarOldBaseShape</Data>
+        </Slider>
+    </SliderSet>
+    <SliderSet name="bdsm - 3BA - RestrictiveCorset">
+        <DataFolder>bdsm\3ba\koffii\RestrictiveCorset</DataFolder>
+        <SourceFile>RestrictiveCorset.nif</SourceFile>
+        <OutputPath>meshes\bdsm\koffii</OutputPath>
+        <OutputFile GenWeights="true">restrictiveCorset</OutputFile>
+        <Shape target="corset">corset</Shape>
+        <Slider name="Breasts" invert="true" small="20" big="100">
+            <Data name="corsetBreasts" target="corset" local="true">RestrictiveCorset.osd\corsetBreasts</Data>
+        </Slider>
+        <Slider name="BreastsSmall" invert="true" small="100" big="100">
+            <Data name="corsetBreastsSmall" target="corset" local="true">RestrictiveCorset.osd\corsetBreastsSmall</Data>
+        </Slider>
+        <Slider name="BreastsSH" invert="false" small="0" big="0">
+            <Data name="corsetBreastsSH" target="corset" local="true">RestrictiveCorset.osd\corsetBreastsSH</Data>
+        </Slider>
+        <Slider name="BreastsSSH" invert="false" small="0" big="0">
+            <Data name="corsetBreastsSSH" target="corset" local="true">RestrictiveCorset.osd\corsetBreastsSSH</Data>
+        </Slider>
+        <Slider name="BreastsFantasy" invert="false" small="0" big="0">
+            <Data name="corsetBreastsFantasy" target="corset" local="true">RestrictiveCorset.osd\corsetBreastsFantasy</Data>
+        </Slider>
+        <Slider name="DoubleMelon" invert="false" small="0" big="0">
+            <Data name="corsetDoubleMelon" target="corset" local="true">RestrictiveCorset.osd\corsetDoubleMelon</Data>
+        </Slider>
+        <Slider name="BreastCleavage" invert="false" small="0" big="0">
+            <Data name="corsetBreastCleavage" target="corset" local="true">RestrictiveCorset.osd\corsetBreastCleavage</Data>
+        </Slider>
+        <Slider name="BreastFlatness" invert="false" small="0" big="0">
+            <Data name="corsetBreastFlatness" target="corset" local="true">RestrictiveCorset.osd\corsetBreastFlatness</Data>
+        </Slider>
+        <Slider name="BreastGravity" invert="false" small="0" big="0">
+            <Data name="corsetBreastGravity" target="corset" local="true">RestrictiveCorset.osd\corsetBreastGravity</Data>
+        </Slider>
+        <Slider name="PushUp" invert="false" small="0" big="0">
+            <Data name="corsetPushUp" target="corset" local="true">RestrictiveCorset.osd\corsetPushUp</Data>
+        </Slider>
+        <Slider name="BreastHeight" invert="false" small="0" big="0">
+            <Data name="corsetBreastHeight" target="corset" local="true">RestrictiveCorset.osd\corsetBreastHeight</Data>
+        </Slider>
+        <Slider name="BreastPerkiness" invert="false" small="0" big="0">
+            <Data name="corsetBreastPerkiness" target="corset" local="true">RestrictiveCorset.osd\corsetBreastPerkiness</Data>
+        </Slider>
+        <Slider name="BreastWidth" invert="false" small="0" big="0">
+            <Data name="corsetBreastWidth" target="corset" local="true">RestrictiveCorset.osd\corsetBreastWidth</Data>
+        </Slider>
+        <Slider name="ShoulderWidth" invert="true" small="100" big="100">
+            <Data name="corsetShoulderWidth" target="corset" local="true">RestrictiveCorset.osd\corsetShoulderWidth</Data>
+        </Slider>
+        <Slider name="BigTorso" invert="false" small="0" big="0">
+            <Data name="corsetBigTorso" target="corset" local="true">RestrictiveCorset.osd\corsetBigTorso</Data>
+        </Slider>
+        <Slider name="Waist" invert="false" small="0" big="100">
+            <Data name="corsetWaist" target="corset" local="true">RestrictiveCorset.osd\corsetWaist</Data>
+        </Slider>
+        <Slider name="WideWaistLine" invert="false" small="0" big="0">
+            <Data name="corsetWideWaistLine" target="corset" local="true">RestrictiveCorset.osd\corsetWideWaistLine</Data>
+        </Slider>
+        <Slider name="ChubbyWaist" invert="false" small="0" big="0">
+            <Data name="corsetChubbyWaist" target="corset" local="true">RestrictiveCorset.osd\corsetChubbyWaist</Data>
+        </Slider>
+        <Slider name="Belly" invert="false" small="0" big="0">
+            <Data name="corsetBelly" target="corset" local="true">RestrictiveCorset.osd\corsetBelly</Data>
+        </Slider>
+        <Slider name="BigBelly" invert="false" small="0" big="0">
+            <Data name="corsetBigBelly" target="corset" local="true">RestrictiveCorset.osd\corsetBigBelly</Data>
+        </Slider>
+        <Slider name="PregnancyBelly" invert="false" small="0" big="0">
+            <Data name="corsetPregnancyBelly" target="corset" local="true">RestrictiveCorset.osd\corsetPregnancyBelly</Data>
+        </Slider>
+        <Slider name="TummyTuck" invert="false" small="0" big="0">
+            <Data name="corsetTummyTuck" target="corset" local="true">RestrictiveCorset.osd\corsetTummyTuck</Data>
+        </Slider>
+        <Slider name="Back" invert="false" small="0" big="0">
+            <Data name="corsetBack" target="corset" local="true">RestrictiveCorset.osd\corsetBack</Data>
+        </Slider>
+        <Slider name="Hipbone" invert="false" small="0" big="0">
+            <Data name="corsetHipbone" target="corset" local="true">RestrictiveCorset.osd\corsetHipbone</Data>
+        </Slider>
+        <Slider name="Hips" invert="false" small="0" big="0">
+            <Data name="corsetHips" target="corset" local="true">RestrictiveCorset.osd\corsetHips</Data>
+        </Slider>
+        <Slider name="Butt" invert="true" small="0" big="100">
+            <Data name="corsetButt" target="corset" local="true">RestrictiveCorset.osd\corsetButt</Data>
+        </Slider>
+        <Slider name="ButtSmall" invert="true" small="100" big="100">
+            <Data name="corsetButtSmall" target="corset" local="true">RestrictiveCorset.osd\corsetButtSmall</Data>
+        </Slider>
+        <Slider name="ButtShape2" invert="false" small="0" big="0">
+            <Data name="corsetButtShape2" target="corset" local="true">RestrictiveCorset.osd\corsetButtShape2</Data>
+        </Slider>
+        <Slider name="BigButt" invert="false" small="0" big="0">
+            <Data name="corsetBigButt" target="corset" local="true">RestrictiveCorset.osd\corsetBigButt</Data>
+        </Slider>
+        <Slider name="ChubbyButt" invert="false" small="0" big="0">
+            <Data name="corsetChubbyButt" target="corset" local="true">RestrictiveCorset.osd\corsetChubbyButt</Data>
+        </Slider>
+        <Slider name="AppleCheeks" invert="false" small="0" big="0">
+            <Data name="corsetAppleCheeks" target="corset" local="true">RestrictiveCorset.osd\corsetAppleCheeks</Data>
+        </Slider>
+        <Slider name="RoundAss" invert="false" small="0" big="0">
+            <Data name="corsetRoundAss" target="corset" local="true">RestrictiveCorset.osd\corsetRoundAss</Data>
+        </Slider>
+        <Slider name="ArmpitShape_v2" invert="false" small="0" big="0">
+            <Data name="corsetArmpitShape_v2" target="corset" local="true">RestrictiveCorset.osd\corsetArmpitShape_v2</Data>
+        </Slider>
+        <Slider name="AreolaPull_v2" invert="false" small="0" big="0">
+            <Data name="corsetAreolaPull_v2" target="corset" local="true">RestrictiveCorset.osd\corsetAreolaPull_v2</Data>
+        </Slider>
+        <Slider name="Arms" invert="false" small="0" big="0">
+            <Data name="corsetArms" target="corset" local="true">RestrictiveCorset.osd\corsetArms</Data>
+        </Slider>
+        <Slider name="BackArch" invert="false" small="0" big="0">
+            <Data name="corsetBackArch" target="corset" local="true">RestrictiveCorset.osd\corsetBackArch</Data>
+        </Slider>
+        <Slider name="BackValley_v2" invert="false" small="0" big="0">
+            <Data name="corsetBackValley_v2" target="corset" local="true">RestrictiveCorset.osd\corsetBackValley_v2</Data>
+        </Slider>
+        <Slider name="BackWing_v2" invert="false" small="0" big="0">
+            <Data name="corsetBackWing_v2" target="corset" local="true">RestrictiveCorset.osd\corsetBackWing_v2</Data>
+        </Slider>
+        <Slider name="BellyFrontUpFat_v2" invert="false" small="0" big="0">
+            <Data name="corsetBellyFrontUpFat_v2" target="corset" local="true">RestrictiveCorset.osd\corsetBellyFrontUpFat_v2</Data>
+        </Slider>
+        <Slider name="BellyFrontDownFat_v2" invert="false" small="0" big="0">
+            <Data name="corsetBellyFrontDownFat_v2" target="corset" local="true">RestrictiveCorset.osd\corsetBellyFrontDownFat_v2</Data>
+        </Slider>
+        <Slider name="BellySideUpFat_v2" invert="false" small="0" big="0">
+            <Data name="corsetBellySideUpFat_v2" target="corset" local="true">RestrictiveCorset.osd\corsetBellySideUpFat_v2</Data>
+        </Slider>
+        <Slider name="BellySideDownFat_v2" invert="false" small="0" big="0">
+            <Data name="corsetBellySideDownFat_v2" target="corset" local="true">RestrictiveCorset.osd\corsetBellySideDownFat_v2</Data>
+        </Slider>
+        <Slider name="BellyUnder_v2" invert="false" small="0" big="0">
+            <Data name="corsetBellyUnder_v2" target="corset" local="true">RestrictiveCorset.osd\corsetBellyUnder_v2</Data>
+        </Slider>
+        <Slider name="BreastCenter" invert="false" small="0" big="0">
+            <Data name="corsetBreastCenter" target="corset" local="true">RestrictiveCorset.osd\corsetBreastCenter</Data>
+        </Slider>
+        <Slider name="BreastCenterBig" invert="false" small="0" big="0">
+            <Data name="corsetBreastCenterBig" target="corset" local="true">RestrictiveCorset.osd\corsetBreastCenterBig</Data>
+        </Slider>
+        <Slider name="BreastsConverage_v2" invert="false" small="0" big="0">
+            <Data name="corsetBreastsConverage_v2" target="corset" local="true">RestrictiveCorset.osd\corsetBreastsConverage_v2</Data>
+        </Slider>
+        <Slider name="BreastFlatness2" invert="false" small="0" big="0">
+            <Data name="corsetBreastFlatness2" target="corset" local="true">RestrictiveCorset.osd\corsetBreastFlatness2</Data>
+        </Slider>
+        <Slider name="BreastGravity2" invert="false" small="0" big="0">
+            <Data name="corsetBreastGravity2" target="corset" local="true">RestrictiveCorset.osd\corsetBreastGravity2</Data>
+        </Slider>
+        <Slider name="BreastsGone" invert="false" small="0" big="0">
+            <Data name="corsetBreastsGone" target="corset" local="true">RestrictiveCorset.osd\corsetBreastsGone</Data>
+        </Slider>
+        <Slider name="BreastsNewSH" invert="false" small="0" big="0">
+            <Data name="corsetBreastsNewSH" target="corset" local="true">RestrictiveCorset.osd\corsetBreastsNewSH</Data>
+        </Slider>
+        <Slider name="BreastsNewSHSymmetry" invert="false" small="0" big="0">
+            <Data name="corsetBreastsNewSHSymmetry" target="corset" local="true">RestrictiveCorset.osd\corsetBreastsNewSHSymmetry</Data>
+        </Slider>
+        <Slider name="BreastsSmall2" invert="false" small="0" big="0">
+            <Data name="corsetBreastsSmall2" target="corset" local="true">RestrictiveCorset.osd\corsetBreastsSmall2</Data>
+        </Slider>
+        <Slider name="BreastsTogether" invert="false" small="0" big="0">
+            <Data name="corsetBreastsTogether" target="corset" local="true">RestrictiveCorset.osd\corsetBreastsTogether</Data>
+        </Slider>
+        <Slider name="BreastTopSlope" invert="false" small="0" big="0">
+            <Data name="corsetBreastTopSlope" target="corset" local="true">RestrictiveCorset.osd\corsetBreastTopSlope</Data>
+        </Slider>
+        <Slider name="BreastSideShape" invert="false" small="0" big="0">
+            <Data name="corsetBreastSideShape" target="corset" local="true">RestrictiveCorset.osd\corsetBreastSideShape</Data>
+        </Slider>
+        <Slider name="BreastUnderDepth" invert="false" small="0" big="0">
+            <Data name="corsetBreastUnderDepth" target="corset" local="true">RestrictiveCorset.osd\corsetBreastUnderDepth</Data>
+        </Slider>
+        <Slider name="BreastsPressed_v2" invert="false" small="0" big="0">
+            <Data name="corsetBreastsPressed_v2" target="corset" local="true">RestrictiveCorset.osd\corsetBreastsPressed_v2</Data>
+        </Slider>
+        <Slider name="ButtSaggy_v2" invert="false" small="0" big="0">
+            <Data name="corsetButtSaggy_v2" target="corset" local="true">RestrictiveCorset.osd\corsetButtSaggy_v2</Data>
+        </Slider>
+        <Slider name="ButtClassic" invert="false" small="0" big="0">
+            <Data name="corsetButtClassic" target="corset" local="true">RestrictiveCorset.osd\corsetButtClassic</Data>
+        </Slider>
+        <Slider name="ButtCrack" invert="false" small="0" big="0">
+            <Data name="corsetButtCrack" target="corset" local="true">RestrictiveCorset.osd\corsetButtCrack</Data>
+        </Slider>
+        <Slider name="ButtDimples" invert="false" small="0" big="0">
+            <Data name="corsetButtDimples" target="corset" local="true">RestrictiveCorset.osd\corsetButtDimples</Data>
+        </Slider>
+        <Slider name="ButtPressed_v2" invert="false" small="0" big="0">
+            <Data name="corsetButtPressed_v2" target="corset" local="true">RestrictiveCorset.osd\corsetButtPressed_v2</Data>
+        </Slider>
+        <Slider name="ButtNarrow_v2" invert="false" small="0" big="0">
+            <Data name="corsetButtNarrow_v2" target="corset" local="true">RestrictiveCorset.osd\corsetButtNarrow_v2</Data>
+        </Slider>
+        <Slider name="ChestDepth" invert="false" small="0" big="0">
+            <Data name="corsetChestDepth" target="corset" local="true">RestrictiveCorset.osd\corsetChestDepth</Data>
+        </Slider>
+        <Slider name="ChestWidth" invert="false" small="0" big="0">
+            <Data name="corsetChestWidth" target="corset" local="true">RestrictiveCorset.osd\corsetChestWidth</Data>
+        </Slider>
+        <Slider name="ChubbyArms" invert="false" small="0" big="0">
+            <Data name="corsetChubbyArms" target="corset" local="true">RestrictiveCorset.osd\corsetChubbyArms</Data>
+        </Slider>
+        <Slider name="ChubbyLegs" invert="false" small="0" big="0">
+            <Data name="corsetChubbyLegs" target="corset" local="true">RestrictiveCorset.osd\corsetChubbyLegs</Data>
+        </Slider>
+        <Slider name="CrotchBack" invert="false" small="0" big="0">
+            <Data name="corsetCrotchBack" target="corset" local="true">RestrictiveCorset.osd\corsetCrotchBack</Data>
+        </Slider>
+        <Slider name="Groin" invert="false" small="0" big="0">
+            <Data name="corsetGroin" target="corset" local="true">RestrictiveCorset.osd\corsetGroin</Data>
+        </Slider>
+        <Slider name="HipBone" invert="false" small="0" big="0">
+            <Data name="corsetHipBone" target="corset" local="true">RestrictiveCorset.osd\corsetHipBone</Data>
+        </Slider>
+        <Slider name="HipForward" invert="false" small="0" big="0">
+            <Data name="corsetHipForward" target="corset" local="true">RestrictiveCorset.osd\corsetHipForward</Data>
+        </Slider>
+        <Slider name="HipUpperWidth" invert="false" small="0" big="0">
+            <Data name="corsetHipUpperWidth" target="corset" local="true">RestrictiveCorset.osd\corsetHipUpperWidth</Data>
+        </Slider>
+        <Slider name="HipCarved" invert="false" small="0" big="0">
+            <Data name="corsetHipCarved" target="corset" local="true">RestrictiveCorset.osd\corsetHipCarved</Data>
+        </Slider>
+        <Slider name="HipNarrow_v2" invert="false" small="0" big="0">
+            <Data name="corsetHipNarrow_v2" target="corset" local="true">RestrictiveCorset.osd\corsetHipNarrow_v2</Data>
+        </Slider>
+        <Slider name="MuscleAbs" invert="false" small="0" big="0">
+            <Data name="corsetMuscleAbs" target="corset" local="true">RestrictiveCorset.osd\corsetMuscleAbs</Data>
+        </Slider>
+        <Slider name="MuscleArms" invert="false" small="0" big="0">
+            <Data name="corsetMuscleArms" target="corset" local="true">RestrictiveCorset.osd\corsetMuscleArms</Data>
+        </Slider>
+        <Slider name="MuscleButt" invert="false" small="0" big="0">
+            <Data name="corsetMuscleButt" target="corset" local="true">RestrictiveCorset.osd\corsetMuscleButt</Data>
+        </Slider>
+        <Slider name="MuscleLegs" invert="false" small="0" big="0">
+            <Data name="corsetMuscleLegs" target="corset" local="true">RestrictiveCorset.osd\corsetMuscleLegs</Data>
+        </Slider>
+        <Slider name="MusclePecs" invert="false" small="0" big="0">
+            <Data name="corsetMusclePecs" target="corset" local="true">RestrictiveCorset.osd\corsetMusclePecs</Data>
+        </Slider>
+        <Slider name="MuscleBack_v2" invert="false" small="0" big="0">
+            <Data name="corsetMuscleBack_v2" target="corset" local="true">RestrictiveCorset.osd\corsetMuscleBack_v2</Data>
+        </Slider>
+        <Slider name="MuscleMoreAbs_v2" invert="false" small="0" big="0">
+            <Data name="corsetMuscleMoreAbs_v2" target="corset" local="true">RestrictiveCorset.osd\corsetMuscleMoreAbs_v2</Data>
+        </Slider>
+        <Slider name="MuscleMoreArms_v2" invert="false" small="0" big="0">
+            <Data name="corsetMuscleMoreArms_v2" target="corset" local="true">RestrictiveCorset.osd\corsetMuscleMoreArms_v2</Data>
+        </Slider>
+        <Slider name="MuscleMoreLegs_v2" invert="false" small="0" big="0">
+            <Data name="corsetMuscleMoreLegs_v2" target="corset" local="true">RestrictiveCorset.osd\corsetMuscleMoreLegs_v2</Data>
+        </Slider>
+        <Slider name="NavelEven" invert="false" small="0" big="0">
+            <Data name="corsetNavelEven" target="corset" local="true">RestrictiveCorset.osd\corsetNavelEven</Data>
+        </Slider>
+        <Slider name="NippleDistance" invert="false" small="0" big="0">
+            <Data name="corsetNippleDistance" target="corset" local="true">RestrictiveCorset.osd\corsetNippleDistance</Data>
+        </Slider>
+        <Slider name="NippleDown" invert="false" small="0" big="0">
+            <Data name="corsetNippleDown" target="corset" local="true">RestrictiveCorset.osd\corsetNippleDown</Data>
+        </Slider>
+        <Slider name="NippleUp" invert="false" small="0" big="0">
+            <Data name="corsetNippleUp" target="corset" local="true">RestrictiveCorset.osd\corsetNippleUp</Data>
+        </Slider>
+        <Slider name="RibsMore_v2" invert="false" small="0" big="0">
+            <Data name="corsetRibsMore_v2" target="corset" local="true">RestrictiveCorset.osd\corsetRibsMore_v2</Data>
+        </Slider>
+        <Slider name="RibsProminance" invert="false" small="0" big="0">
+            <Data name="corsetRibsProminance" target="corset" local="true">RestrictiveCorset.osd\corsetRibsProminance</Data>
+        </Slider>
+        <Slider name="ShoulderSmooth" invert="false" small="0" big="0">
+            <Data name="corsetShoulderSmooth" target="corset" local="true">RestrictiveCorset.osd\corsetShoulderSmooth</Data>
+        </Slider>
+        <Slider name="SlimThighs" invert="false" small="0" big="0">
+            <Data name="corsetSlimThighs" target="corset" local="true">RestrictiveCorset.osd\corsetSlimThighs</Data>
+        </Slider>
+        <Slider name="SternumDepth" invert="false" small="0" big="0">
+            <Data name="corsetSternumDepth" target="corset" local="true">RestrictiveCorset.osd\corsetSternumDepth</Data>
+        </Slider>
+        <Slider name="SternumHeight" invert="false" small="0" big="0">
+            <Data name="corsetSternumHeight" target="corset" local="true">RestrictiveCorset.osd\corsetSternumHeight</Data>
+        </Slider>
+        <Slider name="Thighs" invert="false" small="0" big="0">
+            <Data name="corsetThighs" target="corset" local="true">RestrictiveCorset.osd\corsetThighs</Data>
+        </Slider>
+        <Slider name="LegSpread_v2" invert="false" small="0" big="0">
+            <Data name="corsetLegSpread_v2" target="corset" local="true">RestrictiveCorset.osd\corsetLegSpread_v2</Data>
+        </Slider>
+        <Slider name="UNPHip_v2" invert="false" small="0" big="0">
+            <Data name="corsetUNPHip_v2" target="corset" local="true">RestrictiveCorset.osd\corsetUNPHip_v2</Data>
+        </Slider>
+        <Slider name="WaistHeight" invert="false" small="0" big="0">
+            <Data name="corsetWaistHeight" target="corset" local="true">RestrictiveCorset.osd\corsetWaistHeight</Data>
+        </Slider>
+        <Slider name="7BLeg_v2" invert="false" small="0" big="0">
+            <Data name="corset7BLeg_v2" target="corset" local="true">RestrictiveCorset.osd\corset7BLeg_v2</Data>
+        </Slider>
+        <Slider name="7B Lower" invert="false" small="0" big="0">
+            <Data name="corset7B Lower" target="corset" local="true">RestrictiveCorset.osd\corset7B Lower</Data>
+        </Slider>
+        <Slider name="7B Upper" invert="false" small="0" big="0">
+            <Data name="corset7B Upper" target="corset" local="true">RestrictiveCorset.osd\corset7B Upper</Data>
+        </Slider>
+        <Slider name="VanillaSSEHi" invert="false" small="0" big="0">
+            <Data name="corsetVanillaSSEHi" target="corset" local="true">RestrictiveCorset.osd\corsetVanillaSSEHi</Data>
+        </Slider>
+        <Slider name="VanillaSSELo" invert="false" small="0" big="0">
+            <Data name="corsetVanillaSSELo" target="corset" local="true">RestrictiveCorset.osd\corsetVanillaSSELo</Data>
+        </Slider>
+        <Slider name="OldBaseShape" invert="false" small="0" big="0">
+            <Data name="corsetOldBaseShape" target="corset" local="true">RestrictiveCorset.osd\corsetOldBaseShape</Data>
+        </Slider>
+    </SliderSet>
+    <SliderSet name="bdsm - 3BA - RestrictiveCorsetBelt">
+        <DataFolder>bdsm\3ba\koffii\RestrictiveCorsetBelt</DataFolder>
+        <SourceFile>RestrictiveCorsetBelt.nif</SourceFile>
+        <OutputPath>meshes\bdsm\koffii</OutputPath>
+        <OutputFile GenWeights="true">restrictiveCorsetBelt</OutputFile>
+        <Shape target="belt">belt</Shape>
+        <Shape target="corset">corset</Shape>
+        <Slider name="Breasts" invert="true" small="20" big="100">
+            <Data name="corsetBreasts" target="corset" local="true">RestrictiveCorsetBelt.osd\corsetBreasts</Data>
+        </Slider>
+        <Slider name="BreastsSmall" invert="true" small="100" big="100">
+            <Data name="corsetBreastsSmall" target="corset" local="true">RestrictiveCorsetBelt.osd\corsetBreastsSmall</Data>
+            <Data name="beltBreastsSmall" target="belt" local="true">RestrictiveCorsetBelt.osd\beltBreastsSmall</Data>
+        </Slider>
+        <Slider name="BreastsSH" invert="false" small="0" big="0">
+            <Data name="corsetBreastsSH" target="corset" local="true">RestrictiveCorsetBelt.osd\corsetBreastsSH</Data>
+        </Slider>
+        <Slider name="BreastsSSH" invert="false" small="0" big="0">
+            <Data name="corsetBreastsSSH" target="corset" local="true">RestrictiveCorsetBelt.osd\corsetBreastsSSH</Data>
+        </Slider>
+        <Slider name="BreastsFantasy" invert="false" small="0" big="0">
+            <Data name="corsetBreastsFantasy" target="corset" local="true">RestrictiveCorsetBelt.osd\corsetBreastsFantasy</Data>
+        </Slider>
+        <Slider name="DoubleMelon" invert="false" small="0" big="0">
+            <Data name="corsetDoubleMelon" target="corset" local="true">RestrictiveCorsetBelt.osd\corsetDoubleMelon</Data>
+        </Slider>
+        <Slider name="BreastCleavage" invert="false" small="0" big="0">
+            <Data name="corsetBreastCleavage" target="corset" local="true">RestrictiveCorsetBelt.osd\corsetBreastCleavage</Data>
+        </Slider>
+        <Slider name="BreastFlatness" invert="false" small="0" big="0">
+            <Data name="corsetBreastFlatness" target="corset" local="true">RestrictiveCorsetBelt.osd\corsetBreastFlatness</Data>
+        </Slider>
+        <Slider name="BreastGravity" invert="false" small="0" big="0">
+            <Data name="corsetBreastGravity" target="corset" local="true">RestrictiveCorsetBelt.osd\corsetBreastGravity</Data>
+        </Slider>
+        <Slider name="PushUp" invert="false" small="0" big="0">
+            <Data name="corsetPushUp" target="corset" local="true">RestrictiveCorsetBelt.osd\corsetPushUp</Data>
+        </Slider>
+        <Slider name="BreastHeight" invert="false" small="0" big="0">
+            <Data name="corsetBreastHeight" target="corset" local="true">RestrictiveCorsetBelt.osd\corsetBreastHeight</Data>
+            <Data name="beltBreastHeight" target="belt" local="true">RestrictiveCorsetBelt.osd\beltBreastHeight</Data>
+        </Slider>
+        <Slider name="BreastPerkiness" invert="false" small="0" big="0">
+            <Data name="corsetBreastPerkiness" target="corset" local="true">RestrictiveCorsetBelt.osd\corsetBreastPerkiness</Data>
+        </Slider>
+        <Slider name="BreastWidth" invert="false" small="0" big="0">
+            <Data name="corsetBreastWidth" target="corset" local="true">RestrictiveCorsetBelt.osd\corsetBreastWidth</Data>
+        </Slider>
+        <Slider name="ShoulderWidth" invert="true" small="100" big="100">
+            <Data name="corsetShoulderWidth" target="corset" local="true">RestrictiveCorsetBelt.osd\corsetShoulderWidth</Data>
+        </Slider>
+        <Slider name="BigTorso" invert="false" small="0" big="0">
+            <Data name="corsetBigTorso" target="corset" local="true">RestrictiveCorsetBelt.osd\corsetBigTorso</Data>
+            <Data name="beltBigTorso" target="belt" local="true">RestrictiveCorsetBelt.osd\beltBigTorso</Data>
+        </Slider>
+        <Slider name="Waist" invert="false" small="0" big="100">
+            <Data name="corsetWaist" target="corset" local="true">RestrictiveCorsetBelt.osd\corsetWaist</Data>
+            <Data name="beltWaist" target="belt" local="true">RestrictiveCorsetBelt.osd\beltWaist</Data>
+        </Slider>
+        <Slider name="WideWaistLine" invert="false" small="0" big="0">
+            <Data name="corsetWideWaistLine" target="corset" local="true">RestrictiveCorsetBelt.osd\corsetWideWaistLine</Data>
+        </Slider>
+        <Slider name="ChubbyWaist" invert="false" small="0" big="0">
+            <Data name="corsetChubbyWaist" target="corset" local="true">RestrictiveCorsetBelt.osd\corsetChubbyWaist</Data>
+            <Data name="beltChubbyWaist" target="belt" local="true">RestrictiveCorsetBelt.osd\beltChubbyWaist</Data>
+        </Slider>
+        <Slider name="Belly" invert="false" small="0" big="0">
+            <Data name="corsetBelly" target="corset" local="true">RestrictiveCorsetBelt.osd\corsetBelly</Data>
+            <Data name="beltBelly" target="belt" local="true">RestrictiveCorsetBelt.osd\beltBelly</Data>
+        </Slider>
+        <Slider name="BigBelly" invert="false" small="0" big="0">
+            <Data name="corsetBigBelly" target="corset" local="true">RestrictiveCorsetBelt.osd\corsetBigBelly</Data>
+            <Data name="beltBigBelly" target="belt" local="true">RestrictiveCorsetBelt.osd\beltBigBelly</Data>
+        </Slider>
+        <Slider name="PregnancyBelly" invert="false" small="0" big="0">
+            <Data name="corsetPregnancyBelly" target="corset" local="true">RestrictiveCorsetBelt.osd\corsetPregnancyBelly</Data>
+            <Data name="beltPregnancyBelly" target="belt" local="true">RestrictiveCorsetBelt.osd\beltPregnancyBelly</Data>
+        </Slider>
+        <Slider name="TummyTuck" invert="false" small="0" big="0">
+            <Data name="corsetTummyTuck" target="corset" local="true">RestrictiveCorsetBelt.osd\corsetTummyTuck</Data>
+            <Data name="beltTummyTuck" target="belt" local="true">RestrictiveCorsetBelt.osd\beltTummyTuck</Data>
+        </Slider>
+        <Slider name="Back" invert="false" small="0" big="0">
+            <Data name="corsetBack" target="corset" local="true">RestrictiveCorsetBelt.osd\corsetBack</Data>
+            <Data name="beltBack" target="belt" local="true">RestrictiveCorsetBelt.osd\beltBack</Data>
+        </Slider>
+        <Slider name="Hipbone" invert="false" small="0" big="0">
+            <Data name="corsetHipbone" target="corset" local="true">RestrictiveCorsetBelt.osd\corsetHipbone</Data>
+            <Data name="beltHipbone" target="belt" local="true">RestrictiveCorsetBelt.osd\beltHipbone</Data>
+        </Slider>
+        <Slider name="Hips" invert="false" small="0" big="0">
+            <Data name="corsetHips" target="corset" local="true">RestrictiveCorsetBelt.osd\corsetHips</Data>
+            <Data name="beltHips" target="belt" local="true">RestrictiveCorsetBelt.osd\beltHips</Data>
+        </Slider>
+        <Slider name="ButtCrack" invert="true" small="100" big="100">
+            <Data name="corsetButtCrack" target="corset" local="true">RestrictiveCorsetBelt.osd\corsetButtCrack</Data>
+            <Data name="beltButtCrack" target="belt" local="true">RestrictiveCorsetBelt.osd\beltButtCrack</Data>
+        </Slider>
+        <Slider name="Butt" invert="true" small="0" big="100">
+            <Data name="corsetButt" target="corset" local="true">RestrictiveCorsetBelt.osd\corsetButt</Data>
+            <Data name="beltButt" target="belt" local="true">RestrictiveCorsetBelt.osd\beltButt</Data>
+        </Slider>
+        <Slider name="ButtSmall" invert="true" small="100" big="100">
+            <Data name="corsetButtSmall" target="corset" local="true">RestrictiveCorsetBelt.osd\corsetButtSmall</Data>
+            <Data name="beltButtSmall" target="belt" local="true">RestrictiveCorsetBelt.osd\beltButtSmall</Data>
+        </Slider>
+        <Slider name="ButtShape2" invert="false" small="0" big="0">
+            <Data name="corsetButtShape2" target="corset" local="true">RestrictiveCorsetBelt.osd\corsetButtShape2</Data>
+            <Data name="beltButtShape2" target="belt" local="true">RestrictiveCorsetBelt.osd\beltButtShape2</Data>
+        </Slider>
+        <Slider name="BigButt" invert="false" small="0" big="0">
+            <Data name="corsetBigButt" target="corset" local="true">RestrictiveCorsetBelt.osd\corsetBigButt</Data>
+            <Data name="beltBigButt" target="belt" local="true">RestrictiveCorsetBelt.osd\beltBigButt</Data>
+        </Slider>
+        <Slider name="ChubbyButt" invert="false" small="0" big="0">
+            <Data name="corsetChubbyButt" target="corset" local="true">RestrictiveCorsetBelt.osd\corsetChubbyButt</Data>
+            <Data name="beltChubbyButt" target="belt" local="true">RestrictiveCorsetBelt.osd\beltChubbyButt</Data>
+        </Slider>
+        <Slider name="AppleCheeks" invert="false" small="0" big="0">
+            <Data name="corsetAppleCheeks" target="corset" local="true">RestrictiveCorsetBelt.osd\corsetAppleCheeks</Data>
+            <Data name="beltAppleCheeks" target="belt" local="true">RestrictiveCorsetBelt.osd\beltAppleCheeks</Data>
+        </Slider>
+        <Slider name="RoundAss" invert="false" small="0" big="0">
+            <Data name="corsetRoundAss" target="corset" local="true">RestrictiveCorsetBelt.osd\corsetRoundAss</Data>
+            <Data name="beltRoundAss" target="belt" local="true">RestrictiveCorsetBelt.osd\beltRoundAss</Data>
+        </Slider>
+        <Slider name="Groin" invert="false" small="0" big="0">
+            <Data name="corsetGroin" target="corset" local="true">RestrictiveCorsetBelt.osd\corsetGroin</Data>
+            <Data name="beltGroin" target="belt" local="true">RestrictiveCorsetBelt.osd\beltGroin</Data>
+        </Slider>
+        <Slider name="SlimThighs" invert="false" small="0" big="0">
+            <Data name="corsetSlimThighs" target="corset" local="true">RestrictiveCorsetBelt.osd\corsetSlimThighs</Data>
+            <Data name="beltSlimThighs" target="belt" local="true">RestrictiveCorsetBelt.osd\beltSlimThighs</Data>
+        </Slider>
+        <Slider name="Thighs" invert="false" small="0" big="0">
+            <Data name="corsetThighs" target="corset" local="true">RestrictiveCorsetBelt.osd\corsetThighs</Data>
+            <Data name="beltThighs" target="belt" local="true">RestrictiveCorsetBelt.osd\beltThighs</Data>
+        </Slider>
+        <Slider name="ChubbyLegs" invert="false" small="0" big="0">
+            <Data name="corsetChubbyLegs" target="corset" local="true">RestrictiveCorsetBelt.osd\corsetChubbyLegs</Data>
+            <Data name="beltChubbyLegs" target="belt" local="true">RestrictiveCorsetBelt.osd\beltChubbyLegs</Data>
+        </Slider>
+        <Slider name="ArmpitShape_v2" invert="false" small="0" big="0">
+            <Data name="corsetArmpitShape_v2" target="corset" local="true">RestrictiveCorsetBelt.osd\corsetArmpitShape_v2</Data>
+        </Slider>
+        <Slider name="AreolaPull_v2" invert="false" small="0" big="0">
+            <Data name="corsetAreolaPull_v2" target="corset" local="true">RestrictiveCorsetBelt.osd\corsetAreolaPull_v2</Data>
+        </Slider>
+        <Slider name="Arms" invert="false" small="0" big="0">
+            <Data name="corsetArms" target="corset" local="true">RestrictiveCorsetBelt.osd\corsetArms</Data>
+        </Slider>
+        <Slider name="BackArch" invert="false" small="0" big="0">
+            <Data name="corsetBackArch" target="corset" local="true">RestrictiveCorsetBelt.osd\corsetBackArch</Data>
+            <Data name="beltBackArch" target="belt" local="true">RestrictiveCorsetBelt.osd\beltBackArch</Data>
+        </Slider>
+        <Slider name="BackValley_v2" invert="false" small="0" big="0">
+            <Data name="corsetBackValley_v2" target="corset" local="true">RestrictiveCorsetBelt.osd\corsetBackValley_v2</Data>
+        </Slider>
+        <Slider name="BackWing_v2" invert="false" small="0" big="0">
+            <Data name="corsetBackWing_v2" target="corset" local="true">RestrictiveCorsetBelt.osd\corsetBackWing_v2</Data>
+        </Slider>
+        <Slider name="BellyFrontUpFat_v2" invert="false" small="0" big="0">
+            <Data name="corsetBellyFrontUpFat_v2" target="corset" local="true">RestrictiveCorsetBelt.osd\corsetBellyFrontUpFat_v2</Data>
+        </Slider>
+        <Slider name="BellyFrontDownFat_v2" invert="false" small="0" big="0">
+            <Data name="corsetBellyFrontDownFat_v2" target="corset" local="true">RestrictiveCorsetBelt.osd\corsetBellyFrontDownFat_v2</Data>
+            <Data name="beltBellyFrontDownFat_v2" target="belt" local="true">RestrictiveCorsetBelt.osd\beltBellyFrontDownFat_v2</Data>
+        </Slider>
+        <Slider name="BellySideUpFat_v2" invert="false" small="0" big="0">
+            <Data name="corsetBellySideUpFat_v2" target="corset" local="true">RestrictiveCorsetBelt.osd\corsetBellySideUpFat_v2</Data>
+        </Slider>
+        <Slider name="BellySideDownFat_v2" invert="false" small="0" big="0">
+            <Data name="corsetBellySideDownFat_v2" target="corset" local="true">RestrictiveCorsetBelt.osd\corsetBellySideDownFat_v2</Data>
+        </Slider>
+        <Slider name="BellyUnder_v2" invert="false" small="0" big="0">
+            <Data name="corsetBellyUnder_v2" target="corset" local="true">RestrictiveCorsetBelt.osd\corsetBellyUnder_v2</Data>
+            <Data name="beltBellyUnder_v2" target="belt" local="true">RestrictiveCorsetBelt.osd\beltBellyUnder_v2</Data>
+        </Slider>
+        <Slider name="BreastCenter" invert="false" small="0" big="0">
+            <Data name="corsetBreastCenter" target="corset" local="true">RestrictiveCorsetBelt.osd\corsetBreastCenter</Data>
+        </Slider>
+        <Slider name="BreastCenterBig" invert="false" small="0" big="0">
+            <Data name="corsetBreastCenterBig" target="corset" local="true">RestrictiveCorsetBelt.osd\corsetBreastCenterBig</Data>
+        </Slider>
+        <Slider name="BreastsConverage_v2" invert="false" small="0" big="0">
+            <Data name="corsetBreastsConverage_v2" target="corset" local="true">RestrictiveCorsetBelt.osd\corsetBreastsConverage_v2</Data>
+        </Slider>
+        <Slider name="BreastFlatness2" invert="false" small="0" big="0">
+            <Data name="corsetBreastFlatness2" target="corset" local="true">RestrictiveCorsetBelt.osd\corsetBreastFlatness2</Data>
+        </Slider>
+        <Slider name="BreastGravity2" invert="false" small="0" big="0">
+            <Data name="corsetBreastGravity2" target="corset" local="true">RestrictiveCorsetBelt.osd\corsetBreastGravity2</Data>
+        </Slider>
+        <Slider name="BreastsGone" invert="false" small="0" big="0">
+            <Data name="corsetBreastsGone" target="corset" local="true">RestrictiveCorsetBelt.osd\corsetBreastsGone</Data>
+        </Slider>
+        <Slider name="BreastsNewSH" invert="false" small="0" big="0">
+            <Data name="corsetBreastsNewSH" target="corset" local="true">RestrictiveCorsetBelt.osd\corsetBreastsNewSH</Data>
+        </Slider>
+        <Slider name="BreastsNewSHSymmetry" invert="false" small="0" big="0">
+            <Data name="corsetBreastsNewSHSymmetry" target="corset" local="true">RestrictiveCorsetBelt.osd\corsetBreastsNewSHSymmetry</Data>
+        </Slider>
+        <Slider name="BreastsSmall2" invert="false" small="0" big="0">
+            <Data name="corsetBreastsSmall2" target="corset" local="true">RestrictiveCorsetBelt.osd\corsetBreastsSmall2</Data>
+            <Data name="beltBreastsSmall2" target="belt" local="true">RestrictiveCorsetBelt.osd\beltBreastsSmall2</Data>
+        </Slider>
+        <Slider name="BreastsTogether" invert="false" small="0" big="0">
+            <Data name="corsetBreastsTogether" target="corset" local="true">RestrictiveCorsetBelt.osd\corsetBreastsTogether</Data>
+        </Slider>
+        <Slider name="BreastTopSlope" invert="false" small="0" big="0">
+            <Data name="corsetBreastTopSlope" target="corset" local="true">RestrictiveCorsetBelt.osd\corsetBreastTopSlope</Data>
+        </Slider>
+        <Slider name="BreastSideShape" invert="false" small="0" big="0">
+            <Data name="corsetBreastSideShape" target="corset" local="true">RestrictiveCorsetBelt.osd\corsetBreastSideShape</Data>
+        </Slider>
+        <Slider name="BreastUnderDepth" invert="false" small="0" big="0">
+            <Data name="corsetBreastUnderDepth" target="corset" local="true">RestrictiveCorsetBelt.osd\corsetBreastUnderDepth</Data>
+        </Slider>
+        <Slider name="BreastsPressed_v2" invert="false" small="0" big="0">
+            <Data name="corsetBreastsPressed_v2" target="corset" local="true">RestrictiveCorsetBelt.osd\corsetBreastsPressed_v2</Data>
+        </Slider>
+        <Slider name="ButtSaggy_v2" invert="false" small="0" big="0">
+            <Data name="corsetButtSaggy_v2" target="corset" local="true">RestrictiveCorsetBelt.osd\corsetButtSaggy_v2</Data>
+            <Data name="beltButtSaggy_v2" target="belt" local="true">RestrictiveCorsetBelt.osd\beltButtSaggy_v2</Data>
+        </Slider>
+        <Slider name="ButtClassic" invert="false" small="0" big="0">
+            <Data name="corsetButtClassic" target="corset" local="true">RestrictiveCorsetBelt.osd\corsetButtClassic</Data>
+            <Data name="beltButtClassic" target="belt" local="true">RestrictiveCorsetBelt.osd\beltButtClassic</Data>
+        </Slider>
+        <Slider name="ButtDimples" invert="false" small="0" big="0">
+            <Data name="corsetButtDimples" target="corset" local="true">RestrictiveCorsetBelt.osd\corsetButtDimples</Data>
+        </Slider>
+        <Slider name="ButtUnderFold" invert="false" small="0" big="0">
+            <Data name="beltButtUnderFold" target="belt" local="true">RestrictiveCorsetBelt.osd\beltButtUnderFold</Data>
+        </Slider>
+        <Slider name="ButtPressed_v2" invert="false" small="0" big="0">
+            <Data name="corsetButtPressed_v2" target="corset" local="true">RestrictiveCorsetBelt.osd\corsetButtPressed_v2</Data>
+            <Data name="beltButtPressed_v2" target="belt" local="true">RestrictiveCorsetBelt.osd\beltButtPressed_v2</Data>
+        </Slider>
+        <Slider name="ButtNarrow_v2" invert="false" small="0" big="0">
+            <Data name="corsetButtNarrow_v2" target="corset" local="true">RestrictiveCorsetBelt.osd\corsetButtNarrow_v2</Data>
+        </Slider>
+        <Slider name="ChestDepth" invert="false" small="0" big="0">
+            <Data name="corsetChestDepth" target="corset" local="true">RestrictiveCorsetBelt.osd\corsetChestDepth</Data>
+            <Data name="beltChestDepth" target="belt" local="true">RestrictiveCorsetBelt.osd\beltChestDepth</Data>
+        </Slider>
+        <Slider name="ChestWidth" invert="false" small="0" big="0">
+            <Data name="corsetChestWidth" target="corset" local="true">RestrictiveCorsetBelt.osd\corsetChestWidth</Data>
+        </Slider>
+        <Slider name="ChubbyArms" invert="false" small="0" big="0">
+            <Data name="corsetChubbyArms" target="corset" local="true">RestrictiveCorsetBelt.osd\corsetChubbyArms</Data>
+        </Slider>
+        <Slider name="CrotchBack" invert="false" small="0" big="0">
+            <Data name="corsetCrotchBack" target="corset" local="true">RestrictiveCorsetBelt.osd\corsetCrotchBack</Data>
+            <Data name="beltCrotchBack" target="belt" local="true">RestrictiveCorsetBelt.osd\beltCrotchBack</Data>
+        </Slider>
+        <Slider name="HipBone" invert="false" small="0" big="0">
+            <Data name="corsetHipBone" target="corset" local="true">RestrictiveCorsetBelt.osd\corsetHipBone</Data>
+            <Data name="beltHipBone" target="belt" local="true">RestrictiveCorsetBelt.osd\beltHipBone</Data>
+        </Slider>
+        <Slider name="HipForward" invert="false" small="0" big="0">
+            <Data name="corsetHipForward" target="corset" local="true">RestrictiveCorsetBelt.osd\corsetHipForward</Data>
+            <Data name="beltHipForward" target="belt" local="true">RestrictiveCorsetBelt.osd\beltHipForward</Data>
+        </Slider>
+        <Slider name="HipUpperWidth" invert="false" small="0" big="0">
+            <Data name="corsetHipUpperWidth" target="corset" local="true">RestrictiveCorsetBelt.osd\corsetHipUpperWidth</Data>
+        </Slider>
+        <Slider name="HipCarved" invert="false" small="0" big="0">
+            <Data name="corsetHipCarved" target="corset" local="true">RestrictiveCorsetBelt.osd\corsetHipCarved</Data>
+            <Data name="beltHipCarved" target="belt" local="true">RestrictiveCorsetBelt.osd\beltHipCarved</Data>
+        </Slider>
+        <Slider name="HipNarrow_v2" invert="false" small="0" big="0">
+            <Data name="corsetHipNarrow_v2" target="corset" local="true">RestrictiveCorsetBelt.osd\corsetHipNarrow_v2</Data>
+        </Slider>
+        <Slider name="LegsThin" invert="false" small="0" big="0">
+            <Data name="beltLegsThin" target="belt" local="true">RestrictiveCorsetBelt.osd\beltLegsThin</Data>
+        </Slider>
+        <Slider name="MuscleAbs" invert="false" small="0" big="0">
+            <Data name="corsetMuscleAbs" target="corset" local="true">RestrictiveCorsetBelt.osd\corsetMuscleAbs</Data>
+            <Data name="beltMuscleAbs" target="belt" local="true">RestrictiveCorsetBelt.osd\beltMuscleAbs</Data>
+        </Slider>
+        <Slider name="MuscleArms" invert="false" small="0" big="0">
+            <Data name="corsetMuscleArms" target="corset" local="true">RestrictiveCorsetBelt.osd\corsetMuscleArms</Data>
+        </Slider>
+        <Slider name="MuscleButt" invert="false" small="0" big="0">
+            <Data name="corsetMuscleButt" target="corset" local="true">RestrictiveCorsetBelt.osd\corsetMuscleButt</Data>
+            <Data name="beltMuscleButt" target="belt" local="true">RestrictiveCorsetBelt.osd\beltMuscleButt</Data>
+        </Slider>
+        <Slider name="MuscleLegs" invert="false" small="0" big="0">
+            <Data name="corsetMuscleLegs" target="corset" local="true">RestrictiveCorsetBelt.osd\corsetMuscleLegs</Data>
+            <Data name="beltMuscleLegs" target="belt" local="true">RestrictiveCorsetBelt.osd\beltMuscleLegs</Data>
+        </Slider>
+        <Slider name="MusclePecs" invert="false" small="0" big="0">
+            <Data name="corsetMusclePecs" target="corset" local="true">RestrictiveCorsetBelt.osd\corsetMusclePecs</Data>
+        </Slider>
+        <Slider name="MuscleBack_v2" invert="false" small="0" big="0">
+            <Data name="corsetMuscleBack_v2" target="corset" local="true">RestrictiveCorsetBelt.osd\corsetMuscleBack_v2</Data>
+        </Slider>
+        <Slider name="MuscleMoreAbs_v2" invert="false" small="0" big="0">
+            <Data name="corsetMuscleMoreAbs_v2" target="corset" local="true">RestrictiveCorsetBelt.osd\corsetMuscleMoreAbs_v2</Data>
+            <Data name="beltMuscleMoreAbs_v2" target="belt" local="true">RestrictiveCorsetBelt.osd\beltMuscleMoreAbs_v2</Data>
+        </Slider>
+        <Slider name="MuscleMoreArms_v2" invert="false" small="0" big="0">
+            <Data name="corsetMuscleMoreArms_v2" target="corset" local="true">RestrictiveCorsetBelt.osd\corsetMuscleMoreArms_v2</Data>
+        </Slider>
+        <Slider name="MuscleMoreLegs_v2" invert="false" small="0" big="0">
+            <Data name="corsetMuscleMoreLegs_v2" target="corset" local="true">RestrictiveCorsetBelt.osd\corsetMuscleMoreLegs_v2</Data>
+            <Data name="beltMuscleMoreLegs_v2" target="belt" local="true">RestrictiveCorsetBelt.osd\beltMuscleMoreLegs_v2</Data>
+        </Slider>
+        <Slider name="NavelEven" invert="false" small="0" big="0">
+            <Data name="corsetNavelEven" target="corset" local="true">RestrictiveCorsetBelt.osd\corsetNavelEven</Data>
+        </Slider>
+        <Slider name="NippleDistance" invert="false" small="0" big="0">
+            <Data name="corsetNippleDistance" target="corset" local="true">RestrictiveCorsetBelt.osd\corsetNippleDistance</Data>
+        </Slider>
+        <Slider name="NippleDown" invert="false" small="0" big="0">
+            <Data name="corsetNippleDown" target="corset" local="true">RestrictiveCorsetBelt.osd\corsetNippleDown</Data>
+        </Slider>
+        <Slider name="NippleUp" invert="false" small="0" big="0">
+            <Data name="corsetNippleUp" target="corset" local="true">RestrictiveCorsetBelt.osd\corsetNippleUp</Data>
+        </Slider>
+        <Slider name="RibsMore_v2" invert="false" small="0" big="0">
+            <Data name="corsetRibsMore_v2" target="corset" local="true">RestrictiveCorsetBelt.osd\corsetRibsMore_v2</Data>
+        </Slider>
+        <Slider name="RibsProminance" invert="false" small="0" big="0">
+            <Data name="corsetRibsProminance" target="corset" local="true">RestrictiveCorsetBelt.osd\corsetRibsProminance</Data>
+        </Slider>
+        <Slider name="ShoulderSmooth" invert="false" small="0" big="0">
+            <Data name="corsetShoulderSmooth" target="corset" local="true">RestrictiveCorsetBelt.osd\corsetShoulderSmooth</Data>
+        </Slider>
+        <Slider name="SternumDepth" invert="false" small="0" big="0">
+            <Data name="corsetSternumDepth" target="corset" local="true">RestrictiveCorsetBelt.osd\corsetSternumDepth</Data>
+        </Slider>
+        <Slider name="SternumHeight" invert="false" small="0" big="0">
+            <Data name="corsetSternumHeight" target="corset" local="true">RestrictiveCorsetBelt.osd\corsetSternumHeight</Data>
+        </Slider>
+        <Slider name="ThighOutsideThicc_v2" invert="false" small="0" big="0">
+            <Data name="beltThighOutsideThicc_v2" target="belt" local="true">RestrictiveCorsetBelt.osd\beltThighOutsideThicc_v2</Data>
+        </Slider>
+        <Slider name="ThighInsideThicc_v2" invert="false" small="0" big="0">
+            <Data name="beltThighInsideThicc_v2" target="belt" local="true">RestrictiveCorsetBelt.osd\beltThighInsideThicc_v2</Data>
+        </Slider>
+        <Slider name="ThighFBThicc_v2" invert="false" small="0" big="0">
+            <Data name="beltThighFBThicc_v2" target="belt" local="true">RestrictiveCorsetBelt.osd\beltThighFBThicc_v2</Data>
+        </Slider>
+        <Slider name="LegSpread_v2" invert="false" small="0" big="0">
+            <Data name="corsetLegSpread_v2" target="corset" local="true">RestrictiveCorsetBelt.osd\corsetLegSpread_v2</Data>
+            <Data name="beltLegSpread_v2" target="belt" local="true">RestrictiveCorsetBelt.osd\beltLegSpread_v2</Data>
+        </Slider>
+        <Slider name="UNPHip_v2" invert="false" small="0" big="0">
+            <Data name="corsetUNPHip_v2" target="corset" local="true">RestrictiveCorsetBelt.osd\corsetUNPHip_v2</Data>
+            <Data name="beltUNPHip_v2" target="belt" local="true">RestrictiveCorsetBelt.osd\beltUNPHip_v2</Data>
+        </Slider>
+        <Slider name="WaistHeight" invert="false" small="0" big="0">
+            <Data name="corsetWaistHeight" target="corset" local="true">RestrictiveCorsetBelt.osd\corsetWaistHeight</Data>
+            <Data name="beltWaistHeight" target="belt" local="true">RestrictiveCorsetBelt.osd\beltWaistHeight</Data>
+        </Slider>
+        <Slider name="7BLeg_v2" invert="false" small="0" big="0">
+            <Data name="corset7BLeg_v2" target="corset" local="true">RestrictiveCorsetBelt.osd\corset7BLeg_v2</Data>
+            <Data name="belt7BLeg_v2" target="belt" local="true">RestrictiveCorsetBelt.osd\belt7BLeg_v2</Data>
+        </Slider>
+        <Slider name="7B Lower" invert="false" small="0" big="0">
+            <Data name="corset7B Lower" target="corset" local="true">RestrictiveCorsetBelt.osd\corset7B Lower</Data>
+            <Data name="belt7B Lower" target="belt" local="true">RestrictiveCorsetBelt.osd\belt7B Lower</Data>
+        </Slider>
+        <Slider name="7B Upper" invert="false" small="0" big="0">
+            <Data name="corset7B Upper" target="corset" local="true">RestrictiveCorsetBelt.osd\corset7B Upper</Data>
+        </Slider>
+        <Slider name="VanillaSSEHi" invert="false" small="0" big="0">
+            <Data name="corsetVanillaSSEHi" target="corset" local="true">RestrictiveCorsetBelt.osd\corsetVanillaSSEHi</Data>
+            <Data name="beltVanillaSSEHi" target="belt" local="true">RestrictiveCorsetBelt.osd\beltVanillaSSEHi</Data>
+        </Slider>
+        <Slider name="VanillaSSELo" invert="false" small="0" big="0">
+            <Data name="corsetVanillaSSELo" target="corset" local="true">RestrictiveCorsetBelt.osd\corsetVanillaSSELo</Data>
+            <Data name="beltVanillaSSELo" target="belt" local="true">RestrictiveCorsetBelt.osd\beltVanillaSSELo</Data>
+        </Slider>
+        <Slider name="OldBaseShape" invert="false" small="0" big="0">
+            <Data name="corsetOldBaseShape" target="corset" local="true">RestrictiveCorsetBelt.osd\corsetOldBaseShape</Data>
+            <Data name="beltOldBaseShape" target="belt" local="true">RestrictiveCorsetBelt.osd\beltOldBaseShape</Data>
+        </Slider>
+        <Slider name="Innieoutie" invert="false" small="0" big="0">
+            <Data name="beltInnieoutie" target="belt" local="true">RestrictiveCorsetBelt.osd\beltInnieoutie</Data>
+        </Slider>
+        <Slider name="LabiaTightUp" invert="false" small="0" big="0">
+            <Data name="beltLabiaTightUp" target="belt" local="true">RestrictiveCorsetBelt.osd\beltLabiaTightUp</Data>
+        </Slider>
+        <Slider name="Labiapuffyness" invert="false" small="0" big="0">
+            <Data name="beltLabiapuffyness" target="belt" local="true">RestrictiveCorsetBelt.osd\beltLabiapuffyness</Data>
+        </Slider>
+        <Slider name="LabiaMorePuffyness_v2" invert="false" small="0" big="0">
+            <Data name="beltLabiaMorePuffyness_v2" target="belt" local="true">RestrictiveCorsetBelt.osd\beltLabiaMorePuffyness_v2</Data>
+        </Slider>
+        <Slider name="Labiaprotrude2" invert="false" small="0" big="0">
+            <Data name="beltLabiaprotrude2" target="belt" local="true">RestrictiveCorsetBelt.osd\beltLabiaprotrude2</Data>
+        </Slider>
+        <Slider name="Labiaspread" invert="false" small="0" big="0">
+            <Data name="beltLabiaspread" target="belt" local="true">RestrictiveCorsetBelt.osd\beltLabiaspread</Data>
+        </Slider>
+        <Slider name="LabiaCrumpled_v2" invert="false" small="0" big="0">
+            <Data name="beltLabiaCrumpled_v2" target="belt" local="true">RestrictiveCorsetBelt.osd\beltLabiaCrumpled_v2</Data>
+        </Slider>
+        <Slider name="LabiaNeat_v2" invert="false" small="0" big="0">
+            <Data name="beltLabiaNeat_v2" target="belt" local="true">RestrictiveCorsetBelt.osd\beltLabiaNeat_v2</Data>
+        </Slider>
+        <Slider name="LabiaBulgogi_v2" invert="false" small="0" big="0">
+            <Data name="beltLabiaBulgogi_v2" target="belt" local="true">RestrictiveCorsetBelt.osd\beltLabiaBulgogi_v2</Data>
+        </Slider>
+        <Slider name="VaginaHole" invert="false" small="0" big="0">
+            <Data name="beltVaginaHole" target="belt" local="true">RestrictiveCorsetBelt.osd\beltVaginaHole</Data>
+        </Slider>
+        <Slider name="Cutepuffyness" invert="false" small="0" big="0">
+            <Data name="beltCutepuffyness" target="belt" local="true">RestrictiveCorsetBelt.osd\beltCutepuffyness</Data>
+        </Slider>
+        <Slider name="CBPC" invert="false" small="0" big="0">
+            <Data name="beltCBPC" target="belt" local="true">RestrictiveCorsetBelt.osd\beltCBPC</Data>
+        </Slider>
+        <Slider name="CrotchGap" invert="false" small="0" big="0">
+            <Data name="beltCrotchGap" target="belt" local="true">RestrictiveCorsetBelt.osd\beltCrotchGap</Data>
+        </Slider>
+        <Slider name="AnalLoose_v2" invert="false" small="0" big="0">
+            <Data name="beltAnalLoose_v2" target="belt" local="true">RestrictiveCorsetBelt.osd\beltAnalLoose_v2</Data>
+        </Slider>
+        <Slider name="AnalPosition_v2" invert="false" small="0" big="0">
+            <Data name="beltAnalPosition_v2" target="belt" local="true">RestrictiveCorsetBelt.osd\beltAnalPosition_v2</Data>
+        </Slider>
+    </SliderSet>
+    <SliderSet name="bdsm - 3BA - RestrictiveCorsetBeltOpen">
+        <DataFolder>bdsm\3ba\koffii\RestrictiveCorsetBeltOpen</DataFolder>
+        <SourceFile>RestrictiveCorsetBeltOpen.nif</SourceFile>
+        <OutputPath>meshes\bdsm\koffii</OutputPath>
+        <OutputFile GenWeights="true">restrictiveCorsetBeltOpen</OutputFile>
+        <Shape target="belt_open">belt_open</Shape>
+        <Shape target="corset">corset</Shape>
+        <Slider name="Breasts" invert="true" small="20" big="100">
+            <Data name="corsetBreasts" target="corset" local="true">RestrictiveCorsetBeltOpen.osd\corsetBreasts</Data>
+        </Slider>
+        <Slider name="BreastsSmall" invert="true" small="100" big="100">
+            <Data name="corsetBreastsSmall" target="corset" local="true">RestrictiveCorsetBeltOpen.osd\corsetBreastsSmall</Data>
+            <Data name="belt_openBreastsSmall" target="belt_open" local="true">RestrictiveCorsetBeltOpen.osd\belt_openBreastsSmall</Data>
+        </Slider>
+        <Slider name="BreastsSH" invert="false" small="0" big="0">
+            <Data name="corsetBreastsSH" target="corset" local="true">RestrictiveCorsetBeltOpen.osd\corsetBreastsSH</Data>
+        </Slider>
+        <Slider name="BreastsSSH" invert="false" small="0" big="0">
+            <Data name="corsetBreastsSSH" target="corset" local="true">RestrictiveCorsetBeltOpen.osd\corsetBreastsSSH</Data>
+        </Slider>
+        <Slider name="BreastsFantasy" invert="false" small="0" big="0">
+            <Data name="corsetBreastsFantasy" target="corset" local="true">RestrictiveCorsetBeltOpen.osd\corsetBreastsFantasy</Data>
+        </Slider>
+        <Slider name="DoubleMelon" invert="false" small="0" big="0">
+            <Data name="corsetDoubleMelon" target="corset" local="true">RestrictiveCorsetBeltOpen.osd\corsetDoubleMelon</Data>
+        </Slider>
+        <Slider name="BreastCleavage" invert="false" small="0" big="0">
+            <Data name="corsetBreastCleavage" target="corset" local="true">RestrictiveCorsetBeltOpen.osd\corsetBreastCleavage</Data>
+        </Slider>
+        <Slider name="BreastFlatness" invert="false" small="0" big="0">
+            <Data name="corsetBreastFlatness" target="corset" local="true">RestrictiveCorsetBeltOpen.osd\corsetBreastFlatness</Data>
+        </Slider>
+        <Slider name="BreastGravity" invert="false" small="0" big="0">
+            <Data name="corsetBreastGravity" target="corset" local="true">RestrictiveCorsetBeltOpen.osd\corsetBreastGravity</Data>
+        </Slider>
+        <Slider name="PushUp" invert="false" small="0" big="0">
+            <Data name="corsetPushUp" target="corset" local="true">RestrictiveCorsetBeltOpen.osd\corsetPushUp</Data>
+        </Slider>
+        <Slider name="BreastHeight" invert="false" small="0" big="0">
+            <Data name="corsetBreastHeight" target="corset" local="true">RestrictiveCorsetBeltOpen.osd\corsetBreastHeight</Data>
+            <Data name="belt_openBreastHeight" target="belt_open" local="true">RestrictiveCorsetBeltOpen.osd\belt_openBreastHeight</Data>
+        </Slider>
+        <Slider name="BreastPerkiness" invert="false" small="0" big="0">
+            <Data name="corsetBreastPerkiness" target="corset" local="true">RestrictiveCorsetBeltOpen.osd\corsetBreastPerkiness</Data>
+        </Slider>
+        <Slider name="BreastWidth" invert="false" small="0" big="0">
+            <Data name="corsetBreastWidth" target="corset" local="true">RestrictiveCorsetBeltOpen.osd\corsetBreastWidth</Data>
+        </Slider>
+        <Slider name="ShoulderWidth" invert="true" small="100" big="100">
+            <Data name="corsetShoulderWidth" target="corset" local="true">RestrictiveCorsetBeltOpen.osd\corsetShoulderWidth</Data>
+        </Slider>
+        <Slider name="BigTorso" invert="false" small="0" big="0">
+            <Data name="corsetBigTorso" target="corset" local="true">RestrictiveCorsetBeltOpen.osd\corsetBigTorso</Data>
+            <Data name="belt_openBigTorso" target="belt_open" local="true">RestrictiveCorsetBeltOpen.osd\belt_openBigTorso</Data>
+        </Slider>
+        <Slider name="Waist" invert="false" small="0" big="100">
+            <Data name="corsetWaist" target="corset" local="true">RestrictiveCorsetBeltOpen.osd\corsetWaist</Data>
+            <Data name="belt_openWaist" target="belt_open" local="true">RestrictiveCorsetBeltOpen.osd\belt_openWaist</Data>
+        </Slider>
+        <Slider name="WideWaistLine" invert="false" small="0" big="0">
+            <Data name="corsetWideWaistLine" target="corset" local="true">RestrictiveCorsetBeltOpen.osd\corsetWideWaistLine</Data>
+        </Slider>
+        <Slider name="ChubbyWaist" invert="false" small="0" big="0">
+            <Data name="corsetChubbyWaist" target="corset" local="true">RestrictiveCorsetBeltOpen.osd\corsetChubbyWaist</Data>
+            <Data name="belt_openChubbyWaist" target="belt_open" local="true">RestrictiveCorsetBeltOpen.osd\belt_openChubbyWaist</Data>
+        </Slider>
+        <Slider name="Belly" invert="false" small="0" big="0">
+            <Data name="corsetBelly" target="corset" local="true">RestrictiveCorsetBeltOpen.osd\corsetBelly</Data>
+            <Data name="belt_openBelly" target="belt_open" local="true">RestrictiveCorsetBeltOpen.osd\belt_openBelly</Data>
+        </Slider>
+        <Slider name="BigBelly" invert="false" small="0" big="0">
+            <Data name="corsetBigBelly" target="corset" local="true">RestrictiveCorsetBeltOpen.osd\corsetBigBelly</Data>
+            <Data name="belt_openBigBelly" target="belt_open" local="true">RestrictiveCorsetBeltOpen.osd\belt_openBigBelly</Data>
+        </Slider>
+        <Slider name="PregnancyBelly" invert="false" small="0" big="0">
+            <Data name="corsetPregnancyBelly" target="corset" local="true">RestrictiveCorsetBeltOpen.osd\corsetPregnancyBelly</Data>
+            <Data name="belt_openPregnancyBelly" target="belt_open" local="true">RestrictiveCorsetBeltOpen.osd\belt_openPregnancyBelly</Data>
+        </Slider>
+        <Slider name="TummyTuck" invert="false" small="0" big="0">
+            <Data name="corsetTummyTuck" target="corset" local="true">RestrictiveCorsetBeltOpen.osd\corsetTummyTuck</Data>
+            <Data name="belt_openTummyTuck" target="belt_open" local="true">RestrictiveCorsetBeltOpen.osd\belt_openTummyTuck</Data>
+        </Slider>
+        <Slider name="Back" invert="false" small="0" big="0">
+            <Data name="corsetBack" target="corset" local="true">RestrictiveCorsetBeltOpen.osd\corsetBack</Data>
+            <Data name="belt_openBack" target="belt_open" local="true">RestrictiveCorsetBeltOpen.osd\belt_openBack</Data>
+        </Slider>
+        <Slider name="Hipbone" invert="false" small="0" big="0">
+            <Data name="corsetHipbone" target="corset" local="true">RestrictiveCorsetBeltOpen.osd\corsetHipbone</Data>
+            <Data name="belt_openHipbone" target="belt_open" local="true">RestrictiveCorsetBeltOpen.osd\belt_openHipbone</Data>
+        </Slider>
+        <Slider name="Hips" invert="false" small="0" big="0">
+            <Data name="corsetHips" target="corset" local="true">RestrictiveCorsetBeltOpen.osd\corsetHips</Data>
+            <Data name="belt_openHips" target="belt_open" local="true">RestrictiveCorsetBeltOpen.osd\belt_openHips</Data>
+        </Slider>
+        <Slider name="ButtCrack" invert="true" small="100" big="100">
+            <Data name="corsetButtCrack" target="corset" local="true">RestrictiveCorsetBeltOpen.osd\corsetButtCrack</Data>
+            <Data name="belt_openButtCrack" target="belt_open" local="true">RestrictiveCorsetBeltOpen.osd\belt_openButtCrack</Data>
+        </Slider>
+        <Slider name="Butt" invert="true" small="0" big="100">
+            <Data name="corsetButt" target="corset" local="true">RestrictiveCorsetBeltOpen.osd\corsetButt</Data>
+            <Data name="belt_openButt" target="belt_open" local="true">RestrictiveCorsetBeltOpen.osd\belt_openButt</Data>
+        </Slider>
+        <Slider name="ButtSmall" invert="true" small="100" big="100">
+            <Data name="corsetButtSmall" target="corset" local="true">RestrictiveCorsetBeltOpen.osd\corsetButtSmall</Data>
+            <Data name="belt_openButtSmall" target="belt_open" local="true">RestrictiveCorsetBeltOpen.osd\belt_openButtSmall</Data>
+        </Slider>
+        <Slider name="ButtShape2" invert="false" small="0" big="0">
+            <Data name="corsetButtShape2" target="corset" local="true">RestrictiveCorsetBeltOpen.osd\corsetButtShape2</Data>
+            <Data name="belt_openButtShape2" target="belt_open" local="true">RestrictiveCorsetBeltOpen.osd\belt_openButtShape2</Data>
+        </Slider>
+        <Slider name="BigButt" invert="false" small="0" big="0">
+            <Data name="corsetBigButt" target="corset" local="true">RestrictiveCorsetBeltOpen.osd\corsetBigButt</Data>
+            <Data name="belt_openBigButt" target="belt_open" local="true">RestrictiveCorsetBeltOpen.osd\belt_openBigButt</Data>
+        </Slider>
+        <Slider name="ChubbyButt" invert="false" small="0" big="0">
+            <Data name="corsetChubbyButt" target="corset" local="true">RestrictiveCorsetBeltOpen.osd\corsetChubbyButt</Data>
+            <Data name="belt_openChubbyButt" target="belt_open" local="true">RestrictiveCorsetBeltOpen.osd\belt_openChubbyButt</Data>
+        </Slider>
+        <Slider name="AppleCheeks" invert="false" small="0" big="0">
+            <Data name="corsetAppleCheeks" target="corset" local="true">RestrictiveCorsetBeltOpen.osd\corsetAppleCheeks</Data>
+            <Data name="belt_openAppleCheeks" target="belt_open" local="true">RestrictiveCorsetBeltOpen.osd\belt_openAppleCheeks</Data>
+        </Slider>
+        <Slider name="RoundAss" invert="false" small="0" big="0">
+            <Data name="corsetRoundAss" target="corset" local="true">RestrictiveCorsetBeltOpen.osd\corsetRoundAss</Data>
+            <Data name="belt_openRoundAss" target="belt_open" local="true">RestrictiveCorsetBeltOpen.osd\belt_openRoundAss</Data>
+        </Slider>
+        <Slider name="Groin" invert="false" small="0" big="0">
+            <Data name="corsetGroin" target="corset" local="true">RestrictiveCorsetBeltOpen.osd\corsetGroin</Data>
+            <Data name="belt_openGroin" target="belt_open" local="true">RestrictiveCorsetBeltOpen.osd\belt_openGroin</Data>
+        </Slider>
+        <Slider name="SlimThighs" invert="false" small="0" big="0">
+            <Data name="corsetSlimThighs" target="corset" local="true">RestrictiveCorsetBeltOpen.osd\corsetSlimThighs</Data>
+            <Data name="belt_openSlimThighs" target="belt_open" local="true">RestrictiveCorsetBeltOpen.osd\belt_openSlimThighs</Data>
+        </Slider>
+        <Slider name="Thighs" invert="false" small="0" big="0">
+            <Data name="corsetThighs" target="corset" local="true">RestrictiveCorsetBeltOpen.osd\corsetThighs</Data>
+            <Data name="belt_openThighs" target="belt_open" local="true">RestrictiveCorsetBeltOpen.osd\belt_openThighs</Data>
+        </Slider>
+        <Slider name="ChubbyLegs" invert="false" small="0" big="0">
+            <Data name="corsetChubbyLegs" target="corset" local="true">RestrictiveCorsetBeltOpen.osd\corsetChubbyLegs</Data>
+            <Data name="belt_openChubbyLegs" target="belt_open" local="true">RestrictiveCorsetBeltOpen.osd\belt_openChubbyLegs</Data>
+        </Slider>
+        <Slider name="ArmpitShape_v2" invert="false" small="0" big="0">
+            <Data name="corsetArmpitShape_v2" target="corset" local="true">RestrictiveCorsetBeltOpen.osd\corsetArmpitShape_v2</Data>
+        </Slider>
+        <Slider name="AreolaPull_v2" invert="false" small="0" big="0">
+            <Data name="corsetAreolaPull_v2" target="corset" local="true">RestrictiveCorsetBeltOpen.osd\corsetAreolaPull_v2</Data>
+        </Slider>
+        <Slider name="Arms" invert="false" small="0" big="0">
+            <Data name="corsetArms" target="corset" local="true">RestrictiveCorsetBeltOpen.osd\corsetArms</Data>
+        </Slider>
+        <Slider name="BackArch" invert="false" small="0" big="0">
+            <Data name="corsetBackArch" target="corset" local="true">RestrictiveCorsetBeltOpen.osd\corsetBackArch</Data>
+            <Data name="belt_openBackArch" target="belt_open" local="true">RestrictiveCorsetBeltOpen.osd\belt_openBackArch</Data>
+        </Slider>
+        <Slider name="BackValley_v2" invert="false" small="0" big="0">
+            <Data name="corsetBackValley_v2" target="corset" local="true">RestrictiveCorsetBeltOpen.osd\corsetBackValley_v2</Data>
+        </Slider>
+        <Slider name="BackWing_v2" invert="false" small="0" big="0">
+            <Data name="corsetBackWing_v2" target="corset" local="true">RestrictiveCorsetBeltOpen.osd\corsetBackWing_v2</Data>
+        </Slider>
+        <Slider name="BellyFrontUpFat_v2" invert="false" small="0" big="0">
+            <Data name="corsetBellyFrontUpFat_v2" target="corset" local="true">RestrictiveCorsetBeltOpen.osd\corsetBellyFrontUpFat_v2</Data>
+        </Slider>
+        <Slider name="BellyFrontDownFat_v2" invert="false" small="0" big="0">
+            <Data name="corsetBellyFrontDownFat_v2" target="corset" local="true">RestrictiveCorsetBeltOpen.osd\corsetBellyFrontDownFat_v2</Data>
+            <Data name="belt_openBellyFrontDownFat_v2" target="belt_open" local="true">RestrictiveCorsetBeltOpen.osd\belt_openBellyFrontDownFat_v2</Data>
+        </Slider>
+        <Slider name="BellySideUpFat_v2" invert="false" small="0" big="0">
+            <Data name="corsetBellySideUpFat_v2" target="corset" local="true">RestrictiveCorsetBeltOpen.osd\corsetBellySideUpFat_v2</Data>
+        </Slider>
+        <Slider name="BellySideDownFat_v2" invert="false" small="0" big="0">
+            <Data name="corsetBellySideDownFat_v2" target="corset" local="true">RestrictiveCorsetBeltOpen.osd\corsetBellySideDownFat_v2</Data>
+        </Slider>
+        <Slider name="BellyUnder_v2" invert="false" small="0" big="0">
+            <Data name="corsetBellyUnder_v2" target="corset" local="true">RestrictiveCorsetBeltOpen.osd\corsetBellyUnder_v2</Data>
+            <Data name="belt_openBellyUnder_v2" target="belt_open" local="true">RestrictiveCorsetBeltOpen.osd\belt_openBellyUnder_v2</Data>
+        </Slider>
+        <Slider name="BreastCenter" invert="false" small="0" big="0">
+            <Data name="corsetBreastCenter" target="corset" local="true">RestrictiveCorsetBeltOpen.osd\corsetBreastCenter</Data>
+        </Slider>
+        <Slider name="BreastCenterBig" invert="false" small="0" big="0">
+            <Data name="corsetBreastCenterBig" target="corset" local="true">RestrictiveCorsetBeltOpen.osd\corsetBreastCenterBig</Data>
+        </Slider>
+        <Slider name="BreastsConverage_v2" invert="false" small="0" big="0">
+            <Data name="corsetBreastsConverage_v2" target="corset" local="true">RestrictiveCorsetBeltOpen.osd\corsetBreastsConverage_v2</Data>
+        </Slider>
+        <Slider name="BreastFlatness2" invert="false" small="0" big="0">
+            <Data name="corsetBreastFlatness2" target="corset" local="true">RestrictiveCorsetBeltOpen.osd\corsetBreastFlatness2</Data>
+        </Slider>
+        <Slider name="BreastGravity2" invert="false" small="0" big="0">
+            <Data name="corsetBreastGravity2" target="corset" local="true">RestrictiveCorsetBeltOpen.osd\corsetBreastGravity2</Data>
+        </Slider>
+        <Slider name="BreastsGone" invert="false" small="0" big="0">
+            <Data name="corsetBreastsGone" target="corset" local="true">RestrictiveCorsetBeltOpen.osd\corsetBreastsGone</Data>
+        </Slider>
+        <Slider name="BreastsNewSH" invert="false" small="0" big="0">
+            <Data name="corsetBreastsNewSH" target="corset" local="true">RestrictiveCorsetBeltOpen.osd\corsetBreastsNewSH</Data>
+        </Slider>
+        <Slider name="BreastsNewSHSymmetry" invert="false" small="0" big="0">
+            <Data name="corsetBreastsNewSHSymmetry" target="corset" local="true">RestrictiveCorsetBeltOpen.osd\corsetBreastsNewSHSymmetry</Data>
+        </Slider>
+        <Slider name="BreastsSmall2" invert="false" small="0" big="0">
+            <Data name="corsetBreastsSmall2" target="corset" local="true">RestrictiveCorsetBeltOpen.osd\corsetBreastsSmall2</Data>
+            <Data name="belt_openBreastsSmall2" target="belt_open" local="true">RestrictiveCorsetBeltOpen.osd\belt_openBreastsSmall2</Data>
+        </Slider>
+        <Slider name="BreastsTogether" invert="false" small="0" big="0">
+            <Data name="corsetBreastsTogether" target="corset" local="true">RestrictiveCorsetBeltOpen.osd\corsetBreastsTogether</Data>
+        </Slider>
+        <Slider name="BreastTopSlope" invert="false" small="0" big="0">
+            <Data name="corsetBreastTopSlope" target="corset" local="true">RestrictiveCorsetBeltOpen.osd\corsetBreastTopSlope</Data>
+        </Slider>
+        <Slider name="BreastSideShape" invert="false" small="0" big="0">
+            <Data name="corsetBreastSideShape" target="corset" local="true">RestrictiveCorsetBeltOpen.osd\corsetBreastSideShape</Data>
+        </Slider>
+        <Slider name="BreastUnderDepth" invert="false" small="0" big="0">
+            <Data name="corsetBreastUnderDepth" target="corset" local="true">RestrictiveCorsetBeltOpen.osd\corsetBreastUnderDepth</Data>
+        </Slider>
+        <Slider name="BreastsPressed_v2" invert="false" small="0" big="0">
+            <Data name="corsetBreastsPressed_v2" target="corset" local="true">RestrictiveCorsetBeltOpen.osd\corsetBreastsPressed_v2</Data>
+        </Slider>
+        <Slider name="ButtSaggy_v2" invert="false" small="0" big="0">
+            <Data name="corsetButtSaggy_v2" target="corset" local="true">RestrictiveCorsetBeltOpen.osd\corsetButtSaggy_v2</Data>
+            <Data name="belt_openButtSaggy_v2" target="belt_open" local="true">RestrictiveCorsetBeltOpen.osd\belt_openButtSaggy_v2</Data>
+        </Slider>
+        <Slider name="ButtClassic" invert="false" small="0" big="0">
+            <Data name="corsetButtClassic" target="corset" local="true">RestrictiveCorsetBeltOpen.osd\corsetButtClassic</Data>
+            <Data name="belt_openButtClassic" target="belt_open" local="true">RestrictiveCorsetBeltOpen.osd\belt_openButtClassic</Data>
+        </Slider>
+        <Slider name="ButtDimples" invert="false" small="0" big="0">
+            <Data name="corsetButtDimples" target="corset" local="true">RestrictiveCorsetBeltOpen.osd\corsetButtDimples</Data>
+        </Slider>
+        <Slider name="ButtUnderFold" invert="false" small="0" big="0">
+            <Data name="belt_openButtUnderFold" target="belt_open" local="true">RestrictiveCorsetBeltOpen.osd\belt_openButtUnderFold</Data>
+        </Slider>
+        <Slider name="ButtPressed_v2" invert="false" small="0" big="0">
+            <Data name="corsetButtPressed_v2" target="corset" local="true">RestrictiveCorsetBeltOpen.osd\corsetButtPressed_v2</Data>
+            <Data name="belt_openButtPressed_v2" target="belt_open" local="true">RestrictiveCorsetBeltOpen.osd\belt_openButtPressed_v2</Data>
+        </Slider>
+        <Slider name="ButtNarrow_v2" invert="false" small="0" big="0">
+            <Data name="corsetButtNarrow_v2" target="corset" local="true">RestrictiveCorsetBeltOpen.osd\corsetButtNarrow_v2</Data>
+        </Slider>
+        <Slider name="ChestDepth" invert="false" small="0" big="0">
+            <Data name="corsetChestDepth" target="corset" local="true">RestrictiveCorsetBeltOpen.osd\corsetChestDepth</Data>
+            <Data name="belt_openChestDepth" target="belt_open" local="true">RestrictiveCorsetBeltOpen.osd\belt_openChestDepth</Data>
+        </Slider>
+        <Slider name="ChestWidth" invert="false" small="0" big="0">
+            <Data name="corsetChestWidth" target="corset" local="true">RestrictiveCorsetBeltOpen.osd\corsetChestWidth</Data>
+        </Slider>
+        <Slider name="ChubbyArms" invert="false" small="0" big="0">
+            <Data name="corsetChubbyArms" target="corset" local="true">RestrictiveCorsetBeltOpen.osd\corsetChubbyArms</Data>
+        </Slider>
+        <Slider name="CrotchBack" invert="false" small="0" big="0">
+            <Data name="corsetCrotchBack" target="corset" local="true">RestrictiveCorsetBeltOpen.osd\corsetCrotchBack</Data>
+            <Data name="belt_openCrotchBack" target="belt_open" local="true">RestrictiveCorsetBeltOpen.osd\belt_openCrotchBack</Data>
+        </Slider>
+        <Slider name="HipBone" invert="false" small="0" big="0">
+            <Data name="corsetHipBone" target="corset" local="true">RestrictiveCorsetBeltOpen.osd\corsetHipBone</Data>
+            <Data name="belt_openHipBone" target="belt_open" local="true">RestrictiveCorsetBeltOpen.osd\belt_openHipBone</Data>
+        </Slider>
+        <Slider name="HipForward" invert="false" small="0" big="0">
+            <Data name="corsetHipForward" target="corset" local="true">RestrictiveCorsetBeltOpen.osd\corsetHipForward</Data>
+            <Data name="belt_openHipForward" target="belt_open" local="true">RestrictiveCorsetBeltOpen.osd\belt_openHipForward</Data>
+        </Slider>
+        <Slider name="HipUpperWidth" invert="false" small="0" big="0">
+            <Data name="corsetHipUpperWidth" target="corset" local="true">RestrictiveCorsetBeltOpen.osd\corsetHipUpperWidth</Data>
+        </Slider>
+        <Slider name="HipCarved" invert="false" small="0" big="0">
+            <Data name="corsetHipCarved" target="corset" local="true">RestrictiveCorsetBeltOpen.osd\corsetHipCarved</Data>
+            <Data name="belt_openHipCarved" target="belt_open" local="true">RestrictiveCorsetBeltOpen.osd\belt_openHipCarved</Data>
+        </Slider>
+        <Slider name="HipNarrow_v2" invert="false" small="0" big="0">
+            <Data name="corsetHipNarrow_v2" target="corset" local="true">RestrictiveCorsetBeltOpen.osd\corsetHipNarrow_v2</Data>
+        </Slider>
+        <Slider name="LegsThin" invert="false" small="0" big="0">
+            <Data name="belt_openLegsThin" target="belt_open" local="true">RestrictiveCorsetBeltOpen.osd\belt_openLegsThin</Data>
+        </Slider>
+        <Slider name="MuscleAbs" invert="false" small="0" big="0">
+            <Data name="corsetMuscleAbs" target="corset" local="true">RestrictiveCorsetBeltOpen.osd\corsetMuscleAbs</Data>
+            <Data name="belt_openMuscleAbs" target="belt_open" local="true">RestrictiveCorsetBeltOpen.osd\belt_openMuscleAbs</Data>
+        </Slider>
+        <Slider name="MuscleArms" invert="false" small="0" big="0">
+            <Data name="corsetMuscleArms" target="corset" local="true">RestrictiveCorsetBeltOpen.osd\corsetMuscleArms</Data>
+        </Slider>
+        <Slider name="MuscleButt" invert="false" small="0" big="0">
+            <Data name="corsetMuscleButt" target="corset" local="true">RestrictiveCorsetBeltOpen.osd\corsetMuscleButt</Data>
+            <Data name="belt_openMuscleButt" target="belt_open" local="true">RestrictiveCorsetBeltOpen.osd\belt_openMuscleButt</Data>
+        </Slider>
+        <Slider name="MuscleLegs" invert="false" small="0" big="0">
+            <Data name="corsetMuscleLegs" target="corset" local="true">RestrictiveCorsetBeltOpen.osd\corsetMuscleLegs</Data>
+            <Data name="belt_openMuscleLegs" target="belt_open" local="true">RestrictiveCorsetBeltOpen.osd\belt_openMuscleLegs</Data>
+        </Slider>
+        <Slider name="MusclePecs" invert="false" small="0" big="0">
+            <Data name="corsetMusclePecs" target="corset" local="true">RestrictiveCorsetBeltOpen.osd\corsetMusclePecs</Data>
+        </Slider>
+        <Slider name="MuscleBack_v2" invert="false" small="0" big="0">
+            <Data name="corsetMuscleBack_v2" target="corset" local="true">RestrictiveCorsetBeltOpen.osd\corsetMuscleBack_v2</Data>
+        </Slider>
+        <Slider name="MuscleMoreAbs_v2" invert="false" small="0" big="0">
+            <Data name="corsetMuscleMoreAbs_v2" target="corset" local="true">RestrictiveCorsetBeltOpen.osd\corsetMuscleMoreAbs_v2</Data>
+            <Data name="belt_openMuscleMoreAbs_v2" target="belt_open" local="true">RestrictiveCorsetBeltOpen.osd\belt_openMuscleMoreAbs_v2</Data>
+        </Slider>
+        <Slider name="MuscleMoreArms_v2" invert="false" small="0" big="0">
+            <Data name="corsetMuscleMoreArms_v2" target="corset" local="true">RestrictiveCorsetBeltOpen.osd\corsetMuscleMoreArms_v2</Data>
+        </Slider>
+        <Slider name="MuscleMoreLegs_v2" invert="false" small="0" big="0">
+            <Data name="corsetMuscleMoreLegs_v2" target="corset" local="true">RestrictiveCorsetBeltOpen.osd\corsetMuscleMoreLegs_v2</Data>
+            <Data name="belt_openMuscleMoreLegs_v2" target="belt_open" local="true">RestrictiveCorsetBeltOpen.osd\belt_openMuscleMoreLegs_v2</Data>
+        </Slider>
+        <Slider name="NavelEven" invert="false" small="0" big="0">
+            <Data name="corsetNavelEven" target="corset" local="true">RestrictiveCorsetBeltOpen.osd\corsetNavelEven</Data>
+        </Slider>
+        <Slider name="NippleDistance" invert="false" small="0" big="0">
+            <Data name="corsetNippleDistance" target="corset" local="true">RestrictiveCorsetBeltOpen.osd\corsetNippleDistance</Data>
+        </Slider>
+        <Slider name="NippleDown" invert="false" small="0" big="0">
+            <Data name="corsetNippleDown" target="corset" local="true">RestrictiveCorsetBeltOpen.osd\corsetNippleDown</Data>
+        </Slider>
+        <Slider name="NippleUp" invert="false" small="0" big="0">
+            <Data name="corsetNippleUp" target="corset" local="true">RestrictiveCorsetBeltOpen.osd\corsetNippleUp</Data>
+        </Slider>
+        <Slider name="RibsMore_v2" invert="false" small="0" big="0">
+            <Data name="corsetRibsMore_v2" target="corset" local="true">RestrictiveCorsetBeltOpen.osd\corsetRibsMore_v2</Data>
+        </Slider>
+        <Slider name="RibsProminance" invert="false" small="0" big="0">
+            <Data name="corsetRibsProminance" target="corset" local="true">RestrictiveCorsetBeltOpen.osd\corsetRibsProminance</Data>
+        </Slider>
+        <Slider name="ShoulderSmooth" invert="false" small="0" big="0">
+            <Data name="corsetShoulderSmooth" target="corset" local="true">RestrictiveCorsetBeltOpen.osd\corsetShoulderSmooth</Data>
+        </Slider>
+        <Slider name="SternumDepth" invert="false" small="0" big="0">
+            <Data name="corsetSternumDepth" target="corset" local="true">RestrictiveCorsetBeltOpen.osd\corsetSternumDepth</Data>
+        </Slider>
+        <Slider name="SternumHeight" invert="false" small="0" big="0">
+            <Data name="corsetSternumHeight" target="corset" local="true">RestrictiveCorsetBeltOpen.osd\corsetSternumHeight</Data>
+        </Slider>
+        <Slider name="ThighOutsideThicc_v2" invert="false" small="0" big="0">
+            <Data name="belt_openThighOutsideThicc_v2" target="belt_open" local="true">RestrictiveCorsetBeltOpen.osd\belt_openThighOutsideThicc_v2</Data>
+        </Slider>
+        <Slider name="ThighInsideThicc_v2" invert="false" small="0" big="0">
+            <Data name="belt_openThighInsideThicc_v2" target="belt_open" local="true">RestrictiveCorsetBeltOpen.osd\belt_openThighInsideThicc_v2</Data>
+        </Slider>
+        <Slider name="ThighFBThicc_v2" invert="false" small="0" big="0">
+            <Data name="belt_openThighFBThicc_v2" target="belt_open" local="true">RestrictiveCorsetBeltOpen.osd\belt_openThighFBThicc_v2</Data>
+        </Slider>
+        <Slider name="LegSpread_v2" invert="false" small="0" big="0">
+            <Data name="corsetLegSpread_v2" target="corset" local="true">RestrictiveCorsetBeltOpen.osd\corsetLegSpread_v2</Data>
+            <Data name="belt_openLegSpread_v2" target="belt_open" local="true">RestrictiveCorsetBeltOpen.osd\belt_openLegSpread_v2</Data>
+        </Slider>
+        <Slider name="UNPHip_v2" invert="false" small="0" big="0">
+            <Data name="corsetUNPHip_v2" target="corset" local="true">RestrictiveCorsetBeltOpen.osd\corsetUNPHip_v2</Data>
+            <Data name="belt_openUNPHip_v2" target="belt_open" local="true">RestrictiveCorsetBeltOpen.osd\belt_openUNPHip_v2</Data>
+        </Slider>
+        <Slider name="WaistHeight" invert="false" small="0" big="0">
+            <Data name="corsetWaistHeight" target="corset" local="true">RestrictiveCorsetBeltOpen.osd\corsetWaistHeight</Data>
+            <Data name="belt_openWaistHeight" target="belt_open" local="true">RestrictiveCorsetBeltOpen.osd\belt_openWaistHeight</Data>
+        </Slider>
+        <Slider name="7BLeg_v2" invert="false" small="0" big="0">
+            <Data name="corset7BLeg_v2" target="corset" local="true">RestrictiveCorsetBeltOpen.osd\corset7BLeg_v2</Data>
+            <Data name="belt_open7BLeg_v2" target="belt_open" local="true">RestrictiveCorsetBeltOpen.osd\belt_open7BLeg_v2</Data>
+        </Slider>
+        <Slider name="7B Lower" invert="false" small="0" big="0">
+            <Data name="corset7B Lower" target="corset" local="true">RestrictiveCorsetBeltOpen.osd\corset7B Lower</Data>
+            <Data name="belt_open7B Lower" target="belt_open" local="true">RestrictiveCorsetBeltOpen.osd\belt_open7B Lower</Data>
+        </Slider>
+        <Slider name="7B Upper" invert="false" small="0" big="0">
+            <Data name="corset7B Upper" target="corset" local="true">RestrictiveCorsetBeltOpen.osd\corset7B Upper</Data>
+        </Slider>
+        <Slider name="VanillaSSEHi" invert="false" small="0" big="0">
+            <Data name="corsetVanillaSSEHi" target="corset" local="true">RestrictiveCorsetBeltOpen.osd\corsetVanillaSSEHi</Data>
+            <Data name="belt_openVanillaSSEHi" target="belt_open" local="true">RestrictiveCorsetBeltOpen.osd\belt_openVanillaSSEHi</Data>
+        </Slider>
+        <Slider name="VanillaSSELo" invert="false" small="0" big="0">
+            <Data name="corsetVanillaSSELo" target="corset" local="true">RestrictiveCorsetBeltOpen.osd\corsetVanillaSSELo</Data>
+            <Data name="belt_openVanillaSSELo" target="belt_open" local="true">RestrictiveCorsetBeltOpen.osd\belt_openVanillaSSELo</Data>
+        </Slider>
+        <Slider name="OldBaseShape" invert="false" small="0" big="0">
+            <Data name="corsetOldBaseShape" target="corset" local="true">RestrictiveCorsetBeltOpen.osd\corsetOldBaseShape</Data>
+            <Data name="belt_openOldBaseShape" target="belt_open" local="true">RestrictiveCorsetBeltOpen.osd\belt_openOldBaseShape</Data>
+        </Slider>
+        <Slider name="Innieoutie" invert="false" small="0" big="0">
+            <Data name="belt_openInnieoutie" target="belt_open" local="true">RestrictiveCorsetBeltOpen.osd\belt_openInnieoutie</Data>
+        </Slider>
+        <Slider name="LabiaTightUp" invert="false" small="0" big="0">
+            <Data name="belt_openLabiaTightUp" target="belt_open" local="true">RestrictiveCorsetBeltOpen.osd\belt_openLabiaTightUp</Data>
+        </Slider>
+        <Slider name="Labiapuffyness" invert="false" small="0" big="0">
+            <Data name="belt_openLabiapuffyness" target="belt_open" local="true">RestrictiveCorsetBeltOpen.osd\belt_openLabiapuffyness</Data>
+        </Slider>
+        <Slider name="LabiaMorePuffyness_v2" invert="false" small="0" big="0">
+            <Data name="belt_openLabiaMorePuffyness_v2" target="belt_open" local="true">RestrictiveCorsetBeltOpen.osd\belt_openLabiaMorePuffyness_v2</Data>
+        </Slider>
+        <Slider name="Labiaprotrude2" invert="false" small="0" big="0">
+            <Data name="belt_openLabiaprotrude2" target="belt_open" local="true">RestrictiveCorsetBeltOpen.osd\belt_openLabiaprotrude2</Data>
+        </Slider>
+        <Slider name="Labiaspread" invert="false" small="0" big="0">
+            <Data name="belt_openLabiaspread" target="belt_open" local="true">RestrictiveCorsetBeltOpen.osd\belt_openLabiaspread</Data>
+        </Slider>
+        <Slider name="LabiaCrumpled_v2" invert="false" small="0" big="0">
+            <Data name="belt_openLabiaCrumpled_v2" target="belt_open" local="true">RestrictiveCorsetBeltOpen.osd\belt_openLabiaCrumpled_v2</Data>
+        </Slider>
+        <Slider name="LabiaNeat_v2" invert="false" small="0" big="0">
+            <Data name="belt_openLabiaNeat_v2" target="belt_open" local="true">RestrictiveCorsetBeltOpen.osd\belt_openLabiaNeat_v2</Data>
+        </Slider>
+        <Slider name="LabiaBulgogi_v2" invert="false" small="0" big="0">
+            <Data name="belt_openLabiaBulgogi_v2" target="belt_open" local="true">RestrictiveCorsetBeltOpen.osd\belt_openLabiaBulgogi_v2</Data>
+        </Slider>
+        <Slider name="VaginaHole" invert="false" small="0" big="0">
+            <Data name="belt_openVaginaHole" target="belt_open" local="true">RestrictiveCorsetBeltOpen.osd\belt_openVaginaHole</Data>
+        </Slider>
+        <Slider name="Cutepuffyness" invert="false" small="0" big="0">
+            <Data name="belt_openCutepuffyness" target="belt_open" local="true">RestrictiveCorsetBeltOpen.osd\belt_openCutepuffyness</Data>
+        </Slider>
+        <Slider name="CBPC" invert="false" small="0" big="0">
+            <Data name="belt_openCBPC" target="belt_open" local="true">RestrictiveCorsetBeltOpen.osd\belt_openCBPC</Data>
+        </Slider>
+        <Slider name="CrotchGap" invert="false" small="0" big="0">
+            <Data name="belt_openCrotchGap" target="belt_open" local="true">RestrictiveCorsetBeltOpen.osd\belt_openCrotchGap</Data>
+        </Slider>
+        <Slider name="AnalLoose_v2" invert="false" small="0" big="0">
+            <Data name="belt_openAnalLoose_v2" target="belt_open" local="true">RestrictiveCorsetBeltOpen.osd\belt_openAnalLoose_v2</Data>
+        </Slider>
+        <Slider name="AnalPosition_v2" invert="false" small="0" big="0">
+            <Data name="belt_openAnalPosition_v2" target="belt_open" local="true">RestrictiveCorsetBeltOpen.osd\belt_openAnalPosition_v2</Data>
+        </Slider>
+    </SliderSet>
+    <SliderSet name="bdsm - 3BA - RestrictiveGloves">
+        <DataFolder>bdsm\3ba\koffii\RestrictiveGloves</DataFolder>
+        <SourceFile>RestrictiveGloves.nif</SourceFile>
+        <OutputPath>meshes\bdsm\koffii</OutputPath>
+        <OutputFile GenWeights="true">restrictiveGloves</OutputFile>
+        <Shape target="gloves">gloves</Shape>
+        <Slider name="Arms" invert="true" small="0" big="100">
+            <Data name="glovesArms" target="gloves" local="true">RestrictiveGloves.osd\glovesArms</Data>
+        </Slider>
+        <Slider name="ChubbyArms" invert="false" small="0" big="0">
+            <Data name="glovesChubbyArms" target="gloves" local="true">RestrictiveGloves.osd\glovesChubbyArms</Data>
+        </Slider>
+        <Slider name="ShoulderWidth" invert="true" small="100" big="100">
+            <Data name="glovesShoulderWidth" target="gloves" local="true">RestrictiveGloves.osd\glovesShoulderWidth</Data>
+        </Slider>
+        <Slider name="BigTorso" invert="false" small="0" big="0">
+            <Data name="glovesBigTorso" target="gloves" local="true">RestrictiveGloves.osd\glovesBigTorso</Data>
+        </Slider>
+        <Slider name="SmallSeam" invert="false" small="100" big="0" hidden="true">
+            <Data name="glovesSmallSeam" target="gloves" local="true">RestrictiveGloves.osd\glovesSmallSeam</Data>
+        </Slider>
+        <Slider name="ArmpitShape_v2" invert="false" small="0" big="0">
+            <Data name="glovesArmpitShape_v2" target="gloves" local="true">RestrictiveGloves.osd\glovesArmpitShape_v2</Data>
+        </Slider>
+        <Slider name="BreastsGone" invert="false" small="0" big="0">
+            <Data name="glovesBreastsGone" target="gloves" local="true">RestrictiveGloves.osd\glovesBreastsGone</Data>
+        </Slider>
+        <Slider name="BreastsNewSH" invert="false" small="0" big="0">
+            <Data name="glovesBreastsNewSH" target="gloves" local="true">RestrictiveGloves.osd\glovesBreastsNewSH</Data>
+        </Slider>
+        <Slider name="BreastsSmall" invert="false" small="0" big="0">
+            <Data name="glovesBreastsSmall" target="gloves" local="true">RestrictiveGloves.osd\glovesBreastsSmall</Data>
+        </Slider>
+        <Slider name="BreastsSmall2" invert="false" small="0" big="0">
+            <Data name="glovesBreastsSmall2" target="gloves" local="true">RestrictiveGloves.osd\glovesBreastsSmall2</Data>
+        </Slider>
+        <Slider name="ChestDepth" invert="false" small="0" big="0">
+            <Data name="glovesChestDepth" target="gloves" local="true">RestrictiveGloves.osd\glovesChestDepth</Data>
+        </Slider>
+        <Slider name="ChestWidth" invert="false" small="0" big="0">
+            <Data name="glovesChestWidth" target="gloves" local="true">RestrictiveGloves.osd\glovesChestWidth</Data>
+        </Slider>
+        <Slider name="DoubleMelon" invert="false" small="0" big="0">
+            <Data name="glovesDoubleMelon" target="gloves" local="true">RestrictiveGloves.osd\glovesDoubleMelon</Data>
+        </Slider>
+        <Slider name="ForearmSize" invert="false" small="0" big="0">
+            <Data name="glovesForearmSize" target="gloves" local="true">RestrictiveGloves.osd\glovesForearmSize</Data>
+        </Slider>
+        <Slider name="MuscleArms" invert="false" small="0" big="0">
+            <Data name="glovesMuscleArms" target="gloves" local="true">RestrictiveGloves.osd\glovesMuscleArms</Data>
+        </Slider>
+        <Slider name="MuscleBack_v2" invert="false" small="0" big="0">
+            <Data name="glovesMuscleBack_v2" target="gloves" local="true">RestrictiveGloves.osd\glovesMuscleBack_v2</Data>
+        </Slider>
+        <Slider name="MuscleMoreArms_v2" invert="false" small="0" big="0">
+            <Data name="glovesMuscleMoreArms_v2" target="gloves" local="true">RestrictiveGloves.osd\glovesMuscleMoreArms_v2</Data>
+        </Slider>
+        <Slider name="LegSpread_v2" invert="false" small="0" big="0">
+            <Data name="glovesLegSpread_v2" target="gloves" local="true">RestrictiveGloves.osd\glovesLegSpread_v2</Data>
+        </Slider>
+        <Slider name="Waist" invert="false" small="0" big="0">
+            <Data name="glovesWaist" target="gloves" local="true">RestrictiveGloves.osd\glovesWaist</Data>
+        </Slider>
+        <Slider name="WristSize" invert="false" small="100" big="0">
+            <Data name="glovesWristSize" target="gloves" local="true">RestrictiveGloves.osd\glovesWristSize</Data>
+        </Slider>
+        <Slider name="7B Upper" invert="false" small="0" big="0">
+            <Data name="gloves7B Upper" target="gloves" local="true">RestrictiveGloves.osd\gloves7B Upper</Data>
+        </Slider>
+        <Slider name="VanillaSSEHi" invert="false" small="0" big="0">
+            <Data name="glovesVanillaSSEHi" target="gloves" local="true">RestrictiveGloves.osd\glovesVanillaSSEHi</Data>
+        </Slider>
+        <Slider name="VanillaSSELo" invert="false" small="0" big="0">
+            <Data name="glovesVanillaSSELo" target="gloves" local="true">RestrictiveGloves.osd\glovesVanillaSSELo</Data>
+        </Slider>
+        <Slider name="OldBaseShape" invert="false" small="0" big="0">
+            <Data name="glovesOldBaseShape" target="gloves" local="true">RestrictiveGloves.osd\glovesOldBaseShape</Data>
+        </Slider>
+    </SliderSet>
+    <SliderSet name="bdsm - 3BA - RestrictiveBoots">
+        <DataFolder>bdsm\3ba\koffii\RestrictiveBoots</DataFolder>
+        <SourceFile>RestrictiveBoots.nif</SourceFile>
+        <OutputPath>meshes\bdsm\koffii</OutputPath>
+        <OutputFile GenWeights="true">restrictiveBoots</OutputFile>
+        <Shape target="boots">boots</Shape>
+        <Slider name="Hips" invert="false" small="0" big="0">
+            <Data name="bootsHips" target="boots" local="true">RestrictiveBoots.osd\bootsHips</Data>
+        </Slider>
+        <Slider name="Butt" invert="true" small="0" big="100">
+            <Data name="bootsButt" target="boots" local="true">RestrictiveBoots.osd\bootsButt</Data>
+        </Slider>
+        <Slider name="ButtSmall" invert="true" small="100" big="100">
+            <Data name="bootsButtSmall" target="boots" local="true">RestrictiveBoots.osd\bootsButtSmall</Data>
+        </Slider>
+        <Slider name="ButtShape2" invert="false" small="0" big="0">
+            <Data name="bootsButtShape2" target="boots" local="true">RestrictiveBoots.osd\bootsButtShape2</Data>
+        </Slider>
+        <Slider name="BigButt" invert="false" small="0" big="0">
+            <Data name="bootsBigButt" target="boots" local="true">RestrictiveBoots.osd\bootsBigButt</Data>
+        </Slider>
+        <Slider name="ChubbyButt" invert="false" small="0" big="0">
+            <Data name="bootsChubbyButt" target="boots" local="true">RestrictiveBoots.osd\bootsChubbyButt</Data>
+        </Slider>
+        <Slider name="SlimThighs" invert="false" small="0" big="0">
+            <Data name="bootsSlimThighs" target="boots" local="true">RestrictiveBoots.osd\bootsSlimThighs</Data>
+        </Slider>
+        <Slider name="Thighs" invert="false" small="0" big="0">
+            <Data name="bootsThighs" target="boots" local="true">RestrictiveBoots.osd\bootsThighs</Data>
+        </Slider>
+        <Slider name="ChubbyLegs" invert="false" small="0" big="0">
+            <Data name="bootsChubbyLegs" target="boots" local="true">RestrictiveBoots.osd\bootsChubbyLegs</Data>
+        </Slider>
+        <Slider name="Legs" invert="true" small="0" big="100">
+            <Data name="bootsLegs" target="boots" local="true">RestrictiveBoots.osd\bootsLegs</Data>
+        </Slider>
+        <Slider name="KneeHeight" invert="false" small="0" big="0">
+            <Data name="bootsKneeHeight" target="boots" local="true">RestrictiveBoots.osd\bootsKneeHeight</Data>
+        </Slider>
+        <Slider name="CalfSize" invert="false" small="0" big="0">
+            <Data name="bootsCalfSize" target="boots" local="true">RestrictiveBoots.osd\bootsCalfSize</Data>
+        </Slider>
+        <Slider name="CalfSmooth" invert="false" small="0" big="0">
+            <Data name="bootsCalfSmooth" target="boots" local="true">RestrictiveBoots.osd\bootsCalfSmooth</Data>
+        </Slider>
+        <Slider name="Ankles" invert="true" small="100" big="100">
+            <Data name="bootsAnkles" target="boots" local="true">RestrictiveBoots.osd\bootsAnkles</Data>
+        </Slider>
+        <Slider name="SmallSeam" invert="false" small="100" big="0" hidden="true">
+            <Data name="bootsSmallSeam" target="boots" local="true">RestrictiveBoots.osd\bootsSmallSeam</Data>
+        </Slider>
+        <Slider name="AnkleSize" invert="false" small="100" big="0">
+            <Data name="bootsAnkleSize" target="boots" local="true">RestrictiveBoots.osd\bootsAnkleSize</Data>
+        </Slider>
+        <Slider name="AppleCheeks" invert="false" small="0" big="0">
+            <Data name="bootsAppleCheeks" target="boots" local="true">RestrictiveBoots.osd\bootsAppleCheeks</Data>
+        </Slider>
+        <Slider name="ButtSaggy_v2" invert="false" small="0" big="0">
+            <Data name="bootsButtSaggy_v2" target="boots" local="true">RestrictiveBoots.osd\bootsButtSaggy_v2</Data>
+        </Slider>
+        <Slider name="ButtClassic" invert="false" small="0" big="0">
+            <Data name="bootsButtClassic" target="boots" local="true">RestrictiveBoots.osd\bootsButtClassic</Data>
+        </Slider>
+        <Slider name="ButtUnderFold" invert="false" small="0" big="0">
+            <Data name="bootsButtUnderFold" target="boots" local="true">RestrictiveBoots.osd\bootsButtUnderFold</Data>
+        </Slider>
+        <Slider name="ButtPressed_v2" invert="false" small="0" big="0">
+            <Data name="bootsButtPressed_v2" target="boots" local="true">RestrictiveBoots.osd\bootsButtPressed_v2</Data>
+        </Slider>
+        <Slider name="ButtNarrow_v2" invert="false" small="0" big="0">
+            <Data name="bootsButtNarrow_v2" target="boots" local="true">RestrictiveBoots.osd\bootsButtNarrow_v2</Data>
+        </Slider>
+        <Slider name="CalfFBThicc_v2" invert="false" small="0" big="0">
+            <Data name="bootsCalfFBThicc_v2" target="boots" local="true">RestrictiveBoots.osd\bootsCalfFBThicc_v2</Data>
+        </Slider>
+        <Slider name="ChubbyWaist" invert="false" small="0" big="0">
+            <Data name="bootsChubbyWaist" target="boots" local="true">RestrictiveBoots.osd\bootsChubbyWaist</Data>
+        </Slider>
+        <Slider name="CrotchBack" invert="false" small="0" big="0">
+            <Data name="bootsCrotchBack" target="boots" local="true">RestrictiveBoots.osd\bootsCrotchBack</Data>
+        </Slider>
+        <Slider name="Groin" invert="false" small="0" big="0">
+            <Data name="bootsGroin" target="boots" local="true">RestrictiveBoots.osd\bootsGroin</Data>
+        </Slider>
+        <Slider name="HipBone" invert="false" small="0" big="0">
+            <Data name="bootsHipBone" target="boots" local="true">RestrictiveBoots.osd\bootsHipBone</Data>
+        </Slider>
+        <Slider name="HipForward" invert="false" small="0" big="0">
+            <Data name="bootsHipForward" target="boots" local="true">RestrictiveBoots.osd\bootsHipForward</Data>
+        </Slider>
+        <Slider name="HipCarved" invert="false" small="0" big="0">
+            <Data name="bootsHipCarved" target="boots" local="true">RestrictiveBoots.osd\bootsHipCarved</Data>
+        </Slider>
+        <Slider name="HipNarrow_v2" invert="false" small="0" big="0">
+            <Data name="bootsHipNarrow_v2" target="boots" local="true">RestrictiveBoots.osd\bootsHipNarrow_v2</Data>
+        </Slider>
+        <Slider name="KneeShape" invert="false" small="0" big="0">
+            <Data name="bootsKneeShape" target="boots" local="true">RestrictiveBoots.osd\bootsKneeShape</Data>
+        </Slider>
+        <Slider name="KneeTogether_v2" invert="false" small="0" big="0">
+            <Data name="bootsKneeTogether_v2" target="boots" local="true">RestrictiveBoots.osd\bootsKneeTogether_v2</Data>
+        </Slider>
+        <Slider name="LegShapeClassic" invert="false" small="0" big="0">
+            <Data name="bootsLegShapeClassic" target="boots" local="true">RestrictiveBoots.osd\bootsLegShapeClassic</Data>
+        </Slider>
+        <Slider name="LegsThin" invert="false" small="0" big="0">
+            <Data name="bootsLegsThin" target="boots" local="true">RestrictiveBoots.osd\bootsLegsThin</Data>
+        </Slider>
+        <Slider name="MuscleButt" invert="false" small="0" big="0">
+            <Data name="bootsMuscleButt" target="boots" local="true">RestrictiveBoots.osd\bootsMuscleButt</Data>
+        </Slider>
+        <Slider name="MuscleLegs" invert="false" small="0" big="0">
+            <Data name="bootsMuscleLegs" target="boots" local="true">RestrictiveBoots.osd\bootsMuscleLegs</Data>
+        </Slider>
+        <Slider name="MuscleMoreLegs_v2" invert="false" small="0" big="0">
+            <Data name="bootsMuscleMoreLegs_v2" target="boots" local="true">RestrictiveBoots.osd\bootsMuscleMoreLegs_v2</Data>
+        </Slider>
+        <Slider name="PregnancyBelly" invert="false" small="0" big="0">
+            <Data name="bootsPregnancyBelly" target="boots" local="true">RestrictiveBoots.osd\bootsPregnancyBelly</Data>
+        </Slider>
+        <Slider name="RoundAss" invert="false" small="0" big="0">
+            <Data name="bootsRoundAss" target="boots" local="true">RestrictiveBoots.osd\bootsRoundAss</Data>
+        </Slider>
+        <Slider name="ThighOutsideThicc_v2" invert="false" small="0" big="0">
+            <Data name="bootsThighOutsideThicc_v2" target="boots" local="true">RestrictiveBoots.osd\bootsThighOutsideThicc_v2</Data>
+        </Slider>
+        <Slider name="ThighInsideThicc_v2" invert="false" small="0" big="0">
+            <Data name="bootsThighInsideThicc_v2" target="boots" local="true">RestrictiveBoots.osd\bootsThighInsideThicc_v2</Data>
+        </Slider>
+        <Slider name="ThighFBThicc_v2" invert="false" small="0" big="0">
+            <Data name="bootsThighFBThicc_v2" target="boots" local="true">RestrictiveBoots.osd\bootsThighFBThicc_v2</Data>
+        </Slider>
+        <Slider name="LegSpread_v2" invert="false" small="0" big="0">
+            <Data name="bootsLegSpread_v2" target="boots" local="true">RestrictiveBoots.osd\bootsLegSpread_v2</Data>
+        </Slider>
+        <Slider name="TummyTuck" invert="false" small="0" big="0">
+            <Data name="bootsTummyTuck" target="boots" local="true">RestrictiveBoots.osd\bootsTummyTuck</Data>
+        </Slider>
+        <Slider name="UNPHip_v2" invert="false" small="0" big="0">
+            <Data name="bootsUNPHip_v2" target="boots" local="true">RestrictiveBoots.osd\bootsUNPHip_v2</Data>
+        </Slider>
+        <Slider name="WideWaistLine" invert="false" small="0" big="0">
+            <Data name="bootsWideWaistLine" target="boots" local="true">RestrictiveBoots.osd\bootsWideWaistLine</Data>
+        </Slider>
+        <Slider name="7BLeg_v2" invert="false" small="0" big="0">
+            <Data name="boots7BLeg_v2" target="boots" local="true">RestrictiveBoots.osd\boots7BLeg_v2</Data>
+        </Slider>
+        <Slider name="7B Lower" invert="false" small="0" big="0">
+            <Data name="boots7B Lower" target="boots" local="true">RestrictiveBoots.osd\boots7B Lower</Data>
+        </Slider>
+        <Slider name="VanillaSSEHi" invert="false" small="0" big="0">
+            <Data name="bootsVanillaSSEHi" target="boots" local="true">RestrictiveBoots.osd\bootsVanillaSSEHi</Data>
+        </Slider>
+        <Slider name="VanillaSSELo" invert="false" small="0" big="0">
+            <Data name="bootsVanillaSSELo" target="boots" local="true">RestrictiveBoots.osd\bootsVanillaSSELo</Data>
+        </Slider>
+        <Slider name="OldBaseShape" invert="false" small="0" big="0">
+            <Data name="bootsOldBaseShape" target="boots" local="true">RestrictiveBoots.osd\bootsOldBaseShape</Data>
+        </Slider>
+        <Slider name="Labiaspread" invert="false" small="0" big="0">
+            <Data name="bootsLabiaspread" target="boots" local="true">RestrictiveBoots.osd\bootsLabiaspread</Data>
+        </Slider>
+        <Slider name="LabiaNeat_v2" invert="false" small="0" big="0">
+            <Data name="bootsLabiaNeat_v2" target="boots" local="true">RestrictiveBoots.osd\bootsLabiaNeat_v2</Data>
+        </Slider>
+        <Slider name="CrotchGap" invert="false" small="0" big="0">
+            <Data name="bootsCrotchGap" target="boots" local="true">RestrictiveBoots.osd\bootsCrotchGap</Data>
+        </Slider>
+    </SliderSet>
+</SliderSetInfo>
