@@ -358,16 +358,22 @@ Function AddRestrainMask(Armor akArmor)
 	int oldMask = restrainMask
 	restrainMask = Math.LogicalOr(restrainMask, Libs.GetRestrainMask(akArmor))
 
+	If !Math.logicalAnd(oldMask, restrainArms) && Math.LogicalAnd(restrainMask, restrainArms)
+		AddSpell(Libs.bdsmAbRestrainArms, False)
+	EndIf
 
 	If !Math.logicalAnd(oldMask, restrainWeapons) && Math.LogicalAnd(restrainMask, restrainWeapons)
+		AddSpell(Libs.bdsmAbRestrainWeapons, False)
 		UnequipWeapons()
 	EndIf
 
 	If !Math.logicalAnd(oldMask, restrainSpells) && Math.LogicalAnd(restrainMask, restrainSpells)
+		AddSpell(Libs.bdsmAbRestrainSpells, False)
 		UnequipSpells()
 	EndIf
 
 	If !Math.logicalAnd(oldMask, restrainShouts) && Math.LogicalAnd(restrainMask, restrainShouts)
+		AddSpell(Libs.bdsmAbRestrainShouts, False)
 		UnequipShouts()
 	EndIf
 
@@ -439,6 +445,22 @@ Function RebuildRestrainMask()
 
 	int oldMask = restrainMask
 	restrainMask = newMask
+
+	If Math.logicalAnd(oldMask, restrainArms) && !Math.LogicalAnd(restrainMask, restrainArms)
+		RemoveSpell(Libs.bdsmAbRestrainArms)
+	EndIf
+
+	If Math.logicalAnd(oldMask, restrainWeapons) && !Math.LogicalAnd(restrainMask, restrainWeapons)
+		RemoveSpell(Libs.bdsmAbRestrainWeapons)
+	EndIf
+
+	If Math.logicalAnd(oldMask, restrainSpells) && !Math.LogicalAnd(restrainMask, restrainSpells)
+		RemoveSpell(Libs.bdsmAbRestrainSpells)
+	EndIf
+
+	If Math.logicalAnd(oldMask, restrainShouts) && !Math.LogicalAnd(restrainMask, restrainShouts)
+		RemoveSpell(Libs.bdsmAbRestrainShouts)
+	EndIf
 
 
 	If Math.logicalAnd(oldMask, restrainRunning) && !Math.LogicalAnd(restrainMask, restrainRunning)

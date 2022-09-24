@@ -48,11 +48,14 @@ bdsmAbilityHolder Property bdsmAbilityHolderRestrainWalking Auto
 bdsmAbilityHolder Property bdsmAbilityHolderRestrainFood Auto
 ; the holder quest for the blindness effect of blindfolds
 bdsmAbilityHolder Property bdsmAbilityHolderRestrainSight Auto
-; an ability with a keyword for condition checks in dialogue topics
-Spell Property bdsmAbRestrainSpeech Auto
-; an ability with a keyword for condition checks in dialogue topics
-Spell Property bdsmAbRestrainSpeechFull Auto
 
+; the following abilities just have empty effects with keywords for condition functions in the CK
+Spell Property bdsmAbRestrainSpeech Auto
+Spell Property bdsmAbRestrainSpeechFull Auto
+Spell Property bdsmAbRestrainArms Auto
+Spell Property bdsmAbRestrainWeapons Auto
+Spell Property bdsmAbRestrainSpells Auto
+Spell Property bdsmAbRestrainShouts Auto
 
 ; the super keyword for any item handled by this framework, every bonadge item needs this or the framework won't recognize it
 Keyword Property bdsmLockable Auto
