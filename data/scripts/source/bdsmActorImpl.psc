@@ -147,90 +147,8 @@ Event OnPlayerLoadGame()
 EndEvent
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; SKSE Functions ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;/* ExpandArmorArray
-* * increases the size of the given array of armors by the given size
-* *
-* * @param: akArmors, the array to expand
-* * @param: aiSize, the size to add to the array
-* *
-* * @return: the new, expanded array
-*/;
-Armor[] Function ExpandArmorArray(Armor[] akArmors, int aiSize) Global Native
-
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; Functions ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-Function PushLockedItem(Armor akArmor)
-	If lockedItems.Length == nextIndex
-		LockedItems = ExpandArmorArray(lockedItems, 5)
-	EndIf
-
-	lockedItems[nextIndex] = akArmor
-	nextIndex += 1
-	AddInventoryEventFilter(akArmor)
-EndFunction
-
-bool Function IsSlotCovered(Armor akArmor, bool abInfoMessage = False)
-	int slotMask = akArmor.GetSlotMask()
-
-	If Math.LogicalAnd(slotMask, akArmor.kSlotMask50 + akArmor.kSlotMask52 + akArmor.kSlotMask57) && IsRestrained(coverGenital)
-		If abInfoMessage
-			Libs.bdsmUnlockBeltFirstMessage.Show()
-		EndIf
-		Return True
-	EndIf
-
-	If Math.LogicalAnd(slotMask, akArmor.kSlotMask48) && IsRestrained(coverAnus)
-		If abInfoMessage
-			Libs.bdsmUnlockBeltFirstMessage.Show()
-		EndIf
-		Return True
-	EndIf
-
-	If Math.LogicalAnd(slotMask, akArmor.kSlotMask51) && IsRestrained(coverChest)
-		If abInfoMessage
-			Libs.bdsmUnlockBraFirstMessage.Show()
-		EndIf
-		Return True
-	EndIf
-
-	If Math.LogicalAnd(slotMask, akArmor.kSlotMask58) && IsRestrained(coverUpperBody)
-		If abInfoMessage
-			Libs.bdsmUnlockBodyFirstMessage.Show()
-		EndIf
-		Return True
-	EndIf
-
-	If Math.LogicalAnd(slotMask, akArmor.kSlotMask33 + akArmor.kSlotMask59) && IsRestrained(coverArms)
-		If abInfoMessage
-			Libs.bdsmUnlockArmsFirstMessage.Show()
-		EndIf
-		Return True
-	EndIf
-
-	If Math.LogicalAnd(slotMask, akArmor.kSlotMask38 + akArmor.kSlotMask53) && IsRestrained(coverLegs)
-		If abInfoMessage
-			Libs.bdsmUnlockLegsFirstMessage.Show()
-		EndIf
-		Return True
-	EndIf
-
-	If Math.LogicalAnd(slotMask, akArmor.kSlotMask55) && IsRestrained(coverEyes)
-		If abInfoMessage
-			Libs.bdsmUnlockHoodFirstMessage.Show()
-		EndIf
-		Return True
-	EndIf
-
-	If Math.LogicalAnd(slotMask, akArmor.kSlotMask44) && IsRestrained(coverMouth)
-		If abInfoMessage
-			Libs.bdsmUnlockHoodFirstMessage.Show()
-		EndIf
-		Return True
-	EndIf
-EndFunction
 
 Function TryUnlock(Armor akArmor)
 	bool isArmRestraint = Libs.IsArmRestraint(akArmor)
@@ -407,29 +325,6 @@ Function AddRestrainMask(Armor akArmor)
 		If (MfgConsoleFunc.GetPhonemeModifier(Self, 0, 1) != 100 || MfgConsoleFunc.GetPhonemeModifier(Self, 0, 11) != 70) && MfgConsoleFunc.GetPhonemeModifier(Self, 0, 0) != 70
 			MfgConsoleFunc.SetPhonemeModifier(Self, 0, 1, 100)
 			MfgConsoleFunc.SetPhonemeModifier(Self, 0, 11, 70)
-		EndIf
-	EndIf
-
-
-	If Self == Libs.PlayerRef
-		If libs.ControlBreastPyhsics && !Math.logicalAnd(oldMask, stopBreastPhysics) && Math.LogicalAnd(restrainMask, stopBreastPhysics)
-			bdsmLibs.DisableBreastPhysics(Self)
-		EndIf
-		
-		If libs.ControlBellyPyhsics && !Math.logicalAnd(oldMask, stopBellyPhysics) && Math.LogicalAnd(restrainMask, stopBellyPhysics)
-			bdsmLibs.DisableBellyPhysics(Self)
-		EndIf
-		
-		If libs.ControlButtPyhsics && !Math.logicalAnd(oldMask, stopButtPhysics) && Math.LogicalAnd(restrainMask, stopButtPhysics)
-			bdsmLibs.DisableButtPhysics(Self)
-		EndIf
-		
-		If libs.ControlPenisPyhsics && !Math.logicalAnd(oldMask, stopPenisPhysics) && Math.LogicalAnd(restrainMask, stopPenisPhysics)
-			bdsmLibs.DisablePenisPhysics(Self)
-		EndIf
-		
-		If libs.ControlLegPyhsics && !Math.logicalAnd(oldMask, stopLegPhysics) && Math.LogicalAnd(restrainMask, stopLegPhysics)
-			bdsmLibs.DisableLegPhysics(Self)
 		EndIf
 	EndIf
 EndFunction

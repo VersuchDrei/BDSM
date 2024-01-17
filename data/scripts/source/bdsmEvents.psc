@@ -7,7 +7,6 @@ Event OnInit()
 EndEvent
 
 Function Maintenance()
-	bdsmLibs.AttachBdsmActor(Libs.PlayerRef)
 	Libs.BuildMCMArrays()
 	Libs.RebuildRestrainMaskLibrary()
 	Libs.BothHands = Game.GetForm(0x00013f45) As EquipSlot

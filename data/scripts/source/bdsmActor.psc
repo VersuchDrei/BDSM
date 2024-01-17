@@ -9,45 +9,6 @@
 */;
 ScriptName bdsmActor Extends Actor
 
-int Property restrainArms       = 0x00000001 AutoReadOnly ; armbinders / straitjackets / yokes / arm restraints, needs to be unlocked before other items can
-int Property restrainWeapons    = 0x00000002 AutoReadOnly ; armbinders / straitjackets / yokes (/ mittens), prevents equipping weapons
-int Property restrainSpells     = 0x00000004 AutoReadOnly ; armbinders / straitjackets / (/ yokes / mittens), prevents equipping spells
-int Property blockHands         = 0x00000008 AutoReadOnly ; armbinders / yokes / straitjackets / mittens, prevents handjobs
-int Property coverArms          = 0x00000010 AutoReadOnly ; armbinders / straitjackets, prevents unlocking mittens / gloves / arm cuffs
-
-int Property restrainRunning    = 0x00000020 AutoReadOnly ; ankle chains, toggles slow moving
-int Property restrainWalking    = 0x00000040 AutoReadOnly ; legbinders, toggles very slow moving
-int Property blockFeet          = 0x00000080 AutoReadOnly ; boots / heels, prevents footjobs
-int Property coverLegs          = 0x00000100 AutoReadOnly ; legbinders, prevents unlocking leg cuffs
-
-int Property restrainSpeech     = 0x00000200 AutoReadOnly ; gags, toggles dialogue minigame
-int Property restrainSpeechFull = 0x00000400 AutoReadOnly ; big gags, fully prevents dialogue
-int Property restrainShouts     = 0x00000800 AutoReadOnly ; gags (/ ring gags), prevents equipping shouts
-int Property restrainFood       = 0x00001000 AutoReadOnly ; gags other than ring gags
-int Property blockMouth         = 0x00002000 AutoReadOnly ; gags other than ring gags, prevents oral
-int Property openMouth          = 0x00004000 AutoReadOnly ; opens the mouth
-int Property coverMouth         = 0x00008000 AutoReadOnly ; hoods that cover the mouth, prevents unlocking of gags
-
-int Property restrainSight      = 0x00010000 AutoReadOnly ; blindfolds, toggles blind effect
-int Property coverEyes          = 0x00020000 AutoReadOnly ; hoods that cover the eyes, prevents unlocking of blindfolds
-
-int Property blockVagina        = 0x00040000 AutoReadOnly ; chastity belts / vaginal plugs, prevents vaginal
-int Property blockCock          = 0x00080000 AutoReadOnly ; chastity belts / cock cages, prevents penetration
-int Property blockAnus          = 0x00100000 AutoReadOnly ; chastity belts / anal plugs, prevents anal
-int Property coverGenital       = 0x00200000 AutoReadOnly ; chastity belts, prevents unlocking vaginal plugs / cock cages
-int Property coverAnus          = 0x00400000 AutoReadOnly ; chastity belts, prevents unlocking anal plugs
-
-int Property blockChest         = 0x00800000 AutoReadOnly ; chastity bras, prevents boobjobs
-int Property coverChest         = 0x01000000 AutoReadOnly ; chastity bras, prevents unlocking nipple piercings / clamps
-int Property coverUpperBody     = 0x02000000 AutoReadOnly ; straitjackets, perevents unlocking harnesses
-int Property coverBelly         = 0x04000000 AutoReadOnly ; corsets / straitjackets, prevents unlocking belly button piercings
-
-int Property stopBreastPhysics  = 0x08000000 AutoReadOnly ; chastity bras, stops booby bouncing
-int Property stopBellyPhysics   = 0x10000000 AutoReadOnly ; corsets / chastity belts / straitjackets, stops belly bouncing
-int Property stopButtPhysics    = 0x20000000 AutoReadOnly ; chastity belts, stops booty bouncing
-int Property stopPenisPhysics   = 0x40000000 AutoReadOnly ; chastity belts / cock cages, stops schlong bouncing
-int Property stopLegPhysics     = 0x80000000 AutoReadOnly ; thigh high boots / legbinders, stops ham bouncing
-
 ;/* CanEquip
 * * checks if equipping the given item does not conflict with any of the items currently locked on the player
 * * 

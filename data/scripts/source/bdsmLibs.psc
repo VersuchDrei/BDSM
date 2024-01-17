@@ -15,18 +15,6 @@ Weapon Property Unarmed Auto
 ; to identify both hand spells
 EquipSlot Property BothHands Auto
 
-; ---------- factions ----------
-; faction for actors that get aroused by being tied up
-Faction Property bdsmBondageLoverFaction Auto
-; faction for dominant actors
-Faction Property bdsmDominantFaction Auto
-; faction for masochistic actors
-Faction Property bdsmMasochistFaction Auto
-; faction for sadistic actors
-Faction Property bdsmSadistFaction Auto
-; faction for submissive actors
-Faction Property bdsmSubmissiveFaction Auto
-
 ; ---------- item effect perks ----------
 ; applies a magnitude multiplier to shouts when wearing open gags
 Perk Property bdsmGagOpenShoutPenaltyPerk Auto
@@ -342,16 +330,6 @@ GlobalVariable Property bdsmStruggleKey4 Auto
 bdsmMinigameHolder Property bdsmMinigameHolderMagic Auto
 ; keywords for the different struggle difficulties
 Keyword[] Property bdsmMagicDifficulties Auto
-
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; SKSE Functions ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;/* AttachBdsmActor
-* * attaches the bdsmActor script (or more precisely the bdsmActorImpl script) to the given actor, if they don't already have it
-* * 
-* * @param: akActor, the actor to attach the script to
-*/;
-Function AttachBdsmActor(Actor akActor) Global Native
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; Global Functions ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -687,37 +665,6 @@ Function RebuildYokeMaskLibrary(bdsmActor masks)
 	EndIf
 
 	libraryRestrainMasks[17] = value
-EndFunction
-
-;/* GetRestrainMask
-* *
-* * builds the restrain mask of the given item
-* *
-* * @param: akArmor, the item to build the restrain mask for
-* *
-* * @return: the restrain mask of the item
-*/;
-int Function GetRestrainMask(Armor akArmor)
-	int armorMask = 0x0
-	int inverseMask = 0x0
-
-	Keyword[] keywords = akArmor.GetKeywords()
-
-	int i = keywords.Length
-	While i
-		i -= 1
-		int j = libraryKeywords.Find(keywords[i])
-		If j != -1
-			armorMask = Math.LogicalOr(armorMask, libraryRestrainMasks[j])
-		Else
-			j = libraryInverseKeywords.Find(keywords[i])
-			if j != -1
-				inverseMask = Math.LogicalOr(inverseMask, libraryInverseRestrainMasks[j])
-			EndIf
-		EndIf
-	EndWhile
-
-	return Math.LogicalAnd(armorMask, Math.LogicalNot(inverseMask))
 EndFunction
 
 ;/* PlayerUnlocksItem
