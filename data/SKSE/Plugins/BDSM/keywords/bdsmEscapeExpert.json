@@ -1,0 +1,13 @@
+{
+	"keyword":{
+		"info": "bdsmEscapeExpert",
+		"mod": "BDSM.esp",
+		"formid": "0x916"
+	},
+	"inherits":[
+		"bdsmAlchemyExpert",
+		"bdsmLockExpert",
+		"bdsmMagicExpert",
+		"bdsmStruggleExpert"
+	]
+}

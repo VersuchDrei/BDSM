@@ -1,0 +1,13 @@
+{
+	"keyword":{
+		"info": "bdsmEscapeAdept",
+		"mod": "BDSM.esp",
+		"formid": "0x914"
+	},
+	"inherits":[
+		"bdsmAlchemyAdept",
+		"bdsmLockAdept",
+		"bdsmMagicAdept",
+		"bdsmStruggleAdept"
+	]
+}

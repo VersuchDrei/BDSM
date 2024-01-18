@@ -1,0 +1,11 @@
+{
+	"keyword":{
+		"info": "bdsmLockExpert",
+		"mod": "BDSM.esp",
+		"formid": "0x805"
+	},
+	"inherits":[
+		"bdsmLockpickExpert",
+		"bdsmKeyExpert"
+	]
+}

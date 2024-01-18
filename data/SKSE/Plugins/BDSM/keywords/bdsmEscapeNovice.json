@@ -1,0 +1,13 @@
+{
+	"keyword":{
+		"info": "bdsmEscapeNovice",
+		"mod": "BDSM.esp",
+		"formid": "0x915"
+	},
+	"inherits":[
+		"bdsmAlchemyNovice",
+		"bdsmLockNovice",
+		"bdsmMagicNovice",
+		"bdsmStruggleNovice"
+	]
+}

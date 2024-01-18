@@ -1,0 +1,13 @@
+{
+	"keyword":{
+		"info": "bdsmEscapeApprentice",
+		"mod": "BDSM.esp",
+		"formid": "0x913"
+	},
+	"inherits":[
+		"bdsmAlchemyApprentice",
+		"bdsmLockApprentice",
+		"bdsmMagicApprentice",
+		"bdsmStruggleApprentice"
+	]
+}

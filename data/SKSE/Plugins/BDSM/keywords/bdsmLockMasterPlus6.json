@@ -1,0 +1,11 @@
+{
+	"keyword":{
+		"info": "bdsmLockMasterPlus6",
+		"mod": "BDSM.esp",
+		"formid": "0x90D"
+	},
+	"inherits":[
+		"bdsmLockpickMasterPlus6",
+		"bdsmKeyMaster"
+	]
+}

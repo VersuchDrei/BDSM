@@ -1,0 +1,13 @@
+{
+	"keyword":{
+		"info": "bdsmEscapeMaster",
+		"mod": "BDSM.esp",
+		"formid": "0x917"
+	},
+	"inherits":[
+		"bdsmAlchemyMaster",
+		"bdsmLockMaster",
+		"bdsmMagicMaster",
+		"bdsmStruggleMaster"
+	]
+}
