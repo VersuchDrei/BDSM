@@ -1,4 +1,9 @@
 {
+	"keyword":{
+		"info": "bdsmHoodGwen",
+		"mod": "BDSM.esp",
+		"formid": "0x856"
+	},
 	"coveredSlots":[
 		44
 	]

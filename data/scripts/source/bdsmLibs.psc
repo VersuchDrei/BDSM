@@ -82,7 +82,6 @@ Keyword Property bdsmHoodGwen Auto
 Keyword Property bdsmHoodAirway Auto
 Keyword Property bdsmLegbinder Auto
 Keyword Property bdsmLegbinderOpen Auto ; legbinder that doesn't prevent unequipping cuffs etc.
-Keyword Property bdsmMask Auto ; basically hoods that don't cover eyes or mouth
 Keyword Property bdsmMittens Auto
 Keyword Property bdsmPlugAnal Auto
 Keyword Property bdsmPlugVaginal Auto

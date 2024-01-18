@@ -7,31 +7,58 @@ namespace GameAPI {
 
     struct EquipItem {
         static void thunk(RE::ActorEquipManager* manager, RE::Actor* actor, RE::TESBoundObject* object, const RE::ObjectEquipParams& params) {
-            if (object->Is(RE::TESObjectARMO::FORMTYPE)) {
-                GameActorEquipEvent<GameArmor> evt{actor, object->As<RE::TESObjectARMO>()};
-                GameEventSources::equipArmorEventSource.sendEvent(evt);
-                if (evt.isCancelled()) {
-                    return;
-                }
-            } else if (object->Is(RE::TESShout::FORMTYPE)) {
-                GameActorEquipEvent<GameShout> evt{actor, object->As<RE::TESShout>()};
-                GameEventSources::equipShoutEventSource.sendEvent(evt);
-                if (evt.isCancelled()) {
-                    return;
-                }
-            } else if (object->Is(RE::SpellItem::FORMTYPE)) {
-                GameActorEquipEvent<GameSpell> evt{actor, object->As<RE::SpellItem>()};
-                GameEventSources::equipSpellEventSource.sendEvent(evt);
-                if (evt.isCancelled()) {
-                    return;
-                }
-            } else if (object->Is(RE::TESObjectWEAP::FORMTYPE)) {
-                GameActorEquipEvent<GameWeapon> evt{actor, object->As<RE::TESObjectWEAP>()};
-                GameEventSources::equipWeaponEventSource.sendEvent(evt);
-                if (evt.isCancelled()) {
-                    return;
-                }
+            switch (object->GetFormType()) {
+                case RE::AlchemyItem::FORMTYPE: {
+                    GameActorEvent evt{actor};
+                    GameEventSources::consumeEventSource.sendEvent(evt);
+                    if (evt.isCancelled()) {
+                        return;
+                    }
+                } break;
+                case RE::IngredientItem::FORMTYPE: {
+                    GameActorEvent evt{actor};
+                    GameEventSources::consumeEventSource.sendEvent(evt);
+                    if (evt.isCancelled()) {
+                        return;
+                    }
+                } break;
+                case RE::TESObjectARMO::FORMTYPE: {
+                    GameActorEquipEvent<GameArmor> evt{actor, object->As<RE::TESObjectARMO>()};
+                    GameEventSources::equipArmorEventSource.sendEvent(evt);
+                    if (evt.isCancelled()) {
+                        return;
+                    }
+                } break;
+                case RE::TESObjectWEAP::FORMTYPE: {
+                    GameActorEquipEvent<GameWeapon> evt{actor, object->As<RE::TESObjectWEAP>()};
+                    GameEventSources::equipWeaponEventSource.sendEvent(evt);
+                    if (evt.isCancelled()) {
+                        return;
+                    }
+                } break;
+                case RE::SpellItem::FORMTYPE: {
+                    GameActorEquipEvent<GameSpell> evt{actor, object->As<RE::SpellItem>()};
+                    GameEventSources::equipSpellEventSource.sendEvent(evt);
+                    if (evt.isCancelled()) {
+                        return;
+                    }
+                } break;
+                case RE::ScrollItem::FORMTYPE: {
+                    GameActorEquipEvent<GameScroll> evt{actor, object->As<RE::ScrollItem>()};
+                    GameEventSources::equipScrollEventSource.sendEvent(evt);
+                    if (evt.isCancelled()) {
+                        return;
+                    }
+                } break;
+                case RE::TESShout::FORMTYPE: {
+                    GameActorEquipEvent<GameShout> evt{actor, object->As<RE::TESShout>()};
+                    GameEventSources::equipShoutEventSource.sendEvent(evt);
+                    if (evt.isCancelled()) {
+                        return;
+                    }
+                } break;
             }
+
             return func(manager, actor, object, params);
         }
 

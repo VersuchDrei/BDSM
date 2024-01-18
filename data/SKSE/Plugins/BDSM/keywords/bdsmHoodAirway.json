@@ -1,4 +1,9 @@
 {
+	"keyword":{
+		"info": "bdsmHoodAirway",
+		"mod": "BDSM.esp",
+		"formid": "0x857"
+	},
 	"coveredSlots":[
 		55
 	]

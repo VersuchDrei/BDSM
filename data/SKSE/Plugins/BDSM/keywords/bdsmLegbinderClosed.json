@@ -1,4 +1,9 @@
 {
+	"keyword":{
+		"info": "bdsmLegbinderClosed",
+		"mod": "BDSM.esp",
+		"formid": "0x8EF"
+	},
 	"coveredSlots":[
 		38,
 		53

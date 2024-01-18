@@ -1,4 +1,9 @@
 {
+	"keyword":{
+		"info": "bdsmChastityBelt",
+		"mod": "BDSM.esp",
+		"formid": "0x82E"
+	},
 	"coveredSlots":[
 		50,
 		52,

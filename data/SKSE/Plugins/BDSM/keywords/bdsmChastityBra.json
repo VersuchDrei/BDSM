@@ -1,4 +1,9 @@
 {
+	"keyword":{
+		"info": "bdsmChastityBra",
+		"mod": "BDSM.esp",
+		"formid": "0x82F"
+	},
 	"coveredSlots":[
 		51
 	]
