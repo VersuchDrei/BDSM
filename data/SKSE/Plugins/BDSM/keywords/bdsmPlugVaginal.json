@@ -3,5 +3,8 @@
 		"info": "bdsmPlugVaginal",
 		"mod": "BDSM.esp",
 		"formid": "0x834"
-	}
+	},
+	"inherits":[
+		"bdsmPlug"
+	]
 }

@@ -3,5 +3,8 @@
 		"info": "bdsmHarness",
 		"mod": "BDSM.esp",
 		"formid": "0x83A"
-	}
+	},
+	"inherits":[
+		"bdsmChastityBelt"
+	]
 }

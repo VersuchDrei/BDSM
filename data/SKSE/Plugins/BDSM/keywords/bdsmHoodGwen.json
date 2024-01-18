@@ -4,6 +4,9 @@
 		"mod": "BDSM.esp",
 		"formid": "0x856"
 	},
+	"inherits":[
+		"bdsmHood"
+	],
 	"coveredSlots":[
 		44
 	]

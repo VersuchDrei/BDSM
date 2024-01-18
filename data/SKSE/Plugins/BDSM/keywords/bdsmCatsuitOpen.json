@@ -3,5 +3,8 @@
 		"info": "bdsmCatsuitOpen",
 		"mod": "BDSM.esp",
 		"formid": "0x876"
-	}
+	},
+	"inherits":[
+		"bdsmCatsuit"
+	]
 }

@@ -4,6 +4,11 @@
 		"mod": "BDSM.esp",
 		"formid": "0x82D"
 	},
+	"inherits":[
+		"bdsmArmRestraint",
+		"bdsmRestrainSpells",
+		"bdsmRestrainWeapons"
+	],
 	"coveredSlots":[
 		33,
 		59

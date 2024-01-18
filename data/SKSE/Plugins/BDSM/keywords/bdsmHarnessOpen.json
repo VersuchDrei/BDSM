@@ -1,0 +1,11 @@
+{
+	"keyword":{
+		"info": "bdsmHarnessOpen",
+		"mod": "BDSM.esp",
+		"formid": "0x8F6"
+	},
+	"inherits":[
+		"bdsmChastityBeltOpen",
+		"bdsmHarness"
+	]
+}

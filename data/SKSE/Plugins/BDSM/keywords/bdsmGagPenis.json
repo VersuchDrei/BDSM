@@ -3,5 +3,9 @@
 		"info": "bdsmGagPenis",
 		"mod": "BDSM.esp",
 		"formid": "0x8F3"
-	}
+	},
+	"inherits":[
+		"bdsmGagClosed",
+		"bdsmGagFull"
+	]
 }

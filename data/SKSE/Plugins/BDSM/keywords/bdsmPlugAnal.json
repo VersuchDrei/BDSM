@@ -3,5 +3,8 @@
 		"info": "bdsmPlugAnal",
 		"mod": "BDSM.esp",
 		"formid": "0x835"
-	}
+	},
+	"inherits":[
+		"bdsmPlug"
+	]
 }

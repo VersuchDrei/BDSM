@@ -3,5 +3,9 @@
 		"info": "bdsmYoke",
 		"mod": "BDSM.esp",
 		"formid": "0x82C"
-	}
+	},
+	"inherits":[
+		"bdsmArmRestraint",
+		"bdsmRestrainWeapons"
+	]
 }

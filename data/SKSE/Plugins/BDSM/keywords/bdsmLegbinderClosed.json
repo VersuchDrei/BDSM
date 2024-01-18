@@ -4,6 +4,9 @@
 		"mod": "BDSM.esp",
 		"formid": "0x8EF"
 	},
+	"inherits":[
+		"bdsmLegbinder"
+	],
 	"coveredSlots":[
 		38,
 		53

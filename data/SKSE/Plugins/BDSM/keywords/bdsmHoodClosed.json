@@ -4,8 +4,9 @@
 		"mod": "BDSM.esp",
 		"formid": "0x8F0"
 	},
-	"coveredSlots":[
-		44,
-		55
+	"inherits":[
+		"bdsmHood",
+		"bdsmHoodAirway",
+		"bdsmHoodGwen"
 	]
 }

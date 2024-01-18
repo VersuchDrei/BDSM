@@ -1,4 +1,12 @@
 {
+	"keyword":{
+		"info": "bdsmArmbinderClosed",
+		"mod": "BDSM.esp",
+		"formid": "0x8F4"
+	},
+	"inherits":[
+		"bdsmArmbinder"
+	],
 	"coveredSlots":[
 		33,
 		59

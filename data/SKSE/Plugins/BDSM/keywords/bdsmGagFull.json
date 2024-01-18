@@ -3,5 +3,9 @@
 		"info": "bdsmGagFull",
 		"mod": "BDSM.esp",
 		"formid": "0x861"
-	}
+	},
+	"inherits":[
+		"bdsmGag",
+		"bdsmRestrainShouts"
+	]
 }
