@@ -21,10 +21,22 @@ configure_file(
         @ONLY)
 
 set(sources
+        src/BDSM/ActorData.cpp
+        src/BDSM/ActorTable.cpp
+        src/BDSM/KeywordLogic.cpp
+        src/BDSM/KeywordTable.cpp
         src/Events/EventListener.cpp
+        src/Game/LocaleManager.cpp
+        src/GameAPI/Game.cpp
         src/GameAPI/GameActor.cpp
+        src/GameAPI/GameArmor.cpp
         src/GameAPI/GameHooks.cpp
+        src/GameAPI/GameSlotMask.cpp
         src/GameAPI/GameTable.cpp
+        src/GameAPI/GameUtil.cpp
+        src/Util/JsonUtil.cpp
+        src/Util/RecordTable.cpp
+        src/Util/StringUtil.cpp
         src/Core.cpp
         src/Main.cpp
 

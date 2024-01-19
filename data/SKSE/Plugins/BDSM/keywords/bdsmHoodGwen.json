@@ -5,6 +5,7 @@
 		"formid": "0x856"
 	},
 	"inherits":[
+		"bdsmGagOTM",
 		"bdsmHood"
 	],
 	"coveredSlots":[

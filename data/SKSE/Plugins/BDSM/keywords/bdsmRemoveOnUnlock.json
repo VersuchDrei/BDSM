@@ -1,0 +1,8 @@
+{
+	"info": "hardcoded effect: restraint will be removed from inventory once unlocked",
+	"keyword":{
+		"info": "bdsmRemoveOnUnlock",
+		"mod": "BDSM.esp",
+		"formid": "0x81E"
+	}
+}

@@ -1,4 +1,5 @@
 {
+	"info": "hardcoded effect: fully prevents talking",
 	"keyword":{
 		"info": "bdsmGagFull",
 		"mod": "BDSM.esp",

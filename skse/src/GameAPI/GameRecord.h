@@ -51,6 +51,10 @@ namespace GameAPI {
             form = RE::TESDataHandler::GetSingleton()->LookupForm<T>(formID, mod);
         }
 
+        inline void loadFile(uint32_t formID) {
+            loadFile(std::string(SKSE::PluginDeclaration::GetSingleton()->GetName()) + ".esp", formID);
+        }
+
         void loadSerial(GameSerializationInterface serial) {
             RE::FormID oldFormID;
             RE::FormID newFormID;
@@ -77,6 +81,6 @@ namespace GameAPI {
             serial.object->WriteRecordData(&formID, sizeof(formID));
         }
 
-        inline uint32_t getFormID() const { return form->formID; }
+        inline RecordID getRecordID() const { return form->formID; }
     };
 }  // namespace GameAPI

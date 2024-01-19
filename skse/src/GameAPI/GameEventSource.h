@@ -5,7 +5,7 @@ namespace GameAPI {
     class GameEventSource {
     public:
         inline void addListener(std::function<void(T&)> listener) { listeners.push_back(listener); }
-        inline void sendEvent(T& evt) {
+        void sendEvent(T& evt) {
             for (std::function<void(T&)> listener : listeners) {
                 listener(evt);
             }

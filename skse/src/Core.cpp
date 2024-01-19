@@ -1,6 +1,9 @@
 #include "Core.h"
 
+#include "BDSM/KeywordLogic.h"
+#include "BDSM/KeywordTable.h"
 #include "Events/EventListener.h"
+#include "Util/RecordTable.h"
 
 namespace Core {
     void init() {
@@ -16,10 +19,11 @@ namespace Core {
     }
 
     void dataLoaded() {
-
+        Util::RecordTable::setup();
+        BDSM::KeywordTable::setup();
     }
 
     void postDataLoaded() {
-
+        BDSM::KeywordLogic::processArmors();
     }
 }

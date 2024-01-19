@@ -1,4 +1,5 @@
 {
+	"info": "hardcoded effect: prevents equipping of shouts",
 	"keyword":{
 		"info": "bdsmRestrainShouts",
 		"mod": "BDSM.esp",

@@ -5,6 +5,7 @@
 		"formid": "0x857"
 	},
 	"inherits":[
+		"bdsmBlindfold",
 		"bdsmHood"
 	],
 	"coveredSlots":[

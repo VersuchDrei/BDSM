@@ -1,4 +1,5 @@
 {
+	"info": "hardcoded effect: prevents equipping of spells, not including scrolls",
 	"keyword":{
 		"info": "bdsmRestrainSpells",
 		"mod": "BDSM.esp",

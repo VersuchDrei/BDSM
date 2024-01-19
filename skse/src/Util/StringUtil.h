@@ -1,0 +1,12 @@
+#pragma once
+
+namespace StringUtil {
+    inline void sort(std::vector<std::string>& vector) { std::sort(vector.begin(), vector.end()); }
+    void toLower(std::string* string);
+    void toLower(std::vector<std::string>* strings);
+    std::vector<std::string> split(const std::string& text, char sep);
+    std::vector<std::string> toTagVector(std::string string);
+    std::vector<std::vector<std::string>> toTagMatrix(std::string string);
+    std::string toTagCSV(std::vector<std::string> vector);
+    void replaceAll(std::string& string, std::string const& find, std::string const& replace);
+}

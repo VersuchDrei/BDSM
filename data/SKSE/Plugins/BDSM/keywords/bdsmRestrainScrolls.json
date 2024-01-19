@@ -1,0 +1,8 @@
+{
+	"info": "hardcoded effect: prevents equipping of scrolls",
+	"keyword":{
+		"info": "bdsmRestrainScrolls",
+		"mod": "BDSM.esp",
+		"formid": "0x919"
+	}
+}

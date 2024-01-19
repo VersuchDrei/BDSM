@@ -7,4 +7,4 @@ namespace GameAPI {
         inline GameKeyword() {}
         inline GameKeyword(RE::BGSKeyword* keyword) { form = keyword; }
     };
-}
+}  // namespace GameAPI

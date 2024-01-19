@@ -1,4 +1,5 @@
 {
+	"info": "hardcoded effect: prevents unlocking of all other restraints",
 	"keyword":{
 		"info": "bdsmArmRestraint",
 		"mod": "BDSM.esp",

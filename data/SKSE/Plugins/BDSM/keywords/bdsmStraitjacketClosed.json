@@ -1,4 +1,9 @@
 {
+	"keyword":{
+		"info": "bdsmStraitjacketOpen",
+		"mod": "BDSM.esp",
+		"formid": "0x918"
+	},
 	"coveredSlots":[
 		51,
 		58

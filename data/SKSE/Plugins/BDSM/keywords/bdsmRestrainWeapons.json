@@ -1,7 +1,11 @@
 {
+	"info": "hardcoded effect: prevents equipping of weapons, including scrolls",
 	"keyword":{
 		"info": "bdsmRestrainWeapons",
 		"mod": "BDSM.esp",
 		"formid": "0x847"
-	}
+	},
+	"inherits":[
+		"bdsmRestrainScrolls"
+	]
 }

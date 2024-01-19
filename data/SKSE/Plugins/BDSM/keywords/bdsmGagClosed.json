@@ -1,4 +1,5 @@
 {
+	"info": "hardcoded effect: prevents the actor from consuming food or potions",
 	"keyword":{
 		"info": "bdsmGagClosed",
 		"mod": "BDSM.esp",

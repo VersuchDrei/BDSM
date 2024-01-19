@@ -18,11 +18,13 @@
 #define DLLEXPORT __declspec(dllexport)
 
 using json = nlohmann::json;
+using RecordID = uint32_t;
 
 using namespace std::literals;
 using namespace REL::literals;
 
 namespace logger = SKSE::log;
+namespace fs = std::filesystem;
 
 namespace util {
     using SKSE::stl::report_and_fail;
