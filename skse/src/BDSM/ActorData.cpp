@@ -42,6 +42,19 @@ namespace BDSM {
 
         lock({.restraint = armor});
 
+        if (armor.hasKeyword(Util::RecordTable::getRestrainWeaponsKeyword())) {
+            actor.unequipWeapons();
+        }
+        if (armor.hasKeyword(Util::RecordTable::getRestrainSpellsKeyword())) {
+            actor.unequipSpells();
+        }
+        if (armor.hasKeyword(Util::RecordTable::getRestrainScrollsKeyword())) {
+            actor.unequipScrolls();
+        }
+        if (armor.hasKeyword(Util::RecordTable::getRestrainShoutsKeyword())) {
+            actor.unequipShouts();
+        }
+
         actor.refreshInventory();
 
         return true;
