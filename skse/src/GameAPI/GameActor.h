@@ -64,5 +64,11 @@ namespace GameAPI {
             REL::Relocation<func_t> func{RELOCATION_ID(55644, 56173)};
             return func(vm, stackID, object, akItem);
         }
+
+        inline static void OpenInventory(RE::TESObjectREFR* object, int iArg) {
+            using func_t = decltype(OpenInventory);
+            REL::Relocation<func_t> func{RELOCATION_ID(50211, 51140)};
+            func(object, iArg);
+        }
     };
 }  // namespace GameAPI
