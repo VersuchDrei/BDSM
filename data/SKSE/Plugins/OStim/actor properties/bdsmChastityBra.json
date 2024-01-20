@@ -1,0 +1,11 @@
+{
+	"condition":{
+		"info": "bdsmChastityBraCondition",
+		"mod":"BDSM.esp",
+		"formid":"0x91C"
+	},
+	"requirements":{
+		"breast": false,
+		"nipple": false
+	}
+}

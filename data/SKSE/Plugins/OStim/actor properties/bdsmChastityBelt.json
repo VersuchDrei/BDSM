@@ -1,0 +1,12 @@
+{
+	"condition":{
+		"info": "bdsmChastityBeltCondition",
+		"mod":"BDSM.esp",
+		"formid":"0x91A"
+	},
+	"requirements":{
+		"penis": false,
+		"testicles": false,
+		"vagina": false
+	}
+}

@@ -1,0 +1,11 @@
+{
+	"condition":{
+		"info": "bdsmGagClosedCondition",
+		"mod":"BDSM.esp",
+		"formid":"0x91D"
+	},
+	"requirements":{
+		"mouth": false,
+		"mouthbeast": false
+	}
+}

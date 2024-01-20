@@ -1,0 +1,10 @@
+{
+	"condition":{
+		"info": "bdsmChastityBeltClosedCondition",
+		"mod":"BDSM.esp",
+		"formid":"0x91B"
+	},
+	"requirements":{
+		"anus": false
+	}
+}

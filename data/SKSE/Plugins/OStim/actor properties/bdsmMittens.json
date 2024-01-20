@@ -1,0 +1,10 @@
+{
+	"condition":{
+		"info": "bdsmMittensCondition",
+		"mod":"BDSM.esp",
+		"formid":"0x91E"
+	},
+	"requirements":{
+		"hand": false
+	}
+}
