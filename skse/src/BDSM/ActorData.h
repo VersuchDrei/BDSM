@@ -8,7 +8,13 @@
 namespace BDSM {
     struct ActorData {
     public:
-        ActorData(GameAPI::GameActor actor) : actor{actor} {}
+        ActorData(GameAPI::GameActor actor);
+        ActorData(GameAPI::GameSerializationInterface serial);
+
+        void serialize(GameAPI::GameSerializationInterface serial);
+        inline bool isValid() { return actor; }
+
+        inline GameAPI::GameActor getActor() { return actor; }
 
         bool canEquip(GameAPI::GameArmor armor);
         

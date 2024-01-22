@@ -1,9 +1,7 @@
 #include "GameTable.h"
 
-namespace GameAPI {
+namespace GameLogic {
     void GameTable::setup() {
         RE::TESDataHandler* handler = RE::TESDataHandler::GetSingleton();
-
-        bdsmLockable = handler->LookupForm<RE::BGSKeyword>(0x801, "BDSM.esp");
     }
 }

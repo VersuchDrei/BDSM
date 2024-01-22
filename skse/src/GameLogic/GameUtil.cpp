@@ -1,6 +1,6 @@
 #include "GameUtil.h"
 
-namespace GameAPI {
+namespace GameLogic {
     namespace GameUtil {
         bool isInventoryOpen() {
             return RE::UI::GetSingleton()->IsMenuOpen("InventoryMenu") ||

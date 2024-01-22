@@ -1,6 +1,6 @@
 #pragma once
 
-namespace GameAPI {
+namespace GameLogic {
     namespace GameUtil {
         bool isInventoryOpen();
         

@@ -1,5 +1,7 @@
 #include "KeywordLogic.h"
 
+#include "Util/RecordTable.h"
+
 namespace BDSM {
     void KeywordLogic::processArmors() {
         GameAPI::GameArmor::forAll(processArmor);
@@ -19,6 +21,10 @@ namespace BDSM {
 
         for (std::string inheritance : properties->inherits) {
             tryAddKeyword(armor, inheritance);
+        }
+
+        if (!armor.hasKeyword(Util::RecordTable::getNoStripKeyword())) {
+            armor.addKeyword(Util::RecordTable::getNoStripKeyword());
         }
     }
 

@@ -1,8 +1,9 @@
 #include <stddef.h>
 
 #include "Core.h"
-#include "GameAPI/GameHooks.h"
-#include "GameAPI/GameTable.h"
+#include "GameLogic/GameHooks.h"
+#include "GameLogic/GameSerializationManager.h"
+#include "GameLogic/GameTable.h"
 
 using namespace RE::BSScript;
 using namespace SKSE;
@@ -36,7 +37,7 @@ namespace {
      void MessageHandler(SKSE::MessagingInterface::Message* a_msg) {
         switch (a_msg->type) {
             case SKSE::MessagingInterface::kPostLoad: {
-                GameAPI::installHooksPost();
+                GameLogic::installHooksPost();
 
                 Core::postLoad();
             } break;
@@ -44,7 +45,7 @@ namespace {
                 Core::postpostLoad();
             } break;
             case SKSE::MessagingInterface::kDataLoaded: {
-                GameAPI::GameTable::setup();
+                GameLogic::GameTable::setup();
 
                 Core::dataLoaded();
                 SKSE::GetTaskInterface()->AddTask([]() { Core::postDataLoaded(); });
@@ -68,6 +69,12 @@ SKSEPluginLoad(const LoadInterface* skse) {
     if (!message->RegisterListener(MessageHandler)) {
         return false;
     }
+
+    const auto serial = SKSE::GetSerializationInterface();
+    serial->SetUniqueID(_byteswap_ulong('BDSM'));
+    serial->SetSaveCallback(GameLogic::Save);
+    serial->SetLoadCallback(GameLogic::Load);
+    serial->SetRevertCallback(GameLogic::Revert);
 
     log::info("{} has finished loading.", plugin->GetName());
     return true;

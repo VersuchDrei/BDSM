@@ -7,6 +7,7 @@
 
 namespace Events {
     void EventListener::setup() {
+        GameAPI::GameEventSources::loadActorEventSource.addListener(onActorLoad);
         GameAPI::GameEventSources::consumeEventSource.addListener(onConsume);
         GameAPI::GameEventSources::readTextEventSource.addListener(onRead);
         GameAPI::GameEventSources::equipArmorEventSource.addListener(onEquip);
@@ -17,6 +18,12 @@ namespace Events {
         GameAPI::GameEventSources::equipShoutEventSource.addListener(onEquipShout);
     }
 
+
+    void EventListener::onActorLoad(GameAPI::GameActorEvent& evt) {
+        if (evt.getActor().wornItemHasKeyword(Util::RecordTable::getNoStripKeyword())) {
+            BDSM::ActorTable::getActorData(evt.getActor(), true);
+        }
+    }
 
     void EventListener::onConsume(GameAPI::GameActorEvent& evt) {
         if (evt.getActor().wornItemHasKeyword(Util::RecordTable::getGagClosedKeyword())) {

@@ -1,24 +1,37 @@
 #include "GameActor.h"
 
-#include "GameHooks.h"
-
 namespace GameAPI {
-    void GameActor::equip(GameArmor armor) const {
-        EquipItem(nullptr, 0, form, armor.form, false, true);
+    void GameActor::update3D() const {
+        const auto skyrimVM = RE::SkyrimVM::GetSingleton();
+        auto vm = skyrimVM ? skyrimVM->impl : nullptr;
+        if (vm) {
+            RE::BSTSmartPointer<RE::BSScript::IStackCallbackFunctor> callback;
+            auto args = RE::MakeFunctionArguments();
+            auto handle = skyrimVM->handlePolicy.GetHandleForObject(static_cast<RE::VMTypeID>(form->FORMTYPE), form);
+            vm->DispatchMethodCall2(handle, "Actor", "QueueNiNodeUpdate", args, callback);
+        }
     }
 
-    void GameActor::unequip(GameArmor armor) const {
-        UnequipItem(nullptr, 0, form, armor.form, false, true);
+
+    std::vector<GameAPI::GameArmor> GameActor::getEquippedItems() const {
+        std::vector<GameAPI::GameArmor> armors;
+        RE::TESObjectREFR::InventoryItemMap inventory = form->GetInventory();
+        for (const auto& [obj, data] : inventory) {
+            if (data.second->IsWorn() && obj->IsArmor()) {
+                armors.push_back({obj->As<RE::TESObjectARMO>()});
+            }
+        }
+        return armors;
     }
 
     
     void GameActor::unequipWeapons() const {
         RE::TESForm* right = form->GetEquippedObject(false);
-        if (right && right->Is(RE::TESObjectARMO::FORMTYPE)) {
+        if (right && right->Is(RE::TESObjectWEAP::FORMTYPE)) {
             UnequipItem(nullptr, 0, form, right, false, true);
         }
         RE::TESForm* left = form->GetEquippedObject(true);
-        if (left && left->Is(RE::TESObjectARMO::FORMTYPE)) {
+        if (left && left->Is(RE::TESObjectWEAP::FORMTYPE)) {
             UnequipItem(nullptr, 0, form, left, false, true);
         }
     }

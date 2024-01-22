@@ -6,6 +6,41 @@
 #include "Util/RecordTable.h"
 
 namespace BDSM {
+    ActorData::ActorData(GameAPI::GameActor actor) : actor{actor} {
+        if (!actor.wornItemHasKeyword(Util::RecordTable::getNoStripKeyword())) {
+            return;
+        }
+
+        for (GameAPI::GameArmor armor : actor.getEquippedItems()) {
+            if (armor.hasKeyword(Util::RecordTable::getNoStripKeyword())) {
+                lock(armor);
+            }
+        }
+    }
+
+    ActorData::ActorData(GameAPI::GameSerializationInterface serial) {
+        actor.readSerial(serial);
+
+        size_t size = serial.read<size_t>();
+        for (int i = 0; i < size; i++) {
+            RestraintData data(serial);
+            if (data.restraint) {
+                restraints.insert({data.restraint.getRecordID(), data});
+                lockedSlots.add(data.restraint.getSlotMask());
+                coveredSlots.add(KeywordLogic::getCoveredSlots(data.restraint));
+            }
+        }
+    }
+
+    void ActorData::serialize(GameAPI::GameSerializationInterface serial) {
+        actor.writeSerial(serial);
+        serial.write<size_t>(restraints.size());
+        for (auto& [id, data] : restraints) {
+            data.serialize(serial);
+        }
+    }
+
+
     bool ActorData::canEquip(GameAPI::GameArmor armor) {
         GameAPI::GameSlotMask armorSlots = armor.getSlotMask();
         if (armorSlots.overlaps(lockedSlots) || armorSlots.overlaps(coveredSlots)) {
@@ -40,7 +75,7 @@ namespace BDSM {
             return false;
         }
 
-        lock({.restraint = armor});
+        lock({armor});
 
         if (armor.hasKeyword(Util::RecordTable::getRestrainWeaponsKeyword())) {
             actor.unequipWeapons();
@@ -56,12 +91,13 @@ namespace BDSM {
         }
 
         actor.refreshInventory();
+        actor.update3D();
 
         return true;
     }
 
     void ActorData::lock(RestraintData data) {
-        restraints[data.restraint.getRecordID()] = data;
+        restraints.insert({data.restraint.getRecordID(), data});
 
         lockedSlots.add(data.restraint.getSlotMask());
         coveredSlots.add(KeywordLogic::getCoveredSlots(data.restraint));
@@ -102,6 +138,7 @@ namespace BDSM {
         }
 
         actor.refreshInventory();
+        actor.update3D();
 
         return true;
     }

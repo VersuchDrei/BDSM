@@ -15,6 +15,7 @@ namespace Events {
         static void setup();
 
     private:
+        static void onActorLoad(GameAPI::GameActorEvent& evt);
         static void onConsume(GameAPI::GameActorEvent& evt);
         static void onRead(GameAPI::GameActorInteractEvent<GameAPI::GameText>& evt);
         static void onEquip(GameAPI::GameActorEquipEvent<GameAPI::GameArmor>& evt);

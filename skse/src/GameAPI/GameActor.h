@@ -12,6 +12,8 @@ namespace GameAPI {
         inline GameActor() {}
         inline GameActor(RE::Actor* actor) { form = actor; }
 
+        void update3D() const;
+
         inline bool isPlayer() const { return form->IsPlayerRef(); }
         inline std::string getName() const { return form->GetDisplayFullName(); }
 
@@ -20,8 +22,9 @@ namespace GameAPI {
         inline void removeItem(GameArmor armor, int count) const { form->GetContainer()->RemoveObjectFromContainer(armor.form, count); }
 
         inline bool isEquipped(GameArmor armor) const { return IsEquipped(nullptr, 0, form, armor.form); }
-        void equip(GameArmor armor) const;
-        void unequip(GameArmor armor) const;
+        std::vector<GameAPI::GameArmor> getEquippedItems() const;
+        inline void equip(GameArmor armor) const { EquipItem(nullptr, 0, form, armor.form, false, true); }
+        inline void unequip(GameArmor armor) const { UnequipItem(nullptr, 0, form, armor.form, false, true); }
 
         void unequipWeapons() const;
         void unequipSpells() const;

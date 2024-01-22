@@ -11,6 +11,8 @@ namespace GameAPI {
         inline operator bool() const { return form; }
         inline bool operator==(const GameRecord<T> other) { return form == other.form; }
         inline bool operator!=(const GameRecord<T> other) { return form != other.form; }
+        
+        inline bool isPersistent() const { return !form->IsDynamicForm(); }
 
         void loadJson(std::string& path, json json) {
             if (!json.is_object()) {
@@ -55,7 +57,7 @@ namespace GameAPI {
             loadFile(std::string(SKSE::PluginDeclaration::GetSingleton()->GetName()) + ".esp", formID);
         }
 
-        void loadSerial(GameSerializationInterface serial) {
+        void readSerial(GameSerializationInterface serial) {
             RE::FormID oldFormID;
             RE::FormID newFormID;
 

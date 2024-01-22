@@ -1,7 +1,8 @@
 #include "GameHooks.h"
 
-namespace GameAPI {
+namespace GameLogic {
     void installHooksPost() {
+        Load3D::Install();
         EquipItem::Install();
         UnequipItem::Install();
     }

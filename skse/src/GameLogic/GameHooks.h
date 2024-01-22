@@ -1,24 +1,43 @@
 #pragma once
 
-#include "GameEventSources.h"
 #include "GameUtil.h"
 
-namespace GameAPI {
+#include "GameAPI/GameEventSources.h"
+
+namespace GameLogic {
     void installHooksPost();
+
+    struct Load3D {
+        static RE::NiAVObject* thunk(RE::Character* a_this, bool a_arg1) {
+            const auto root = func(a_this, a_arg1);
+            GameAPI::GameActorEvent evt{a_this};
+            GameAPI::GameEventSources::loadActorEventSource.sendEvent(evt);
+            return root;
+        }
+
+        static inline REL::Relocation<decltype(thunk)> func;
+
+        static inline constexpr std::size_t idx = 0x6A;
+
+        static inline void Install() {
+            REL::Relocation<std::uintptr_t> vtbl{RE::Character::VTABLE[0]};
+            func = vtbl.write_vfunc(idx, thunk);
+        }
+    };
 
     struct EquipItem {
         static void thunk(RE::ActorEquipManager* manager, RE::Actor* actor, RE::TESBoundObject* object, const RE::ObjectEquipParams& params) {
             switch (object->GetFormType()) {
                 case RE::AlchemyItem::FORMTYPE: {
-                    GameActorEvent evt{actor};
-                    GameEventSources::consumeEventSource.sendEvent(evt);
+                    GameAPI::GameActorEvent evt{actor};
+                    GameAPI::GameEventSources::consumeEventSource.sendEvent(evt);
                     if (evt.isCancelled()) {
                         return;
                     }
                 } break;
                 case RE::IngredientItem::FORMTYPE: {
-                    GameActorEvent evt{actor};
-                    GameEventSources::consumeEventSource.sendEvent(evt);
+                    GameAPI::GameActorEvent evt{actor};
+                    GameAPI::GameEventSources::consumeEventSource.sendEvent(evt);
                     if (evt.isCancelled()) {
                         return;
                     }
@@ -26,8 +45,8 @@ namespace GameAPI {
                 case RE::TESObjectBOOK::FORMTYPE: {
                     // this doesn't work, even with the event cancelled the book is still opened
                     /*
-                    GameActorInteractEvent<GameText> evt{actor, object->As<RE::TESObjectBOOK>()};
-                    GameEventSources::readTextEventSource.sendEvent(evt);
+                    GameAPI::GameActorInteractEvent<GameText> evt{actor, object->As<RE::TESObjectBOOK>()};
+                    GameAPI::GameEventSources::readTextEventSource.sendEvent(evt);
                     if (evt.isCancelled()) {
                         return;
                     }
@@ -36,37 +55,37 @@ namespace GameAPI {
                 case RE::TESObjectARMO::FORMTYPE: {
                     RE::TESObjectARMO* armor = object->As<RE::TESObjectARMO>();
                     if (armor->GetSlotMask() != RE::BIPED_MODEL::BipedObjectSlot::kNone) {
-                        GameActorEquipEvent<GameArmor> evt{actor, armor, GameUtil::isInventoryOpen()};
-                        GameEventSources::equipArmorEventSource.sendEvent(evt);
+                        GameAPI::GameActorEquipEvent<GameAPI::GameArmor> evt{actor, armor, GameUtil::isInventoryOpen()};
+                        GameAPI::GameEventSources::equipArmorEventSource.sendEvent(evt);
                         if (evt.isCancelled()) {
                             return;
                         }
                     }
                 } break;
                 case RE::TESObjectWEAP::FORMTYPE: {
-                    GameActorEquipEvent<GameWeapon> evt{actor, object->As<RE::TESObjectWEAP>(), GameUtil::isInventoryOpen()};
-                    GameEventSources::equipWeaponEventSource.sendEvent(evt);
+                    GameAPI::GameActorEquipEvent<GameAPI::GameWeapon> evt{actor, object->As<RE::TESObjectWEAP>(), GameUtil::isInventoryOpen()};
+                    GameAPI::GameEventSources::equipWeaponEventSource.sendEvent(evt);
                     if (evt.isCancelled()) {
                         return;
                     }
                 } break;
                 case RE::SpellItem::FORMTYPE: {
-                    GameActorEquipEvent<GameSpell> evt{actor, object->As<RE::SpellItem>(), GameUtil::isInventoryOpen()};
-                    GameEventSources::equipSpellEventSource.sendEvent(evt);
+                    GameAPI::GameActorEquipEvent<GameAPI::GameSpell> evt{actor, object->As<RE::SpellItem>(), GameUtil::isInventoryOpen()};
+                    GameAPI::GameEventSources::equipSpellEventSource.sendEvent(evt);
                     if (evt.isCancelled()) {
                         return;
                     }
                 } break;
                 case RE::ScrollItem::FORMTYPE: {
-                    GameActorEquipEvent<GameScroll> evt{actor, object->As<RE::ScrollItem>(), GameUtil::isInventoryOpen()};
-                    GameEventSources::equipScrollEventSource.sendEvent(evt);
+                    GameAPI::GameActorEquipEvent<GameAPI::GameScroll> evt{actor, object->As<RE::ScrollItem>(), GameUtil::isInventoryOpen()};
+                    GameAPI::GameEventSources::equipScrollEventSource.sendEvent(evt);
                     if (evt.isCancelled()) {
                         return;
                     }
                 } break;
                 case RE::TESShout::FORMTYPE: {
-                    GameActorEquipEvent<GameShout> evt{actor, object->As<RE::TESShout>(), GameUtil::isInventoryOpen()};
-                    GameEventSources::equipShoutEventSource.sendEvent(evt);
+                    GameAPI::GameActorEquipEvent<GameAPI::GameShout> evt{actor, object->As<RE::TESShout>(), GameUtil::isInventoryOpen()};
+                    GameAPI::GameEventSources::equipShoutEventSource.sendEvent(evt);
                     if (evt.isCancelled()) {
                         return;
                     }
@@ -99,8 +118,8 @@ namespace GameAPI {
             if (object->Is(RE::TESObjectARMO::FORMTYPE)) {
                 RE::TESObjectARMO* armor = object->As<RE::TESObjectARMO>();
                 if (armor->GetSlotMask() != RE::BIPED_MODEL::BipedObjectSlot::kNone) {
-                    GameActorEquipEvent<GameArmor> evt{actor, armor, GameUtil::isInventoryOpen()};
-                    GameEventSources::unequipArmorEventSource.sendEvent(evt);
+                    GameAPI::GameActorEquipEvent<GameAPI::GameArmor> evt{actor, armor, GameUtil::isInventoryOpen()};
+                    GameAPI::GameEventSources::unequipArmorEventSource.sendEvent(evt);
                     if (evt.isCancelled()) {
                         return;
                     }

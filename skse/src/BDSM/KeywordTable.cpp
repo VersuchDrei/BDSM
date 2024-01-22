@@ -2,6 +2,7 @@
 
 #include "Util/JsonFileLoader.h"
 #include "Util/JsonUtil.h"
+#include "Util/StringUtil.h"
 
 namespace BDSM {
     const char* KEYWORD_FILE_PATH{"Data/SKSE/Plugins/BDSM/keywords"};
@@ -14,7 +15,9 @@ namespace BDSM {
                 return;                                 
             }
 
-            keywordsByIDs[filename] = keyword;
+            std::string lowerName = filename;
+            StringUtil::toLower(&lowerName);
+            keywordsByIDs[lowerName] = keyword;
 
             KeywordProperties properties;
 
