@@ -10,8 +10,8 @@ namespace GameLogic {
     struct Load3D {
         static RE::NiAVObject* thunk(RE::Character* a_this, bool a_arg1) {
             const auto root = func(a_this, a_arg1);
-            GameAPI::GameActorEvent evt{a_this};
-            GameAPI::GameEventSources::loadActorEventSource.sendEvent(evt);
+            GameAPI::GameActor actor = a_this;
+            GameAPI::GameEventSources::loadActorEventSource.sendEvent(actor);
             return root;
         }
 

@@ -1,6 +1,7 @@
 #include <stddef.h>
 
 #include "Core.h"
+#include "GameLogic/GameEventListener.h"
 #include "GameLogic/GameHooks.h"
 #include "GameLogic/GameSerializationManager.h"
 #include "GameLogic/GameTable.h"
@@ -38,6 +39,7 @@ namespace {
         switch (a_msg->type) {
             case SKSE::MessagingInterface::kPostLoad: {
                 GameLogic::installHooksPost();
+                GameLogic::GameEventListener::setup();
 
                 Core::postLoad();
             } break;

@@ -8,6 +8,7 @@ namespace BDSM {
     struct ActorTable {
     public:
         static ActorData* getActorData(GameAPI::GameActor actor, bool createIfNotExists);
+        static void clearRecord(RecordID id);
 
         static void serialize(GameAPI::GameSerializationInterface serial);
         static void deserialize(GameAPI::GameSerializationInterface serial);

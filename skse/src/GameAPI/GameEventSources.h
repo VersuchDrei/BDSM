@@ -13,7 +13,8 @@
 namespace GameAPI {
     struct GameEventSources {
     public:
-        inline static GameEventSource<GameActorEvent> loadActorEventSource;
+        inline static GameEventSource<GameActor> loadActorEventSource;
+        inline static GameEventSource<RecordID> deleteRecordEventSource;
         inline static GameEventSource<GameActorEvent> consumeEventSource;
         inline static GameEventSource<GameActorInteractEvent<GameText>> readTextEventSource;
         inline static GameEventSource<GameActorEquipEvent<GameArmor>> equipArmorEventSource;

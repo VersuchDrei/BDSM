@@ -8,6 +8,7 @@
 namespace Events {
     void EventListener::setup() {
         GameAPI::GameEventSources::loadActorEventSource.addListener(onActorLoad);
+        GameAPI::GameEventSources::deleteRecordEventSource.addListener(onRecordDelete);
         GameAPI::GameEventSources::consumeEventSource.addListener(onConsume);
         GameAPI::GameEventSources::readTextEventSource.addListener(onRead);
         GameAPI::GameEventSources::equipArmorEventSource.addListener(onEquip);
@@ -19,10 +20,14 @@ namespace Events {
     }
 
 
-    void EventListener::onActorLoad(GameAPI::GameActorEvent& evt) {
-        if (evt.getActor().wornItemHasKeyword(Util::RecordTable::getNoStripKeyword())) {
-            BDSM::ActorTable::getActorData(evt.getActor(), true);
+    void EventListener::onActorLoad(GameAPI::GameActor& actor) {
+        if (actor.wornItemHasKeyword(Util::RecordTable::getNoStripKeyword())) {
+            BDSM::ActorTable::getActorData(actor, true);
         }
+    }
+
+    void EventListener::onRecordDelete(RecordID& id) {
+        BDSM::ActorTable::clearRecord(id);
     }
 
     void EventListener::onConsume(GameAPI::GameActorEvent& evt) {

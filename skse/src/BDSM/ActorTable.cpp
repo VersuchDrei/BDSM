@@ -12,6 +12,12 @@ namespace BDSM {
         return nullptr;
     }
 
+    void ActorTable::clearRecord(RecordID id) {
+        if (auto it = actors.find(id); it != actors.end()) {
+            actors.erase(it);
+        }
+    }
+
 
     void ActorTable::serialize(GameAPI::GameSerializationInterface serial) {
         size_t size = 0;

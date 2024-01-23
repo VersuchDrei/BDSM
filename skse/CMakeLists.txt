@@ -32,6 +32,7 @@ set(sources
         src/GameAPI/GameActor.cpp
         src/GameAPI/GameArmor.cpp
         src/GameAPI/GameSlotMask.cpp
+        src/GameLogic/GameEventListener.cpp
         src/GameLogic/GameHooks.cpp
         src/GameLogic/GameSerializationManager.cpp
         src/GameLogic/GameTable.cpp

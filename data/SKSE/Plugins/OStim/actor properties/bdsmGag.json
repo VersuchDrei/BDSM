@@ -1,0 +1,8 @@
+{
+	"condition":{
+		"info": "bdsmGagCondition",
+		"mod":"BDSM.esp",
+		"formid":"0xE81"
+	},
+	"muffle": true
+}
