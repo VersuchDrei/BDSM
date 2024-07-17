@@ -1,8 +1,9 @@
 #pragma once
 
-#include "GameSlotMask.h"
+#include "GameItem.h"
 #include "GameKeyword.h"
 #include "GameRecord.h"
+#include "GameSlotMask.h"
 
 namespace GameAPI {
     struct GameArmor : public GameRecord<RE::TESObjectARMO> {
@@ -10,6 +11,8 @@ namespace GameAPI {
 
         inline GameArmor() {}
         inline GameArmor(RE::TESObjectARMO* armor) { form = armor; }
+
+        inline GameItem toItem() { return form; }
 
         inline GameSlotMask getSlotMask() { return form->GetSlotMask(); }
 

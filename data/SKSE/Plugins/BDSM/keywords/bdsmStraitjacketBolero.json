@@ -3,5 +3,8 @@
 		"info": "bdsmStraitjacketBolero",
 		"mod": "BDSM.esp",
 		"formid": "0x8F2"
-	}
+	},
+	"inherits":[
+		"bdsmStraitjacket"
+	]
 }

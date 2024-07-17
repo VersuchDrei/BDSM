@@ -1,0 +1,46 @@
+{
+	"displayName": "$bdsm_escape_game_key",
+	"priority": 99999,
+	"game": {
+		"info": "bdsmEscapeGameKey",
+		"mod": "BDSM.esp",
+		"formid": "0xE87"
+	},
+	"difficulties": [
+		{
+			"keyword": {
+				"info": "bdsmKeyNovice",
+				"mod": "BDSM.esp",
+				"formid": "0x905"
+			}
+		},
+		{
+			"keyword": {
+				"info": "bdsmKeyApprentice",
+				"mod": "BDSM.esp",
+				"formid": "0x903"
+			}
+		},
+		{
+			"keyword": {
+				"info": "bdsmKeyAdept",
+				"mod": "BDSM.esp",
+				"formid": "0x904"
+			}
+		},
+		{
+			"keyword": {
+				"info": "bdsmKeyExpert",
+				"mod": "BDSM.esp",
+				"formid": "0x906"
+			}
+		},
+		{
+			"keyword": {
+				"info": "bdsmKeyMaster",
+				"mod": "BDSM.esp",
+				"formid": "0x907"
+			}
+		}
+	]
+}

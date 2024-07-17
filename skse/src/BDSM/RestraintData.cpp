@@ -1,5 +1,6 @@
 #include "RestraintData.h"
 
+#include "GameAPI/Game.h"
 #include "Util/SerializationUtil.h"
 
 namespace BDSM {
@@ -28,5 +29,18 @@ namespace BDSM {
         for (RestraintData& data : combinations) {
             data.serialize(serial);
         }
+    }
+
+
+    bool RestraintData::isGameOnCooldown(std::string game) {
+        if (!cooldowns.contains(game)) {
+            return false;
+        }
+
+        return cooldowns[game] < GameAPI::Game::getGameTime();
+    }
+
+    void RestraintData::setGameCooldown(std::string game, float cooldown) {
+        cooldowns[game] = GameAPI::Game::getGameTime() + cooldown;
     }
 }

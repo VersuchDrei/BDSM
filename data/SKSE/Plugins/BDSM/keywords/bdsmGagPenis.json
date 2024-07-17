@@ -6,6 +6,7 @@
 	},
 	"inherits":[
 		"bdsmGagClosed",
-		"bdsmGagFull"
+		"bdsmGagFull",
+		"bdsmGagOpenMouth"
 	]
 }

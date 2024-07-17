@@ -1,0 +1,8 @@
+{
+	"condition":{
+		"info": "bdsmGagOpenMouthCondition",
+		"mod":"BDSM.esp",
+		"formid":"0xE8E"
+	},
+	"expression": "openmouth"
+}

@@ -70,6 +70,10 @@ namespace GameAPI {
         // there is a bug when unequipping items via code while the inventory is open
         // so we close and immediately open the inventory again to refresh it
         RE::UI* ui = RE::UI::GetSingleton();
+        if (!ui) {
+            return;
+        }     
+
         if (ui->IsMenuOpen("InventoryMenu")) {
             RE::IMenu* menu = ui->GetMenu("InventoryMenu").get();
             RE::GFxValue global;
@@ -79,8 +83,6 @@ namespace GameAPI {
             const RE::GFxValue val{"InventoryMenu"};
             skse.Invoke("CloseMenu", nullptr, &val, 1);
             skse.Invoke("OpenMenu", nullptr, &val, 1);
-
-            // TODO queue ninode update?
         } else if (ui->IsMenuOpen("ContainerMenu")) {
             RE::ContainerMenu* menu = ui->GetMenu<RE::ContainerMenu>("ContainerMenu").get();
             if (menu->GetContainerMode() != RE::ContainerMenu::ContainerMode::kNPCMode || form->IsPlayerRef()) {

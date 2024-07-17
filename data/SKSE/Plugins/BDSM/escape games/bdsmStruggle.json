@@ -1,0 +1,46 @@
+{
+	"displayName": "$bdsm_escape_game_struggle",
+	"priority": 9000,
+	"game": {
+		"info": "bdsmEscapeGameStruggle",
+		"mod": "BDSM.esp",
+		"formid": "0xE89"
+	},
+	"difficulties": [
+		{
+			"keyword": {
+				"info": "bdsmStruggleNovice",
+				"mod": "BDSM.esp",
+				"formid": "0x809"
+			}
+		},
+		{
+			"keyword": {
+				"info": "bdsmStruggleApprentice",
+				"mod": "BDSM.esp",
+				"formid": "0x80A"
+			}
+		},
+		{
+			"keyword": {
+				"info": "bdsmStruggleAdept",
+				"mod": "BDSM.esp",
+				"formid": "0x80B"
+			}
+		},
+		{
+			"keyword": {
+				"info": "bdsmStruggleExpert",
+				"mod": "BDSM.esp",
+				"formid": "0x80C"
+			}
+		},
+		{
+			"keyword": {
+				"info": "bdsmStruggleMaster",
+				"mod": "BDSM.esp",
+				"formid": "0x80D"
+			}
+		}
+	]
+}

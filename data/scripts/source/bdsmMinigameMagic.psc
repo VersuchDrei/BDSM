@@ -1,1 +1,0 @@
-ScriptName bdsmMinigameMagic Extends bdsmMinigameModel

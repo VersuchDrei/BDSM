@@ -1,6 +1,7 @@
 #include <stddef.h>
 
 #include "Core.h"
+#include "GameLogic/Papyrus/Papyrus.h"
 #include "GameLogic/GameEventListener.h"
 #include "GameLogic/GameHooks.h"
 #include "GameLogic/GameSerializationManager.h"
@@ -47,7 +48,7 @@ namespace {
                 Core::postpostLoad();
             } break;
             case SKSE::MessagingInterface::kDataLoaded: {
-                GameLogic::GameTable::setup();
+                GameLogic::GameTable::getSingleton()->setup();
 
                 Core::dataLoaded();
                 SKSE::GetTaskInterface()->AddTask([]() { Core::postDataLoaded(); });
@@ -64,6 +65,8 @@ SKSEPluginLoad(const LoadInterface* skse) {
     log::info("{} {} is loading...", plugin->GetName(), version);
 
     Init(skse);
+
+    Papyrus::bind();
 
     Core::init();
 

@@ -1,0 +1,77 @@
+{
+	"name": "$bdsm_escape_game_struggle_name",
+	"settings": [
+		{
+			"name": "$bdsm_escape_game_struggle_key1",
+			"tooltip": "$bdsm_tooltip_escape_game_struggle_key1",
+			"type": "keymap",
+			"variable": {
+				"info": "bdsmStruggleKey1",
+				"mod": "BDSM.esp",
+				"formid": "0x8DB"
+			},
+			"defaultKey": 17
+		},
+		{
+			"name": "$bdsm_escape_game_struggle_key2",
+			"tooltip": "$bdsm_tooltip_escape_game_struggle_key2",
+			"type": "keymap",
+			"variable": {
+				"info": "bdsmStruggleKey2",
+				"mod": "BDSM.esp",
+				"formid": "0x8DC"
+			},
+			"defaultKey": 30
+		},
+		{
+			"name": "$bdsm_escape_game_struggle_key3",
+			"tooltip": "$bdsm_tooltip_escape_game_struggle_key3",
+			"type": "keymap",
+			"variable": {
+				"info": "bdsmStruggleKey3",
+				"mod": "BDSM.esp",
+				"formid": "0x8DD"
+			},
+			"defaultKey": 31
+		},
+		{
+			"name": "$bdsm_escape_game_struggle_key4",
+			"tooltip": "$bdsm_tooltip_escape_game_struggle_key4",
+			"type": "keymap",
+			"variable": {
+				"info": "bdsmStruggleKey4",
+				"mod": "BDSM.esp",
+				"formid": "0x8DE"
+			},
+			"defaultKey": 32
+		},
+		{
+			"name": "$bdsm_escape_game_struggle_escape_mult",
+			"tooltip": "$bdsm_tooltip_escape_game_struggle_escale_mult",
+			"type": "slider",
+			"variable": {
+				"info": "bdsmStruggleEscapeMult",
+				"mod": "BDSM.esp",
+				"formid": "0x8D9"
+			},
+			"defaultValue": 1.0,
+			"valueStep": 0.05,
+			"minValue": 0.25,
+			"maxValue": 3.0
+		},
+		{
+			"name": "$bdsm_escape_game_struggle_stamina_mult",
+			"tooltip": "$bdsm_tooltip_escape_game_struggle_stamina_mult",
+			"type": "slider",
+			"variable": {
+				"info": "bdsmStruggleStaminaMult",
+				"mod": "BDSM.esp",
+				"formid": "0x8DA"
+			},
+			"defaultValue": 1.0,
+			"valueStep": 0.05,
+			"minValue": 0.25,
+			"maxValue": 3.0
+		}
+	]
+}

@@ -5,6 +5,7 @@
 		"formid": "0x8EE"
 	},
 	"inherits":[
-		"bdsmGagOpen"
+		"bdsmGagOpen",
+		"bdsmGagOpenMouth"
 	]
 }

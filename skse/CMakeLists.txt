@@ -23,20 +23,25 @@ configure_file(
 set(sources
         src/BDSM/ActorData.cpp
         src/BDSM/ActorTable.cpp
+        src/BDSM/EscapeGame.cpp
+        src/BDSM/EscapeGameTable.cpp
         src/BDSM/KeywordLogic.cpp
         src/BDSM/KeywordTable.cpp
         src/BDSM/RestraintData.cpp
         src/Events/EventListener.cpp
         src/Game/LocaleManager.cpp
+        src/GameAPI/BDSM/EscapeGame.cpp
         src/GameAPI/Game.cpp
         src/GameAPI/GameActor.cpp
         src/GameAPI/GameArmor.cpp
         src/GameAPI/GameSlotMask.cpp
+        src/GameLogic/Papyrus/Papyrus.cpp
         src/GameLogic/GameEventListener.cpp
         src/GameLogic/GameHooks.cpp
         src/GameLogic/GameSerializationManager.cpp
         src/GameLogic/GameTable.cpp
         src/GameLogic/GameUtil.cpp
+        src/ScriptAPI/EscapeGameScript.cpp
         src/Util/JsonUtil.cpp
         src/Util/RecordTable.cpp
         src/Util/SerializationUtil.cpp

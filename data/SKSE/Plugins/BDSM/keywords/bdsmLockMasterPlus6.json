@@ -5,7 +5,8 @@
 		"formid": "0x90D"
 	},
 	"inherits":[
-		"bdsmLockpickMasterPlus6",
-		"bdsmKeyMaster"
+		"bdsmAlterationMaster",
+		"bdsmKeyMaster",
+		"bdsmLockpickMasterPlus6"
 	]
 }

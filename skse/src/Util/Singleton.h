@@ -2,17 +2,17 @@
 
 namespace Util {
     template <class T>
-    class ISingleton {
+    class Singleton {
     public:
-        ISingleton() = default;
-        ISingleton(const ISingleton&) = delete;
-        ISingleton(ISingleton&&) = delete;
-        ISingleton& operator=(const ISingleton&) = delete;
-        ISingleton& operator=(ISingleton&&) = delete;
-        ~ISingleton() = default;
+        Singleton() = default;
+        Singleton(const Singleton&) = delete;
+        Singleton(Singleton&&) = delete;
+        Singleton& operator=(const Singleton&) = delete;
+        Singleton& operator=(Singleton&&) = delete;
+        ~Singleton() = default;
 
     public:
-        static T* GetSingleton() noexcept {
+        static T* getSingleton() noexcept {
             static T singleton;
             return std::addressof(singleton);
         }

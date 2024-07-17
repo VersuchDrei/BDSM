@@ -1,0 +1,11 @@
+{
+	"info": "hardcoded effect: opens the actors mouth",
+	"keyword":{
+		"info": "bdsmGagOpenMouth",
+		"mod": "BDSM.esp",
+		"formid": "0xE8D"
+	},
+	"inherits":[
+		"bdsmGag"
+	]
+}

@@ -25,6 +25,9 @@ namespace BDSM {
         inline bool isLocked(GameAPI::GameSlotMask slot) { return lockedSlots.overlaps(slot); }
         inline bool isCovered(GameAPI::GameSlotMask slot) { return coveredSlots.overlaps(slot); }
 
+        bool isGameOnCooldown(std::string game, GameAPI::GameArmor restraint);
+        void setGameCooldown(std::string game, GameAPI::GameArmor restraint, float cooldown);
+
     private:
         void lock(RestraintData dara);
 

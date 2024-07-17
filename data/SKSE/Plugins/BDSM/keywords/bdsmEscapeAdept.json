@@ -6,8 +6,8 @@
 	},
 	"inherits":[
 		"bdsmAlchemyAdept",
+		"bdsmDestructionAdept",
 		"bdsmLockAdept",
-		"bdsmMagicAdept",
 		"bdsmStruggleAdept"
 	]
 }

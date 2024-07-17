@@ -1,6 +1,7 @@
 #include "EventListener.h"
 
 #include "BDSM/ActorTable.h"
+#include "BDSM/EscapeGameTable.h"
 #include "GameAPI/Game.h"
 #include "GameAPI/GameEventSources.h"
 #include "Util/RecordTable.h"
@@ -115,14 +116,8 @@ namespace Events {
         if (data->isLocked(evt.getItem())) {
             if (evt.wasPlayer()) {
                 evt.cancel();
-                // TODO unlock options
                 GameAPI::GameArmor armor = evt.getItem();
-                GameAPI::Game::showMessageBox("Unlock?", {"Yes", "No"}, [data, armor](unsigned int option) {
-                    if (option == 0) {
-                        data->unlock(armor);
-                    }
-                });
-                // END TODO
+                BDSM::EscapeGameTable::getSingleton()->tryEscape(data, armor);
             } else {
                 evt.cancel();
             }

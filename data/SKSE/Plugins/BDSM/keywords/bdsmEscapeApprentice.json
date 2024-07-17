@@ -6,8 +6,8 @@
 	},
 	"inherits":[
 		"bdsmAlchemyApprentice",
+		"bdsmDestructionApprentice",
 		"bdsmLockApprentice",
-		"bdsmMagicApprentice",
 		"bdsmStruggleApprentice"
 	]
 }

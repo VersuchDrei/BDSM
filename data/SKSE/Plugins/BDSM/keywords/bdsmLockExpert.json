@@ -5,7 +5,8 @@
 		"formid": "0x805"
 	},
 	"inherits":[
-		"bdsmLockpickExpert",
-		"bdsmKeyExpert"
+		"bdsmAlterationExpert",
+		"bdsmKeyExpert",
+		"bdsmLockpickExpert"
 	]
 }

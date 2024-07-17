@@ -1,0 +1,88 @@
+{
+	"displayName": "$bdsm_escape_game_lockpick",
+	"priority": 10000,
+	"game": {
+		"info": "bdsmEscapeGameLockpick",
+		"mod": "BDSM.esp",
+		"formid": "0xE88"
+	},
+	"difficulties": [
+		{
+			"keyword": {
+				"info": "bdsmLockpickNovice",
+				"mod": "BDSM.esp",
+				"formid": "0x8FA"
+			}
+		},
+		{
+			"keyword": {
+				"info": "bdsmLockpickApprentice",
+				"mod": "BDSM.esp",
+				"formid": "0x8F8"
+			}
+		},
+		{
+			"keyword": {
+				"info": "bdsmLockpickAdept",
+				"mod": "BDSM.esp",
+				"formid": "0x8F9"
+			}
+		},
+		{
+			"keyword": {
+				"info": "bdsmLockpickExpert",
+				"mod": "BDSM.esp",
+				"formid": "0x8FB"
+			}
+		},
+		{
+			"keyword": {
+				"info": "bdsmLockpickMaster",
+				"mod": "BDSM.esp",
+				"formid": "0x8FC"
+			}
+		},
+		{
+			"keyword": {
+				"info": "bdsmLockpickMasterPlus",
+				"mod": "BDSM.esp",
+				"formid": "0x8FD"
+			}
+		},
+		{
+			"keyword": {
+				"info": "bdsmLockpickMasterPlus2",
+				"mod": "BDSM.esp",
+				"formid": "0x8FE"
+			}
+		},
+		{
+			"keyword": {
+				"info": "bdsmLockpickMasterPlus3",
+				"mod": "BDSM.esp",
+				"formid": "0x8FF"
+			}
+		},
+		{
+			"keyword": {
+				"info": "bdsmLockpickMasterPlus4",
+				"mod": "BDSM.esp",
+				"formid": "0x900"
+			}
+		},
+		{
+			"keyword": {
+				"info": "bdsmLockpickMasterPlus5",
+				"mod": "BDSM.esp",
+				"formid": "0x901"
+			}
+		},
+		{
+			"keyword": {
+				"info": "bdsmLockpickMasterPlus6",
+				"mod": "BDSM.esp",
+				"formid": "0x902"
+			}
+		}
+	]
+}

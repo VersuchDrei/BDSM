@@ -1,6 +1,7 @@
 #include "Core.h"
 
 #include "BDSM/ActorTable.h"
+#include "BDSM/EscapeGameTable.h"
 #include "BDSM/KeywordLogic.h"
 #include "BDSM/KeywordTable.h"
 #include "Events/EventListener.h"
@@ -26,6 +27,7 @@ namespace Core {
 
     void postDataLoaded() {
         BDSM::KeywordLogic::processArmors();
+        BDSM::EscapeGameTable::getSingleton()->setup();
     }
 
     void save(GameAPI::GameSerializationInterface serial) {

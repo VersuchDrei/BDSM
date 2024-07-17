@@ -6,8 +6,8 @@
 	},
 	"inherits":[
 		"bdsmAlchemyMaster",
+		"bdsmDestructionMaster",
 		"bdsmLockMaster",
-		"bdsmMagicMaster",
 		"bdsmStruggleMaster"
 	]
 }

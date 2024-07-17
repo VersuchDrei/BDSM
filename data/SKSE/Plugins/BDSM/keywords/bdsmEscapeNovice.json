@@ -6,8 +6,8 @@
 	},
 	"inherits":[
 		"bdsmAlchemyNovice",
+		"bdsmDestructionNovice",
 		"bdsmLockNovice",
-		"bdsmMagicNovice",
 		"bdsmStruggleNovice"
 	]
 }

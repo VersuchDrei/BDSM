@@ -8,6 +8,8 @@ namespace BDSM {
     const char* KEYWORD_FILE_PATH{"Data/SKSE/Plugins/BDSM/keywords"};
 
     void KeywordTable::setup() {
+        keywords.clear();
+
         Util::JsonFileLoader::LoadFilesInFolder(KEYWORD_FILE_PATH, [&](std::string path, std::string filename, json json){
             GameAPI::GameKeyword keyword;
             JsonUtil::loadGameRecord<GameAPI::GameKeyword>(json, keyword, "keyword", filename, "keyword", path, true);
@@ -21,7 +23,7 @@ namespace BDSM {
 
             KeywordProperties properties;
 
-            properties.converedSlots.loadJson(json, "coveredSlots", filename, "keyword");
+            properties.coveredSlots.loadJson(json, "coveredSlots", filename, "keyword");
             JsonUtil::consumeLowerStringList(json, [&properties](std::string inherit) { properties.inherits.push_back(inherit); }, "inherits", filename, "keyword", false);
 
             keywords[keyword.getRecordID()] = properties;

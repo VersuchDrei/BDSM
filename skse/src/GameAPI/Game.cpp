@@ -1,6 +1,7 @@
 #include "Game.h"
 
 #include "Game/LocaleManager.h"
+#include "GameLogic/GameTable.h"
 
 namespace GameAPI {
     void Game::showMessageBox(std::string content, std::vector<std::string> options, std::function<void(unsigned int)> callback) {
@@ -16,5 +17,10 @@ namespace GameAPI {
             messagebox->buttonText.push_back(text.c_str());
         }
         messagebox->QueueMessage();
+    }
+
+    float Game::getGameTime() {
+        // game time in days
+        return GameLogic::GameTable::getSingleton()->getGameDaysPassed()->value;
     }
 }

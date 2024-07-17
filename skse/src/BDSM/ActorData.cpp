@@ -75,7 +75,7 @@ namespace BDSM {
             return false;
         }
 
-        lock({armor});
+        lock(RestraintData{armor});
 
         if (armor.hasKeyword(Util::RecordTable::getRestrainWeaponsKeyword())) {
             actor.unequipWeapons();
@@ -103,8 +103,8 @@ namespace BDSM {
         coveredSlots.add(KeywordLogic::getCoveredSlots(data.restraint));
 
         if (!actor.isEquipped(data.restraint)) {
-            if (actor.getItemCount(data.restraint) == 0) {
-                actor.addItem(data.restraint, 1);
+            if (actor.getItemCount(data.restraint.toItem()) == 0) {
+                actor.addItem(data.restraint.toItem(), 1);
             }
             actor.equip(data.restraint);
         }
@@ -117,7 +117,7 @@ namespace BDSM {
         }
 
         std::vector<RestraintData> combinations = iter->second.combinations;
-        GameAPI::GameArmor original = iter->second.original;
+        GameAPI::GameItem original = iter->second.original;
 
         restraints.erase(iter);
         lockedSlots.remove(armor.getSlotMask());
@@ -126,14 +126,14 @@ namespace BDSM {
         actor.unequip(armor);
 
         for (RestraintData data : combinations) {
-            actor.addItem(data.restraint, 1);
+            actor.addItem(data.restraint.toItem(), 1);
             lock(data);
         }
 
         if (armor.hasKeyword(Util::RecordTable::getRemoveOnUnlockKeyword())) {
-            actor.removeItem(armor, 1);
+            actor.removeItem(armor.toItem(), 1);
         } else if (original) {
-            actor.removeItem(armor, 1);
+            actor.removeItem(armor.toItem(), 1);
             actor.addItem(original, 1);
         }
 
@@ -147,5 +147,24 @@ namespace BDSM {
     bool ActorData::isLocked(GameAPI::GameArmor armor) {
         auto iter = restraints.find(armor.getRecordID());
         return iter != restraints.end();
+    }
+
+
+    bool ActorData::isGameOnCooldown(std::string game, GameAPI::GameArmor restraint) {
+        auto iter = restraints.find(restraint.getRecordID());
+        if (iter == restraints.end()) {
+            return false;
+        }
+
+        return iter->second.isGameOnCooldown(game);
+    }
+
+    void ActorData::setGameCooldown(std::string game, GameAPI::GameArmor restraint, float cooldown) {
+        auto iter = restraints.find(restraint.getRecordID());
+        if (iter == restraints.end()) {
+            return;
+        }
+
+        return iter->second.setGameCooldown(game, cooldown);
     }
 }

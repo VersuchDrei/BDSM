@@ -5,6 +5,6 @@
 namespace BDSM {
     struct KeywordProperties {
         std::vector<std::string> inherits;
-        GameAPI::GameSlotMask converedSlots;
+        GameAPI::GameSlotMask coveredSlots;
     };
 }

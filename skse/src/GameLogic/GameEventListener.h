@@ -3,7 +3,7 @@
 #include "Util/Singleton.h"
 
 namespace GameLogic {
-    class GameEventListener : public Util::ISingleton<GameEventListener>, public RE::BSTEventSink<RE::TESFormDeleteEvent> {
+    class GameEventListener : public Util::Singleton<GameEventListener>, public RE::BSTEventSink<RE::TESFormDeleteEvent> {
     public:
         static void setup();
 

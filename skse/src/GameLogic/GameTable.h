@@ -1,9 +1,14 @@
 #pragma once
 
+#include "Util/Singleton.h"
+
 namespace GameLogic {
-    struct GameTable {
+    struct GameTable : public Util::Singleton<GameTable> {
     public:
-        static void setup();
+        void setup();
+
+        inline RE::TESGlobal* getGameDaysPassed() { return GameDaysPassed; }
     private:
+        RE::TESGlobal* GameDaysPassed = nullptr;
     };
 }

@@ -6,8 +6,8 @@
 	},
 	"inherits":[
 		"bdsmAlchemyExpert",
+		"bdsmDestructionExpert",
 		"bdsmLockExpert",
-		"bdsmMagicExpert",
 		"bdsmStruggleExpert"
 	]
 }

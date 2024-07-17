@@ -4,7 +4,7 @@
 
 namespace GameLogic {
     void GameEventListener::setup() {
-		GameEventListener* listener = GetSingleton();
+		GameEventListener* listener = getSingleton();
         RE::ScriptEventSourceHolder::GetSingleton()->AddEventSink<RE::TESFormDeleteEvent>(listener);
 	}
 

@@ -49,7 +49,7 @@ namespace BDSM {
         for (GameAPI::GameKeyword keyword : armor.getKeywords()) {
             KeywordProperties* properties = KeywordTable::getProperties(keyword);
             if (properties) {
-                coveredSlots.add(properties->converedSlots);
+                coveredSlots.add(properties->coveredSlots);
             }
         }
 

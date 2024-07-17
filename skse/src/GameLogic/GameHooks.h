@@ -69,13 +69,6 @@ namespace GameLogic {
                         return;
                     }
                 } break;
-                case RE::SpellItem::FORMTYPE: {
-                    GameAPI::GameActorEquipEvent<GameAPI::GameSpell> evt{actor, object->As<RE::SpellItem>(), GameUtil::isInventoryOpen()};
-                    GameAPI::GameEventSources::equipSpellEventSource.sendEvent(evt);
-                    if (evt.isCancelled()) {
-                        return;
-                    }
-                } break;
                 case RE::ScrollItem::FORMTYPE: {
                     GameAPI::GameActorEquipEvent<GameAPI::GameScroll> evt{actor, object->As<RE::ScrollItem>(), GameUtil::isInventoryOpen()};
                     GameAPI::GameEventSources::equipScrollEventSource.sendEvent(evt);
@@ -136,6 +129,73 @@ namespace GameLogic {
             SKSE::AllocTrampoline(14);
 
             func = trampoline.write_call<5>(target.address(), thunk);
+        }
+    };
+
+    struct EquipSpell {
+        static void thunk(RE::ActorEquipManager* manager, RE::Actor* actor, RE::TESBoundObject* spell, RE::BGSEquipSlot* slot) {
+            switch (spell->GetFormType()) {
+                case RE::SpellItem::FORMTYPE: {
+                    GameAPI::GameActorEquipEvent<GameAPI::GameSpell> evt{actor, spell->As<RE::SpellItem>(), GameUtil::isInventoryOpen()};
+                    GameAPI::GameEventSources::equipSpellEventSource.sendEvent(evt);
+                    if (evt.isCancelled()) {
+                        return;
+                    }
+                } break;
+            }
+
+            return func(manager, actor, spell, slot);
+        }
+
+        static inline REL::Relocation<decltype(thunk)> func;
+
+        static inline void Install() {
+            std::array targets{
+                std::make_pair(RELOCATION_ID(37939, 38895), REL::VariantOffset(0x47, 0x47, 0x47)),
+                std::make_pair(RELOCATION_ID(37950, 38906), REL::VariantOffset(0xC5, 0xCA, 0xC5)),
+                std::make_pair(RELOCATION_ID(37952, 38908), REL::VariantOffset(0xD7, 0xD7, 0xD7))
+            };
+
+            for (const auto& [id, offset] : targets) {
+                REL::Relocation<std::uintptr_t> target{id, offset};
+                auto& trampoline = SKSE::GetTrampoline();
+                SKSE::AllocTrampoline(14);
+
+                func = trampoline.write_call<5>(target.address(), thunk);
+            }
+        }
+    };
+
+    struct EquipShout {
+        static void thunk(RE::ActorEquipManager* manager, RE::Actor* actor, RE::TESBoundObject* shout, RE::BGSEquipSlot* slot) {
+            switch (shout->GetFormType()) {
+                case RE::TESShout::FORMTYPE: {
+                    GameAPI::GameActorEquipEvent<GameAPI::GameShout> evt{actor, shout->As<RE::TESShout>(), GameUtil::isInventoryOpen()};
+                    GameAPI::GameEventSources::equipShoutEventSource.sendEvent(evt);
+                    if (evt.isCancelled()) {
+                        return;
+                    }
+                } break;
+            }
+
+            return func(manager, actor, shout, slot);
+        }
+
+        static inline REL::Relocation<decltype(thunk)> func;
+
+        static inline void Install() {
+            std::array targets{
+                std::make_pair(RELOCATION_ID(37941, 38897), REL::VariantOffset(0x21, 0x21, 0x21)),
+                std::make_pair(RELOCATION_ID(37953, 38909), REL::VariantOffset(0x4B, 0x4B, 0x4B))
+            };
+
+            for (const auto& [id, offset] : targets) {
+                REL::Relocation<std::uintptr_t> target{id, offset};
+                auto& trampoline = SKSE::GetTrampoline();
+                SKSE::AllocTrampoline(14);
+
+                func = trampoline.write_call<5>(target.address(), thunk);
+            }
         }
     };
 }

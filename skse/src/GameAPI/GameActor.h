@@ -1,6 +1,7 @@
 #pragma once
 
 #include "GameArmor.h"
+#include "GameItem.h"
 #include "GameKeyword.h"
 #include "GameRecord.h"
 
@@ -17,9 +18,9 @@ namespace GameAPI {
         inline bool isPlayer() const { return form->IsPlayerRef(); }
         inline std::string getName() const { return form->GetDisplayFullName(); }
 
-        inline int getItemCount(GameArmor armor) const { return GetItemCount(nullptr, 0, form, armor.form); }
-        inline void addItem(GameArmor armor, int count) const { form->GetContainer()->AddObjectToContainer(armor.form, count, nullptr); }
-        inline void removeItem(GameArmor armor, int count) const { form->GetContainer()->RemoveObjectFromContainer(armor.form, count); }
+        inline int getItemCount(GameItem item) const { return GetItemCount(nullptr, 0, form, item.form); }
+        inline void addItem(GameItem item, int count) const { form->GetContainer()->AddObjectToContainer(item.form, count, nullptr); }
+        inline void removeItem(GameItem item, int count) const { form->GetContainer()->RemoveObjectFromContainer(item.form, count); }
 
         inline bool isEquipped(GameArmor armor) const { return IsEquipped(nullptr, 0, form, armor.form); }
         std::vector<GameAPI::GameArmor> getEquippedItems() const;
